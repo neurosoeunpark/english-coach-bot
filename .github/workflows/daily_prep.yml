@@ -1,0 +1,72 @@
+name: Daily English Coach
+
+on:
+  schedule:
+    # Phase 1 — 수업 전 치트시트: 월~금 18:40 KST (= 월~금 09:40 UTC)
+    - cron: '40 9 * * 1-5'
+    # Phase 3 — 아침 복습 카드: 화~토 08:00 KST (= 월~금 23:00 UTC)
+    - cron: '0 23 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'prep = 치트시트, review = 복습 카드'
+        type: choice
+        options: [prep, review]
+        default: prep
+
+permissions:
+  contents: write   # data/history.json 커밋용
+
+concurrency:
+  group: english-coach
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 23 * * 1-5" ]; then
+            echo "mode=review" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=prep" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run coach bot
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+          CLASS_TIME: ${{ vars.CLASS_TIME }}
+        run: python scripts/send_cheat_sheet.py --mode ${{ steps.mode.outputs.mode }}
+
+      - name: Commit history
+        if: steps.mode.outputs.mode == 'prep'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history.json
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "chore: phrasal verbs $(TZ=Asia/Seoul date +%F)"
+            git push
+          fi
