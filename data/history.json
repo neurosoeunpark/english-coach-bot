@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "date": "2026-09-30",
+    "sent_at": "2026-09-30T04:29:35.783939+00:00",
+    "verbs": [
+      {
+        "verb": "freak out",
+        "meaning_ko": "기겁하다, 멘붕이 오다",
+        "replaces": "panic",
+        "nuance_ko": "갑작스러운 상황에 심하게 놀라거나 당황했을 때 캐주얼하게 쓰는 대표적인 구어 표현입니다.",
+        "example": "I totally freaked out when I realized I left my laptop on the subway this morning.",
+        "my_line": "I freaked out for a second when my boss called me into the meeting unexpectedly today."
+      },
+      {
+        "verb": "open up",
+        "meaning_ko": "속마음을 터놓다",
+        "replaces": "confide",
+        "nuance_ko": "숨겨둔 감정이나 고민을 솔직하게 이야기할 때 쓰이며 보통 'open up to someone' 형태로 자주 쓰입니다.",
+        "example": "It usually takes a long time for him to open up to new coworkers at work.",
+        "my_line": "I had coffee with a close colleague today and finally opened up about my recent stress."
+      }
+    ]
+  }
+]
