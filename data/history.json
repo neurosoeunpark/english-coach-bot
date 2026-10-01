@@ -20,5 +20,27 @@
         "my_line": "I barely scraped by financially before I got my current job."
       }
     ]
+  },
+  {
+    "date": "2026-10-01",
+    "sent_at": "2026-10-01T09:40:18.432489+00:00",
+    "verbs": [
+      {
+        "verb": "catch up",
+        "meaning_ko": "근황을 나누다, (못 한 일을) 따라잡다",
+        "replaces": "talk",
+        "nuance_ko": "오랜만에 만난 사람과 밀린 이야기를 나누거나 안부를 물을 때 원어민들이 가장 즐겨 쓰는 자연스러운 표현입니다.",
+        "example": "We should grab a cup of coffee this weekend and catch up on everything.",
+        "my_line": "I am planning to catch up with my old college friend this Friday night."
+      },
+      {
+        "verb": "wind down",
+        "meaning_ko": "긴장을 풀고 쉬다",
+        "replaces": "relax",
+        "nuance_ko": "바쁜 하루나 한 주를 보낸 뒤 서서히 휴식 상태로 들어가며 긴장을 풀 때 주로 사용합니다.",
+        "example": "I usually listen to some soft acoustic music to wind down after work.",
+        "my_line": "I love to watch a funny movie to wind down after a long stressful day."
+      }
+    ]
   }
 ]
