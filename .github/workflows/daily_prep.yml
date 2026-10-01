@@ -1,21 +1,19 @@
 name: Daily English Coach
 
+# 실행 시각은 cron-job.org가 정확히 맞춰서 호출한다 (GitHub 자체 예약은 몇 시간씩 밀릴 수 있어 사용 안 함)
+#   월~금 18:40 KST → mode=prep
+#   화~토 08:00 KST → mode=morning (복습 카드 + 오늘의 아티클, 각각 별도 메시지)
 on:
-  schedule:
-    # Phase 1 — 수업 전 치트시트: 월~금 18:40 KST (= 월~금 09:40 UTC)
-    - cron: '40 9 * * 1-5'
-    # Phase 3 — 아침 복습 카드: 화~토 08:00 KST (= 월~금 23:00 UTC)
-    - cron: '0 23 * * 1-5'
   workflow_dispatch:
     inputs:
       mode:
-        description: 'prep = 치트시트, review = 복습 카드'
+        description: 'prep=치트시트 / morning=복습+아티클 / review / articles / sources=소스 점검'
         type: choice
-        options: [prep, review]
+        options: [prep, morning, review, articles, sources]
         default: prep
 
 permissions:
-  contents: write   # data/history.json 커밋용
+  contents: write   # data/*.json 커밋용
 
 concurrency:
   group: english-coach
@@ -24,7 +22,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -35,17 +33,6 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Determine mode
-        id: mode
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "0 23 * * 1-5" ]; then
-            echo "mode=review" >> "$GITHUB_OUTPUT"
-          else
-            echo "mode=prep" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Run coach bot
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
@@ -55,18 +42,22 @@ jobs:
           DISCORD_CHANNEL_ID: ${{ secrets.DISCORD_CHANNEL_ID }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+          LLM_ORDER: ${{ vars.LLM_ORDER }}
           CLASS_TIME: ${{ vars.CLASS_TIME }}
-        run: python scripts/send_cheat_sheet.py --mode ${{ steps.mode.outputs.mode }}
+          ARTICLE_WEIGHTS: ${{ vars.ARTICLE_WEIGHTS }}
+          ENGOO_LIST_URL: ${{ vars.ENGOO_LIST_URL }}
+        run: python scripts/send_cheat_sheet.py --mode ${{ inputs.mode }}
 
       - name: Commit history
-        if: steps.mode.outputs.mode == 'prep'
+        if: always() && inputs.mode != 'sources'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/history.json
+          git add data/
           if git diff --staged --quiet; then
             echo "변경 없음"
           else
-            git commit -m "chore: phrasal verbs $(TZ=Asia/Seoul date +%F)"
+            git commit -m "chore: ${{ inputs.mode }} $(TZ=Asia/Seoul date +%F)"
+            git pull --rebase origin main
             git push
           fi
