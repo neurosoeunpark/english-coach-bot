@@ -273,19 +273,24 @@ def collect_ted() -> list[Candidate]:
                     add(m.group(0), it["title"], it["date"], it["desc"])
         if found:
             break
-    if len(found) < 10:
-        for page in ("https://www.ted.com/talks?sort=newest", "https://www.ted.com/"):
-            r = http_get(page)
-            if r:
-                for u in hrefs(r.text, page):
-                    add(u)
-                for m in TED_TALK.finditer(r.text.replace("\\/", "/")):
-                    add(m.group(0))
-    cands = list(found.values())
-    # 날짜를 모르는 후보는 페이지를 열어 날짜 확인 (목록 앞쪽 = 최신 위주)
-    for c in [c for c in cands if not c.published][:MAX_ENRICH_PER_SOURCE]:
+    # 피드가 업데이트를 멈춘 경우가 있어서(2025년 5월에 멈춘 피드 확인됨) 최신 강연 페이지는 항상 확인한다
+    page_found: list[str] = []
+    for page in ("https://www.ted.com/talks?sort=newest", "https://www.ted.com/"):
+        r = http_get(page)
+        if not r:
+            continue
+        before = set(found)
+        for u in hrefs(r.text, page):
+            add(u)
+        for m in TED_TALK.finditer(r.text.replace("\\/", "/")):
+            add(m.group(0))
+        page_found += [k for k in found if k not in before]
+    print(f"[ted] 최신 강연 페이지에서 {len(page_found)}개 발견")
+    # 날짜를 모르는 후보(=페이지에서 찾은 강연)는 강연 페이지를 열어 날짜 확인. 목록 앞쪽이 최신.
+    undated = [found[k] for k in page_found if not found[k].published]
+    for c in undated[:MAX_ENRICH_PER_SOURCE]:
         enrich(c)
-    return cands
+    return list(found.values())
 
 
 # Engoo Daily News 공개 API (브라우저 개발자 도구에서 확인한 주소)
