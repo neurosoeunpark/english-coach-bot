@@ -9,6 +9,7 @@
 """
 from __future__ import annotations
 
+import base64
 import email.utils
 import html
 import json
@@ -16,6 +17,7 @@ import os
 import random
 import re
 import time
+import uuid
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta, timezone
@@ -46,6 +48,7 @@ class Candidate:
     description: str = ""
     text: str = ""
     enriched: bool = False
+    level: int | None = None
 
 
 # ───────────────────────── 공통 유틸 ─────────────────────────
@@ -285,63 +288,77 @@ def collect_ted() -> list[Candidate]:
     return cands
 
 
-ENGOO_ART = re.compile(r"^https?://engoo\.com/app/daily-news/[^?#]+/[^?#]+", re.I)
+# Engoo Daily News 공개 API (브라우저 개발자 도구에서 확인한 주소)
+#   - 5개 카테고리 × count 개의 최신 기사 헤더를 돌려준다
+#   - 기사 링크 = /app/daily-news/article/{제목 slug}/{master_id를 base64url로 줄인 값}
+ENGOO_API = ("https://api.engoo.com/api/lesson_headers/by_course"
+             "?category=0225ae09-5d63-41c2-bd75-693985d07d78&count={count}"
+             "&for_brand=5a4657f2-e151-4c48-9cce-000000000002"
+             "&max_level=9&min_level=4&published_latest=true&type=Published")
+ENGOO_HEADERS = {**UA, "Accept": "application/json", "Origin": "https://engoo.com",
+                 "Referer": "https://engoo.com/app/daily-news"}
+
+
+def engoo_clean_title(title: str) -> str:
+    return re.sub(r"_([^_]+)_", r"\1", title).strip()          # _Tsukimi:_ → Tsukimi:
+
+
+def engoo_slug(title: str) -> str:
+    t = engoo_clean_title(title).lower()
+    t = re.sub(r"['’`]", "", t)                                 # don't → dont
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def engoo_short_id(master_id: str) -> str:
+    return base64.urlsafe_b64encode(uuid.UUID(master_id).bytes).decode().rstrip("=")
+
+
+def parse_engoo_api(payload: dict) -> list[Candidate]:
+    out = []
+    for v in (payload.get("references") or {}).values():
+        if v.get("_type") != "LessonHeader" or v.get("hidden") or v.get("requires_plan"):
+            continue
+        title = engoo_clean_title(((v.get("title_text") or {}).get("text") or ""))
+        mid = v.get("master_id") or v.get("id")
+        if not title or not mid:
+            continue
+        try:
+            url = f"https://engoo.com/app/daily-news/article/{engoo_slug(title)}/{engoo_short_id(mid)}"
+        except ValueError:
+            continue
+        intro = ((v.get("introduction_text") or {}).get("text") or "").strip()
+        c = Candidate("engoo", url, title, parse_date(v.get("first_published_at")), intro)
+        c.text = intro
+        c.level = v.get("content_level")
+        c.enriched = True          # 기사 페이지는 JS 앱이라 따로 열어도 얻을 게 없음
+        out.append(c)
+    return out
 
 
 def collect_engoo() -> list[Candidate]:
-    found: dict[str, Candidate] = {}
-
-    def add(url, title="", d=None, desc=""):
-        if not ENGOO_ART.match(url) or url.rstrip("/").endswith("/daily-news"):
-            return
-        key = norm_url(url)
-        if key not in found:
-            found[key] = Candidate("engoo", url.split("?")[0], title, d, desc)
-
-    # 1) 직접 지정한 목록 주소 (개발자 도구에서 찾은 JSON API 등)
+    urls = []
     custom = (os.getenv("ENGOO_LIST_URL") or "").strip()
     if custom:
-        r = http_get(custom)
-        if r:
-            text = r.text.replace("\\/", "/")
-            for m in re.finditer(r"https?://engoo\.com/app/daily-news/[^\s\"'<>]+", text):
-                add(m.group(0))
-
-    # 2) sitemap
-    if not found:
-        sitemaps = ["https://engoo.com/sitemap.xml"]
-        r = http_get("https://engoo.com/robots.txt")
-        if r:
-            sitemaps = [l.split(":", 1)[1].strip() for l in r.text.splitlines()
-                        if l.lower().startswith("sitemap:")] or sitemaps
-        seen, queue, fetched = set(), list(sitemaps), 0
-        while queue and fetched < 25:
-            sm = queue.pop(0)
-            if sm in seen:
-                continue
-            seen.add(sm)
-            r = http_get(sm)
-            fetched += 1
-            if not r:
-                continue
-            urls, subs = parse_sitemap(r.text)
-            # daily-news / news / article 이 들어간 하위 sitemap 우선
-            subs.sort(key=lambda s: 0 if re.search(r"daily|news|article", s, re.I) else 1)
-            queue = subs + queue
-            for u, lm in urls:
-                add(u, d=lm)
-
-    # 3) 목록 페이지 (서버 렌더링이 되는 경우 대비)
-    if not found:
-        r = http_get("https://engoo.com/app/daily-news")
-        if r:
-            for u in hrefs(r.text, "https://engoo.com/app/daily-news"):
-                add(u)
-
-    for c in found.values():
-        if not c.title:
-            c.title = title_from_slug(c.url)
-    return list(found.values())
+        urls.append(custom)
+    urls += [ENGOO_API.format(count=25), ENGOO_API.format(count=9)]
+    for u in urls:
+        try:
+            r = requests.get(u, headers=ENGOO_HEADERS, timeout=TIMEOUT)
+        except requests.RequestException as e:
+            print(f"[fetch] engoo api → {e.__class__.__name__}")
+            continue
+        if not r.ok:
+            print(f"[fetch] engoo api → HTTP {r.status_code}")
+            continue
+        try:
+            cands = parse_engoo_api(r.json())
+        except ValueError:
+            print("[fetch] engoo api → JSON 아님")
+            continue
+        if cands:
+            uniq = {norm_url(c.url): c for c in cands}
+            return list(uniq.values())
+    return []
 
 
 COLLECTORS = {"engoo": collect_engoo, "sedaily": collect_sedaily, "ted": collect_ted}

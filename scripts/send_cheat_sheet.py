@@ -469,6 +469,8 @@ def build_article_embed(i: int, c: "art.Candidate", a: dict, today) -> dict:
         when = f"{c.published:%Y-%m-%d}" + (" (3개월 이전 기사)" if age > art.RECENT_DAYS else "")
     else:
         when = "날짜 미상"
+    if c.level:
+        when += f" · Level {c.level}"
     return {
         "title": clip(f"{i}. {c.title or c.url}", 256),
         "url": c.url,
