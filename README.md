@@ -1,95 +1,112 @@
 # English Coach Bot 🎯
 
-평일 저녁 영어 수업 전에 구동사 치트시트를 Discord로 보내고, 다음 날 아침에 복습 카드를 보내는 봇입니다.
-GitHub Actions와 Gemini(또는 Groq) 무료 티어만 사용하므로 비용은 $0입니다.
+영어 회화 수업을 위한 Discord 봇입니다. 비용은 $0이에요.
+
+| 시각 (KST) | 모드 | 보내는 것 |
+|---|---|---|
+| 월~금 18:40 | `prep` | 🎯 오늘의 구동사 치트시트 |
+| 화~토 08:00 | `morning` | 🌅 복습 카드 + 📰 오늘의 아티클 3선 (각각 별도 메시지) |
+
+정확한 시각에 실행되도록 **cron-job.org**가 GitHub Actions를 호출합니다. GitHub 자체 예약은 몇 시간씩 밀릴 수 있어서 쓰지 않아요.
 
 ```
 english-coach-bot/
-├── .github/workflows/daily_prep.yml   # 스케줄러 (2개 cron + 수동 실행)
-├── scripts/send_cheat_sheet.py        # 핵심 로직 (--mode prep | review)
-├── data/history.json                  # 출제 기록 (자동 커밋, 중복 방지·복습용)
+├── .github/workflows/daily_prep.yml   # 실행 정의 (수동·외부 호출 전용)
+├── scripts/send_cheat_sheet.py        # 메인 (모드별 실행, LLM, Discord 발송)
+├── scripts/articles.py                # 기사 수집·가중치 선택
+├── data/history.json                  # 보낸 구동사 기록
+├── data/articles_history.json         # 보낸 기사 기록 (중복 방지)
 └── requirements.txt
 ```
 
-| 시각 (KST) | 동작 | cron (UTC) |
-|---|---|---|
-| 월~금 18:40 | 치트시트 발송 | `40 9 * * 1-5` |
-| 수업 후 | 튜터 피드백을 같은 채널에 붙여넣기 (수동) | — |
-| 화~토 08:00 | 복습 카드 발송 | `0 23 * * 1-5` |
+---
+
+## 오늘의 아티클
+
+- 세 사이트에서 가중치에 따라 무작위로 3개를 고릅니다. 기본 가중치는 Engoo 0.5, 서울경제 영문판 0.3, TED 0.2예요.
+- 최근 3개월 기사를 우선 고르고, 부족하면 날짜를 모르는 기사, 그다음 오래된 기사 순으로 고릅니다.
+- 한 번 보낸 링크는 `articles_history.json`에 기록돼서 다시 나오지 않아요.
+- 기사마다 주제, 2문장 요약, vocab 7개, 스몰톡 질문 5개를 붙여서 보냅니다.
+
+**소스 점검:** Actions → Run workflow → `sources`로 실행하면, 각 사이트에서 기사를 몇 개 찾았는지 로그로만 보여줍니다. 발송은 하지 않아요. 사이트 구조가 바뀌어 기사가 안 잡힐 때 이걸로 확인하세요.
+
+**Engoo가 0개로 나올 때:** Engoo는 자바스크립트 앱이라 기사 목록을 못 찾을 수 있어요. 크롬 개발자 도구(F12 → Network → Fetch/XHR)에서 기사 목록 JSON 주소를 찾은 뒤, Variable `ENGOO_LIST_URL`에 넣으면 그 주소를 사용합니다. Engoo에서 하나도 못 찾으면 나머지 두 사이트의 가중치로 자동 재분배돼요.
 
 ---
 
-## 1. GitHub 레포 만들기
+## 설정값
 
-1. GitHub에서 새 레포를 만들고 이 폴더의 파일을 그대로 push합니다. 폴더 구조, 특히 `.github/workflows/`의 위치를 유지해야 합니다.
-2. Public 레포는 Actions 사용 시간이 무제한입니다. Private 레포도 월 2,000분이 무료이고, 이 봇은 한 번 실행에 약 1분이 걸리므로 충분합니다.
+**Secrets** (Settings → Secrets and variables → Actions → Secrets)
 
-## 2. Discord Webhook URL 만들기
-
-1. Discord 서버에서 **서버 설정 → 연동(Integrations) → 웹후크 → 새 웹후크**를 누릅니다.
-2. 이름을 정하고(예: English Coach) 메시지를 받을 채널을 선택합니다.
-3. **웹후크 URL 복사**를 누릅니다. 이 값이 `DISCORD_WEBHOOK_URL`입니다.
-
-> 웹후크 URL을 아는 사람은 누구나 채널에 글을 쓸 수 있습니다. 코드에 직접 넣지 말고 반드시 Secret으로만 보관하세요.
-
-## 3. Gemini API 키 발급 (무료)
-
-1. https://aistudio.google.com 에 Google 계정으로 로그인합니다.
-2. **Get API key → Create API key**를 누르고 키를 복사합니다. 이 값이 `GEMINI_API_KEY`입니다.
-3. 무료 티어는 입력 데이터가 Google의 서비스 개선에 쓰일 수 있습니다. 튜터 피드백에 개인정보가 섞이지 않게 주의하세요.
-
-**(선택) Groq 폴백:** https://console.groq.com 에서 API 키를 만들어 `GROQ_API_KEY`로 등록하면, Gemini가 실패할 때 자동으로 Groq(Llama)를 사용합니다.
-
-## 4. (선택) 튜터 피드백을 읽을 Discord 봇
-
-웹후크는 메시지를 보내기만 하고 읽지는 못합니다. 복습 카드가 튜터 피드백을 반영하게 하려면 봇이 필요합니다.
-봇이 없으면 전날 치트키 표현과 예전 표현 1개로 복습 카드를 만듭니다.
-
-1. https://discord.com/developers/applications 에서 **New Application**을 만듭니다.
-2. **Bot** 탭에서 **Reset Token**을 눌러 토큰을 복사합니다. 이 값이 `DISCORD_BOT_TOKEN`입니다.
-3. 같은 탭에서 **MESSAGE CONTENT INTENT**를 켭니다. 이 설정이 꺼져 있으면 메시지 본문이 빈 값으로 옵니다.
-4. **OAuth2 → URL Generator**로 이동합니다. Scope는 `bot`, 권한은 `View Channels`와 `Read Message History`를 선택하고, 생성된 URL로 봇을 서버에 초대합니다.
-5. Discord 앱에서 **사용자 설정 → 고급 → 개발자 모드**를 켭니다. 그다음 채널을 우클릭해 **채널 ID 복사**를 누릅니다. 이 값이 `DISCORD_CHANNEL_ID`입니다.
-
-피드백은 치트시트가 올라온 **같은 채널**에 붙여넣습니다. 스레드에 붙여넣으면 읽지 못합니다.
-붙여넣은 글이 길어서 Discord가 자동으로 `message.txt` 첨부로 바꿔도 함께 읽습니다.
-
-## 5. GitHub Secrets 등록
-
-레포에서 **Settings → Secrets and variables → Actions → New repository secret**을 눌러 다음 값을 등록합니다.
-
-| 이름 | 필수 여부 |
+| 이름 | 용도 |
 |---|---|
-| `DISCORD_WEBHOOK_URL` | 필수 |
+| `DISCORD_WEBHOOK_URL` | 필수 — 발송 채널 |
 | `GEMINI_API_KEY` | 필수 (Groq만 쓸 경우 생략 가능) |
-| `GROQ_API_KEY` | 선택 |
-| `DISCORD_BOT_TOKEN` | 선택 |
-| `DISCORD_CHANNEL_ID` | 선택 |
+| `GROQ_API_KEY` | 권장 — Gemini 실패 시 폴백 |
+| `DISCORD_BOT_TOKEN`, `DISCORD_CHANNEL_ID` | 선택 — 복습 카드에 튜터 피드백 반영 |
 
-같은 화면의 **Variables** 탭에서 선택 설정을 할 수 있습니다.
+**Variables** (같은 화면의 Variables 탭, 모두 선택)
 
-- `GEMINI_MODEL`: 기본값은 `gemini-2.5-flash`입니다. 모델이 단종되면 여기서 바꾸세요.
-- `GROQ_MODEL`: 기본값은 `llama-3.3-70b-versatile`입니다.
-- `CLASS_TIME`: 기본값은 `19:20`이며 치트시트 제목에 표시됩니다.
+| 이름 | 기본값 | 설명 |
+|---|---|---|
+| `GEMINI_MODEL` | `gemini-3.5-flash-lite` | 모델이 단종되면 여기서 변경 |
+| `GROQ_MODEL` | `openai/gpt-oss-120b` | |
+| `LLM_ORDER` | `gemini,groq` | Gemini가 자주 붐비면 `groq,gemini`로 바꿔 Groq를 먼저 시도 |
+| `ARTICLE_WEIGHTS` | `engoo:0.5,sedaily:0.3,ted:0.2` | 기사 소스 가중치 |
+| `ENGOO_LIST_URL` | (없음) | Engoo 목록 JSON 주소 |
+| `CLASS_TIME` | `19:20` | 치트시트 제목에 표시되는 수업 시각 |
 
-## 6. 테스트
+**Settings → Actions → General → Workflow permissions**는 **Read and write**로 설정해야 합니다.
 
-1. **Actions** 탭에서 **Daily English Coach → Run workflow**를 누르고 `prep`을 선택합니다. 치트시트가 도착하는지 확인합니다.
-2. 같은 방법으로 `review`를 실행해 복습 카드가 오는지 확인합니다.
-3. history 커밋 단계에서 push 권한 오류가 나면 **Settings → Actions → General → Workflow permissions**를 **Read and write**로 바꿉니다.
+---
 
-로컬에서 Discord 발송 없이 확인하려면 다음처럼 실행합니다.
+## cron-job.org 설정
 
-```bash
-pip install -r requirements.txt
-DRY_RUN=1 GEMINI_API_KEY=... python scripts/send_cheat_sheet.py --mode prep
+### 1. GitHub 토큰 발급
+1. GitHub 오른쪽 위 프로필 → **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**으로 이동합니다.
+2. Token name은 `cron-job`, Expiration은 원하는 기간으로 정합니다. 만료일은 캘린더에 적어두세요. 만료되면 실행이 멈춥니다.
+3. Repository access는 **Only select repositories → english-coach-bot**을 선택합니다.
+4. Permissions → Repository permissions에서 **Actions**를 **Read and write**로 설정합니다.
+5. **Generate token**을 누르고 토큰(`github_pat_...`)을 복사합니다.
+
+### 2. cron-job.org 작업 두 개 만들기
+1. cron-job.org에 가입하고, 계정 설정에서 시간대를 **Asia/Seoul**로 맞춥니다.
+2. **CREATE CRONJOB**을 누르고 아래처럼 입력합니다.
+
+| 항목 | 치트시트 작업 | 아침 작업 |
+|---|---|---|
+| Title | `English prep` | `English morning` |
+| URL | (아래 URL, 두 작업 공통) | 같음 |
+| Schedule | Custom: 월~금, 18시 40분 | Custom: 화~토, 8시 0분 |
+| Request body | `{"ref":"main","inputs":{"mode":"prep"}}` | `{"ref":"main","inputs":{"mode":"morning"}}` |
+
+URL:
+```
+https://api.github.com/repos/neurosoeunpark/english-coach-bot/actions/workflows/daily_prep.yml/dispatches
 ```
 
+**ADVANCED** 탭에서는 두 작업 모두 똑같이 설정합니다.
+- Request method: **POST**
+- Headers 4개:
+  - `Accept`: `application/vnd.github+json`
+  - `Authorization`: `Bearer 여기에_토큰`
+  - `X-GitHub-Api-Version`: `2022-11-28`
+  - `Content-Type`: `application/json`
+
+3. 저장 후 **TEST RUN**을 눌러 응답 코드가 **204**면 성공입니다. GitHub Actions 탭에 실행이 하나 생겨요.
+
+| 응답 코드 | 의미 |
+|---|---|
+| 204 | 정상 |
+| 401 | 토큰이 틀렸거나 만료됨 |
+| 403 | 토큰에 Actions 쓰기 권한이 없음 |
+| 404 | URL 오타 또는 토큰이 이 레포에 접근할 수 없음 |
+| 422 | body 형식 오류 (`ref`나 `mode` 값 확인) |
+
 ---
 
-## 운영 시 알아둘 점
+## 운영 메모
 
-- **GitHub cron은 정시에 실행된다는 보장이 없습니다.** 부하가 많은 시간대에는 수 분에서 수십 분 늦게 실행되거나, 드물게 건너뛰어지기도 합니다. 그래서 치트시트는 수업 40분 전인 18:40으로 잡았습니다. 시간을 바꾸려면 첫 번째 cron만 수정하면 됩니다. 모드 판별은 review용 cron 문자열만 비교하므로 다른 곳은 고칠 필요가 없습니다.
-- **실패 알림:** LLM 호출이나 발송이 실패하면 채널에 ⚠️ 알림이 옵니다. Discord 발송 자체가 실패한 경우에는 알림도 가지 않습니다.
-- **공휴일에도 발송됩니다.** 필요하면 Actions 탭에서 워크플로를 잠시 **Disable**하세요.
-- **자동 중지 방지:** Public 레포는 60일 동안 활동이 없으면 스케줄이 자동으로 꺼집니다. 이 봇은 평일마다 history를 커밋하므로 그 상태가 되지 않습니다.
+- **실패 알림:** LLM이나 기사 수집이 실패하면 채널에 ⚠️ 알림이 옵니다. `morning`은 복습 카드와 아티클 중 하나가 실패해도 나머지는 발송돼요.
+- **공휴일에도 발송됩니다.** 쉬고 싶은 날은 cron-job.org에서 작업을 잠시 끄세요.
+- **피드백은 채널에 직접 붙여넣어야 합니다.** 스레드에 붙여넣으면 봇이 읽지 못해요.

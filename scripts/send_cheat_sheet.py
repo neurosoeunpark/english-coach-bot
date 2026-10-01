@@ -3,14 +3,19 @@
 English Coach Bot — Discord 구동사 치트시트 & 아침 복습 카드
 
 사용법:
-  python scripts/send_cheat_sheet.py --mode prep     # 수업 전 치트시트 (19:10 KST)
-  python scripts/send_cheat_sheet.py --mode review   # 다음 날 아침 복습 카드 (08:00 KST)
+  --mode prep      수업 전 치트시트 (18:40 KST)
+  --mode review    아침 복습 카드
+  --mode articles  오늘의 아티클 3선 (기사 링크 + 주제 + vocab 7 + 스몰톡 질문 5)
+  --mode morning   review + articles (각각 별도 메시지, 08:00 KST)
+  --mode sources   기사 소스 점검만 (발송 없음)
 
 환경 변수:
   필수  DISCORD_WEBHOOK_URL
   필수  GEMINI_API_KEY 또는 GROQ_API_KEY (둘 다 있으면 Gemini 우선, 실패 시 Groq 폴백)
   선택  DISCORD_BOT_TOKEN, DISCORD_CHANNEL_ID  → 복습 시 채널의 튜터 피드백을 읽음
-  선택  GEMINI_MODEL (기본 gemini-2.5-flash), GROQ_MODEL (기본 llama-3.3-70b-versatile)
+  선택  GEMINI_MODEL (기본 gemini-3.5-flash-lite), GROQ_MODEL (기본 openai/gpt-oss-120b)
+  선택  LLM_ORDER (기본 gemini,groq — 먼저 시도할 순서)
+  선택  ARTICLE_WEIGHTS (기본 engoo:0.5,sedaily:0.3,ted:0.2), ENGOO_LIST_URL
   선택  CLASS_TIME (기본 19:20), DRY_RUN=1 (Discord 발송·히스토리 저장 없이 출력만)
 """
 from __future__ import annotations
@@ -21,15 +26,18 @@ import os
 import random
 import sys
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
+
+import articles as art
 
 # ───────────────────────── 설정 ─────────────────────────
 KST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
 HISTORY_PATH = ROOT / "data" / "history.json"
+ARTICLES_HISTORY_PATH = ROOT / "data" / "articles_history.json"
 HISTORY_KEEP = 60          # 보관할 수업 기록 수
 AVOID_LOOKBACK = 20        # 최근 N회 수업의 표현은 재출제 금지
 FEEDBACK_MAX_CHARS = 8000  # LLM에 넘길 피드백 최대 길이
@@ -41,14 +49,16 @@ def env(name: str, default: str = "") -> str:
 
 
 GEMINI_API_KEY = env("GEMINI_API_KEY")
-GEMINI_MODEL = env("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL = env("GEMINI_MODEL", "gemini-3.5-flash-lite")
 GROQ_API_KEY = env("GROQ_API_KEY")
-GROQ_MODEL = env("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = env("GROQ_MODEL", "openai/gpt-oss-120b")
+LLM_ORDER = [x.strip().lower() for x in env("LLM_ORDER", "gemini,groq").split(",") if x.strip()]
 DISCORD_WEBHOOK_URL = env("DISCORD_WEBHOOK_URL")
 DISCORD_BOT_TOKEN = env("DISCORD_BOT_TOKEN")
 DISCORD_CHANNEL_ID = env("DISCORD_CHANNEL_ID")
 CLASS_TIME = env("CLASS_TIME", "19:20")
 DRY_RUN = env("DRY_RUN") == "1"
+ARTICLE_WEIGHTS = art.parse_weights(env("ARTICLE_WEIGHTS", "engoo:0.5,sedaily:0.3,ted:0.2"))
 
 RETRYABLE = {429, 500, 502, 503, 504}
 WEEKDAYS_KO = ["월", "화", "수", "목", "금", "토", "일"]
@@ -102,24 +112,29 @@ Rules:
 
 
 # ───────────────────────── 히스토리 ─────────────────────────
-def load_history() -> list[dict]:
+def load_json_list(path: Path) -> list[dict]:
     try:
-        data = json.loads(HISTORY_PATH.read_text(encoding="utf-8"))
+        data = json.loads(path.read_text(encoding="utf-8"))
         return data if isinstance(data, list) else []
     except (FileNotFoundError, json.JSONDecodeError):
         return []
 
 
+def save_json_list(path: Path, items: list[dict], keep: int) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(items[-keep:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def load_history() -> list[dict]:
+    return load_json_list(HISTORY_PATH)
+
+
 def save_history(history: list[dict]) -> None:
-    HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
-    HISTORY_PATH.write_text(
-        json.dumps(history[-HISTORY_KEEP:], ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    save_json_list(HISTORY_PATH, history, HISTORY_KEEP)
 
 
 # ───────────────────────── LLM ─────────────────────────
-def post_with_retry(url: str, *, headers: dict, payload: dict, attempts: int = 3) -> dict:
+def post_with_retry(url: str, *, headers: dict, payload: dict, attempts: int = 2) -> dict:
     last = ""
     for i in range(attempts):
         try:
@@ -130,7 +145,7 @@ def post_with_retry(url: str, *, headers: dict, payload: dict, attempts: int = 3
             continue
         if r.status_code in RETRYABLE:
             last = f"HTTP {r.status_code}: {r.text[:300]}"
-            time.sleep(5 * (i + 1))
+            time.sleep(8 * (i + 1))
             continue
         if not r.ok:
             raise RuntimeError(f"HTTP {r.status_code}: {r.text[:500]}")
@@ -143,7 +158,8 @@ def call_gemini(system: str, user: str) -> str:
     payload = {
         "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.9},
+        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.9,
+                             "maxOutputTokens": 8192},
     }
     data = post_with_retry(
         url,
@@ -158,15 +174,19 @@ def call_gemini(system: str, user: str) -> str:
 
 
 def call_groq(system: str, user: str) -> str:
+    payload = {
+        "model": GROQ_MODEL,
+        "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
+        "temperature": 0.9,
+        "response_format": {"type": "json_object"},
+        "max_completion_tokens": 8192,
+    }
+    if "gpt-oss" in GROQ_MODEL:
+        payload["reasoning_effort"] = "low"  # 단순 생성 작업이라 추론은 짧게
     data = post_with_retry(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-        payload={
-            "model": GROQ_MODEL,
-            "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
-            "temperature": 0.9,
-            "response_format": {"type": "json_object"},
-        },
+        payload=payload,
     )
     return data["choices"][0]["message"]["content"]
 
@@ -180,11 +200,10 @@ def strip_fences(text: str) -> str:
 
 
 def generate_json(system: str, user: str, validate) -> dict:
-    providers = []
-    if GEMINI_API_KEY:
-        providers.append(("Gemini", call_gemini))
-    if GROQ_API_KEY:
-        providers.append(("Groq", call_groq))
+    available = {"gemini": ("Gemini", call_gemini) if GEMINI_API_KEY else None,
+                 "groq": ("Groq", call_groq) if GROQ_API_KEY else None}
+    order = LLM_ORDER + [k for k in available if k not in LLM_ORDER]
+    providers = [available[k] for k in order if available.get(k)]
     if not providers:
         raise RuntimeError("GEMINI_API_KEY 또는 GROQ_API_KEY가 설정되지 않았습니다.")
 
@@ -252,7 +271,7 @@ def send_discord(embed: dict) -> None:
 def notify_failure(mode: str, err: Exception) -> None:
     if DRY_RUN or not DISCORD_WEBHOOK_URL:
         return
-    label = "수업 전 치트시트" if mode == "prep" else "아침 복습 카드"
+    label = {"prep": "수업 전 치트시트", "review": "아침 복습 카드", "articles": "오늘의 아티클"}.get(mode, mode)
     try:
         requests.post(
             DISCORD_WEBHOOK_URL,
@@ -403,16 +422,151 @@ def run_review() -> None:
     send_discord(build_review_embed(obj, source, now_kst))
 
 
+# ───────────────────────── 오늘의 아티클 ─────────────────────────
+ARTICLE_SYSTEM = """You are an English conversation coach for a Korean B1-B2 learner who enjoys current, youth-friendly topics.
+For EACH article below, create study material based on its content.
+
+Return ONLY a JSON object with exactly this shape:
+{"articles": [
+  {"id": 1, "topic_ko": "...", "summary_ko": "...",
+   "vocab": [{"word": "...", "meaning_ko": "...", "example": "..."}],
+   "questions": ["...", "...", "...", "...", "..."]}
+]}
+
+Rules:
+- One object per article, with the same id and in the same order as given.
+- topic_ko: the topic as a short Korean keyword phrase (about 15 characters, e.g. "AI와 일자리의 미래").
+- summary_ko: 2 Korean sentences on what the article or talk is about. If only a title is available, describe the likely topic carefully and do NOT invent facts, names, or numbers.
+- vocab: exactly 7 useful words or expressions (B1-C1) that appear in or clearly fit the article. Prefer collocations, phrasal verbs, and words usable in conversation. meaning_ko is short; example is one natural English sentence (at most 12 words) related to the topic.
+- questions: exactly 5 open-ended small-talk questions in English (8-20 words each) for discussing the article with a tutor, going from easy and personal to opinion-based."""
+
+
+def validate_articles(n: int):
+    def _v(obj: dict) -> None:
+        items = obj.get("articles")
+        if not isinstance(items, list) or len(items) < n:
+            raise ValueError(f"articles 항목이 {n}개 미만")
+        for i, a in enumerate(items[:n]):
+            _require_str(a, ["topic_ko", "summary_ko"], f"articles[{i}]")
+            voc = a.get("vocab")
+            if not isinstance(voc, list) or len(voc) < 7:
+                raise ValueError(f"articles[{i}].vocab 7개 미만")
+            for j, v in enumerate(voc[:7]):
+                _require_str(v, ["word", "meaning_ko", "example"], f"articles[{i}].vocab[{j}]")
+            qs = a.get("questions")
+            if not isinstance(qs, list) or len([q for q in qs if isinstance(q, str) and q.strip()]) < 5:
+                raise ValueError(f"articles[{i}].questions 5개 미만")
+    return _v
+
+
+def build_article_embed(i: int, c: "art.Candidate", a: dict, today) -> dict:
+    vocab = "\n".join(f"`{v['word'].strip()}` {v['meaning_ko'].strip()}\n　↳ *{v['example'].strip()}*"
+                      for v in a["vocab"][:7])
+    qs = [q.strip() for q in a["questions"] if isinstance(q, str) and q.strip()][:5]
+    questions = "\n".join(f"**{n}.** {q}" for n, q in enumerate(qs, 1))
+    if c.published:
+        age = (today - c.published).days
+        when = f"{c.published:%Y-%m-%d}" + (" (3개월 이전 기사)" if age > art.RECENT_DAYS else "")
+    else:
+        when = "날짜 미상"
+    return {
+        "title": clip(f"{i}. {c.title or c.url}", 256),
+        "url": c.url,
+        "color": art.SOURCE_COLORS.get(c.source, 0x99AAB5),
+        "description": clip(f"**{art.SOURCE_LABELS.get(c.source, c.source)}** · {when}\n"
+                            f"🏷️ **{a['topic_ko'].strip()}**\n{a['summary_ko'].strip()}", 4096),
+        "fields": [
+            {"name": "📝 Vocab 7", "value": clip(vocab, 1024), "inline": False},
+            {"name": "💬 Small talk 5", "value": clip(questions, 1024), "inline": False},
+        ],
+    }
+
+
+def send_discord_content(content: str, embeds: list[dict] | None = None) -> None:
+    payload = {"username": "English Coach", "content": content, "embeds": embeds or []}
+    if DRY_RUN:
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+        return
+    if not DISCORD_WEBHOOK_URL:
+        raise RuntimeError("DISCORD_WEBHOOK_URL이 설정되지 않았습니다.")
+    r = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=30)
+    if r.status_code >= 300:
+        raise RuntimeError(f"Discord 발송 실패 HTTP {r.status_code}: {r.text[:300]}")
+
+
+def run_articles() -> None:
+    if not ARTICLE_WEIGHTS:
+        raise RuntimeError("ARTICLE_WEIGHTS 설정이 비어 있습니다.")
+    now_kst = datetime.now(KST)
+    today = now_kst.date()
+    sent = load_json_list(ARTICLES_HISTORY_PATH)
+    used = {art.norm_url(x["url"]) for x in sent if x.get("url")}
+
+    pools = art.collect_all(list(ARTICLE_WEIGHTS))
+    picks = art.choose(pools, ARTICLE_WEIGHTS, used, k=3, today=today)
+    if not picks:
+        raise RuntimeError("모든 소스에서 새 기사를 찾지 못했습니다. --mode sources 로 점검해 주세요.")
+    for c in picks:
+        art.enrich(c)
+        if not c.title:
+            c.title = art.title_from_slug(c.url)
+
+    blocks = []
+    for i, c in enumerate(picks, 1):
+        excerpt = (c.text or c.description or "(no text available — title only)")[:2500]
+        blocks.append(f"[id {i}] source: {art.SOURCE_LABELS.get(c.source, c.source)}\n"
+                      f"title: {c.title}\nurl: {c.url}\n"
+                      f"date: {c.published or 'unknown'}\nexcerpt: {excerpt}")
+    obj = generate_json(ARTICLE_SYSTEM, "\n\n".join(blocks), validate_articles(len(picks)))
+
+    header = f"📰 **[오늘의 아티클 {len(picks)}선]** {today:%Y-%m-%d} ({WEEKDAYS_KO[today.weekday()]})"
+    if len(picks) < 3:
+        header += f"\n-# 새 기사가 부족해 {len(picks)}개만 골랐어요."
+    for i, (c, a) in enumerate(zip(picks, obj["articles"]), 1):
+        send_discord_content(header if i == 1 else "", [build_article_embed(i, c, a, today)])
+        time.sleep(1)
+    print(f"[Articles] {len(picks)}개 발송: " + ", ".join(c.source for c in picks))
+
+    if not DRY_RUN:
+        for c in picks:
+            sent.append({"url": c.url, "title": c.title, "source": c.source,
+                         "published": c.published.isoformat() if c.published else None,
+                         "sent_date": today.isoformat()})
+        save_json_list(ARTICLES_HISTORY_PATH, sent, 3000)
+
+
+def run_sources() -> None:
+    today = datetime.now(KST).date()
+    print(f"가중치: {ARTICLE_WEIGHTS}")
+    pools = art.collect_all(list(ARTICLE_WEIGHTS) or list(art.COLLECTORS))
+    for s, lst in pools.items():
+        recent = sum(1 for c in lst if art.tier(c, today) == 0)
+        undated = sum(1 for c in lst if c.published is None)
+        print(f"\n=== {s}: 후보 {len(lst)}개 (최근 3개월 {recent}, 날짜 미상 {undated})")
+        for c in sorted(lst, key=lambda c: c.published or date.min, reverse=True)[:5]:
+            print(f"  {c.published or '----------'}  {clip(c.title or '-', 70)}\n      {c.url}")
+
+
 # ───────────────────────── main ─────────────────────────
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["prep", "review"], required=True)
+    parser.add_argument("--mode", choices=["prep", "review", "articles", "morning", "sources"], required=True)
     mode = parser.parse_args().mode
-    try:
-        run_prep() if mode == "prep" else run_review()
-    except Exception as e:
-        print(f"[ERROR] {e}", file=sys.stderr)
-        notify_failure(mode, e)
+    if mode == "sources":
+        run_sources()
+        return
+    jobs = {"prep": [("prep", run_prep)], "review": [("review", run_review)],
+            "articles": [("articles", run_articles)],
+            "morning": [("review", run_review), ("articles", run_articles)]}[mode]
+    failed = False
+    for label, fn in jobs:  # morning: 한쪽이 실패해도 다른 쪽은 발송
+        try:
+            fn()
+        except Exception as e:
+            print(f"[ERROR] {label}: {e}", file=sys.stderr)
+            notify_failure(label, e)
+            failed = True
+    if failed:
         sys.exit(1)
 
 
