@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "date": "2026-10-01",
+    "sent_at": "2026-10-01T01:42:08.224893+00:00",
+    "verbs": [
+      {
+        "verb": "fork over",
+        "meaning_ko": "돈을 마지못해 내다",
+        "replaces": "pay",
+        "nuance_ko": "돈이나 귀중한 것을 억지로 혹은 마지못해 넘겨줄 때 생생한 느낌을 살려 자주 씁니다.",
+        "example": "I had to fork over a lot of money to fix my broken car.",
+        "my_line": "I had to fork over extra cash for express shipping last week."
+      },
+      {
+        "verb": "scraped by",
+        "meaning_ko": "근근이 살아가다, 겨우 버텨내다",
+        "replaces": "survive",
+        "nuance_ko": "돈이나 자원이 넉넉하지 않아 겨우 생활을 유지할 때 원어민들이 입버릇처럼 쓰는 표현입니다.",
+        "example": "She barely scraped by on her small salary during her first year in the city.",
+        "my_line": "I barely scraped by financially before I got my current job."
+      }
+    ]
+  }
+]
