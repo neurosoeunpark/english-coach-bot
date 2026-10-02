@@ -42,5 +42,27 @@
         "my_line": "I love to watch a funny movie to wind down after a long stressful day."
       }
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "sent_at": "2026-10-02T09:40:23.659940+00:00",
+    "verbs": [
+      {
+        "verb": "sort out",
+        "meaning_ko": "해결하다, 정리하다",
+        "replaces": "solve",
+        "nuance_ko": "복잡한 문제나 혼란스러운 상황을 깔끔하게 정리하고 해결할 때 원어민들이 가장 즐겨 쓰는 표현입니다.",
+        "example": "We need to sort out this billing error before the end of the day.",
+        "my_line": "I had a scheduling conflict this week, but thankfully I managed to sort it out."
+      },
+      {
+        "verb": "run into",
+        "meaning_ko": "예상치 못한 문제에 부딪히다",
+        "replaces": "encounter",
+        "nuance_ko": "계획을 진행하던 중 예상치 못한 난관이나 문제를 우연히 맞닥뜨렸을 때 자연스럽게 사용할 수 있습니다.",
+        "example": "The development team ran into a major technical issue during the software update.",
+        "my_line": "I ran into a few unexpected problems while working on my project yesterday."
+      }
+    ]
   }
 ]
