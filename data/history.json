@@ -64,5 +64,27 @@
         "my_line": "I ran into a few unexpected problems while working on my project yesterday."
       }
     ]
+  },
+  {
+    "date": "2026-10-05",
+    "sent_at": "2026-10-05T09:40:18.789015+00:00",
+    "verbs": [
+      {
+        "verb": "head out",
+        "meaning_ko": "출발하다, 외출하다",
+        "replaces": "leave",
+        "nuance_ko": "단순히 떠나는 것보다 집이나 사무실에서 목적지로 나서는 활기찬 뉘앙스를 줍니다.",
+        "example": "I always head out a bit early to avoid the heavy morning traffic.",
+        "my_line": "I usually head out for work around 8 AM to beat the rush hour."
+      },
+      {
+        "verb": "hold up",
+        "meaning_ko": "(교통 등으로) 지연되다, 꼼짝 못 하게 하다",
+        "replaces": "delay",
+        "nuance_ko": "예상치 못한 문제나 교통 체증 때문에 멈춰 서 있을 때 원어민들이 입버릇처럼 쓰는 표현입니다.",
+        "example": "Bad weather on the highway can seriously hold up your daily commute.",
+        "my_line": "My train got delayed today, and that really held up my morning schedule."
+      }
+    ]
   }
 ]
