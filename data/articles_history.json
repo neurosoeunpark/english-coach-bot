@@ -61,5 +61,26 @@
     "source": "engoo",
     "published": "2026-09-29",
     "sent_date": "2026-10-03"
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/86-of-japans-game-developers-use-ai/Z2LiorXGEfGyuxvxUcAWYw",
+    "title": "86% of Japan's Game Developers Use AI",
+    "source": "engoo",
+    "published": "2026-09-24",
+    "sent_date": "2026-10-06"
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/singapore-wins-worlds-best-airline-award-for-2026/m-t_RrdxEfGUF-8vnITPVw",
+    "title": "Singapore Wins World's Best Airline Award for 2026",
+    "source": "engoo",
+    "published": "2026-09-26",
+    "sent_date": "2026-10-06"
+  },
+  {
+    "url": "https://www.ted.com/talks/ari_matusiak_how_to_make_ai_companies_pay_your_energy_bill",
+    "title": "How to make AI companies pay your energy bill",
+    "source": "ted",
+    "published": "2026-09-17",
+    "sent_date": "2026-10-06"
   }
 ]
