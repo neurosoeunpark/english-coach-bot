@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'prep=치트시트 / morning=복습+아티클 / review / articles / sources=소스 점검'
+        description: 'prep=치트시트 / morning=복습+아티클 / translate=영어 버전 / review / articles / sources=소스 점검'
         type: choice
-        options: [prep, morning, review, articles, sources]
+        options: [prep, morning, review, articles, sources, translate]
         default: prep
 
 permissions:
