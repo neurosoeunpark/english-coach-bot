@@ -82,5 +82,179 @@
     "source": "ted",
     "published": "2026-09-17",
     "sent_date": "2026-10-06"
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/weak-soft-skills-hurt-productivity-employers-say/Q4IK5rHqEfG_wDvEFm9__Q",
+    "title": "Weak 'Soft Skills' Hurt Productivity, Employers Say",
+    "source": "engoo",
+    "published": "2026-09-17",
+    "level": 7,
+    "sent_date": "2026-10-07",
+    "message_id": "1557165824224133275",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Weak Soft Skills Hurt Workplace Productivity",
+      "summary_en": "This lesson explores how weak soft skills impact workplace productivity, AI's role in hiring, and the importance of developing communication skills. It examines why interpersonal and communication skills are essential for modern workers alongside technical abilities.",
+      "vocab": [
+        {
+          "word": "soft skills",
+          "definition_en": "Personal attributes that enable someone to interact effectively and harmoniously with other people.",
+          "example": "Good soft skills are essential for successful teamwork."
+        },
+        {
+          "word": "productivity",
+          "definition_en": "The state or quality of being productive, especially in manufacturing goods or services.",
+          "example": "New tools can help boost daily office productivity."
+        },
+        {
+          "word": "communication skills",
+          "definition_en": "The ability to convey information effectively and efficiently to others.",
+          "example": "Strong communication skills can prevent misunderstandings at work."
+        },
+        {
+          "word": "interpersonal",
+          "definition_en": "Relating to relationships or communication between people.",
+          "example": "Interpersonal conflicts can ruin a great team dynamic."
+        },
+        {
+          "word": "collaborate",
+          "definition_en": "Work jointly on an activity or project to produce something.",
+          "example": "We need to collaborate closely to finish the project."
+        },
+        {
+          "word": "employer",
+          "definition_en": "A person or organization that employs people.",
+          "example": "Employers are looking for candidates with strong problem-solving abilities."
+        },
+        {
+          "word": "hire",
+          "definition_en": "Employ someone for wages or a salary.",
+          "example": "The company decided to hire three new interns this month."
+        }
+      ],
+      "questions": [
+        "Have you ever worked with someone who had great technical skills but poor communication?",
+        "Why do you think some employers struggle to find candidates with strong soft skills?",
+        "Do you consider yourself better at technical tasks or working with people?",
+        "How can companies help their employees improve their communication and teamwork skills?",
+        "Do you think artificial intelligence will change what employers look for in soft skills?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/finance/2026/10/06/celltrion-launches-omlyclo-in-us-wins-spot-on-major-pbm",
+    "title": "Celltrion Launches Omlyclo in U.S., Wins Spot on Major PBM Formulary",
+    "source": "sedaily",
+    "published": "2026-10-06",
+    "level": null,
+    "sent_date": "2026-10-07",
+    "message_id": "1557165829857083413",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Celltrion Launches Omlyclo in U.S.",
+      "summary_en": "Celltrion has launched its treatment Omlyclo in the U.S. and secured a spot on a major PBM formulary. This positions the company to utilize its first-mover advantage and improve patient access in the world's largest pharmaceutical market.",
+      "vocab": [
+        {
+          "word": "biosimilar",
+          "definition_en": "A biologic medical product that is almost an identical copy of an original product.",
+          "example": "The new biosimilar is much cheaper than the original drug."
+        },
+        {
+          "word": "launch",
+          "definition_en": "Introduce a new product or service to the market.",
+          "example": "The pharmaceutical company plans to launch a new vaccine next month."
+        },
+        {
+          "word": "pharmaceutical",
+          "definition_en": "Relating to the medicinal drugs or their preparation, use, or sale.",
+          "example": "The pharmaceutical industry invests heavily in research and development."
+        },
+        {
+          "word": "formulary",
+          "definition_en": "A list of prescription drugs covered by a health insurance plan.",
+          "example": "Getting listed on the formulary is crucial for drug sales."
+        },
+        {
+          "word": "acquisition",
+          "definition_en": "An asset or object bought or obtained, typically by a library or museum.",
+          "example": "The wholesale acquisition cost was lower than expected."
+        },
+        {
+          "word": "coverage",
+          "definition_en": "The protection given by an insurance policy.",
+          "example": "Patients hope the new medication will qualify for insurance coverage."
+        },
+        {
+          "word": "substitute",
+          "definition_en": "A person or thing acting or serving in place of another.",
+          "example": "Pharmacies can substitute the generic drug for the brand-name one."
+        }
+      ],
+      "questions": [
+        "Have you ever had to buy expensive medicine and worry about insurance coverage?",
+        "Why do you think pharmaceutical companies try so hard to enter the US market?",
+        "What are the benefits of choosing a generic or biosimilar medicine over an original brand?",
+        "How does having a first-mover advantage change the dynamic in a competitive market?",
+        "Do you think healthcare systems should make it easier for biosimilars to replace original drugs?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/alexis_nikole_nelson_the_joy_of_foraging_your_own_food",
+    "title": "The joy of foraging your own food",
+    "source": "ted",
+    "published": "2026-10-02",
+    "level": null,
+    "sent_date": "2026-10-07",
+    "message_id": "1557165835452424193",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "The Joy of Foraging Wild Food",
+      "summary_en": "Alexis Nikole Nelson shares the joy of foraging wild edible plants right in our neighborhoods. She emphasizes that paying closer attention to our environment can reconnect us with nature and our communities.",
+      "vocab": [
+        {
+          "word": "forage",
+          "definition_en": "Search widely for food or provisions in the wild.",
+          "example": "Learning how to forage for mushrooms requires expert knowledge."
+        },
+        {
+          "word": "edible",
+          "definition_en": "Fit or suitable to be eaten; not poisonous.",
+          "example": "Not all bright berries in the forest are edible."
+        },
+        {
+          "word": "neighborhood",
+          "definition_en": "A district, especially one living in the same locality.",
+          "example": "She loves finding wild herbs right in her own neighborhood."
+        },
+        {
+          "word": "reconnect",
+          "definition_en": "Restore a connection to someone or something.",
+          "example": "Gardening helps people reconnect with the natural world."
+        },
+        {
+          "word": "botany",
+          "definition_en": "The scientific study of plants, including their physiology and structure.",
+          "example": "His interest in botany led him to study forest ecosystems."
+        },
+        {
+          "word": "environment",
+          "definition_en": "The surroundings or conditions in which a person, animal, or plant lives.",
+          "example": "We must protect our local environment from pollution."
+        },
+        {
+          "word": "appreciate",
+          "definition_en": "Recognize the full worth of something or someone.",
+          "example": "Walking outdoors helps me appreciate the beauty of changing seasons."
+        }
+      ],
+      "questions": [
+        "Have you ever tried picking wild berries, herbs, or plants in nature?",
+        "What is the most unusual food you have ever tried or seen growing outside?",
+        "Why do you think modern people are becoming more interested in foraging and outdoor hobbies?",
+        "How does spending time noticing plants in your neighborhood change your daily mood?",
+        "Would you trust yourself to eat wild plants found near a city street, or is it too risky?"
+      ]
+    }
   }
 ]
