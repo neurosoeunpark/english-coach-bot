@@ -8,6 +8,7 @@ English Coach Bot — Discord 구동사 치트시트 & 아침 복습 카드
   --mode articles  오늘의 아티클 3선 (기사 링크 + 주제 + vocab 7 + 스몰톡 질문 5)
   --mode morning   review + articles (각각 별도 메시지, 08:00 KST)
   --mode sources   기사 소스 점검만 (발송 없음)
+  --mode translate 반응(이모지)이 달린 아티클 카드의 영어 버전 발송
 
 환경 변수:
   필수  DISCORD_WEBHOOK_URL
@@ -271,7 +272,8 @@ def send_discord(embed: dict) -> None:
 def notify_failure(mode: str, err: Exception) -> None:
     if DRY_RUN or not DISCORD_WEBHOOK_URL:
         return
-    label = {"prep": "수업 전 치트시트", "review": "아침 복습 카드", "articles": "오늘의 아티클"}.get(mode, mode)
+    label = {"prep": "수업 전 치트시트", "review": "아침 복습 카드", "articles": "오늘의 아티클",
+             "translate": "영어 버전 카드"}.get(mode, mode)
     try:
         requests.post(
             DISCORD_WEBHOOK_URL,
@@ -428,8 +430,8 @@ For EACH article below, create study material based on its content.
 
 Return ONLY a JSON object with exactly this shape:
 {"articles": [
-  {"id": 1, "topic_ko": "...", "summary_ko": "...",
-   "vocab": [{"word": "...", "meaning_ko": "...", "example": "..."}],
+  {"id": 1, "topic_ko": "...", "summary_ko": "...", "topic_en": "...", "summary_en": "...",
+   "vocab": [{"word": "...", "meaning_ko": "...", "definition_en": "...", "example": "..."}],
    "questions": ["...", "...", "...", "...", "..."]}
 ]}
 
@@ -437,7 +439,9 @@ Rules:
 - One object per article, with the same id and in the same order as given.
 - topic_ko: the topic as a short Korean keyword phrase (about 15 characters, e.g. "AI와 일자리의 미래").
 - summary_ko: 2 Korean sentences on what the article or talk is about. If only a title is available, describe the likely topic carefully and do NOT invent facts, names, or numbers.
-- vocab: exactly 7 useful words or expressions (B1-C1) that appear in or clearly fit the article. Prefer collocations, phrasal verbs, and words usable in conversation. meaning_ko is short; example is one natural English sentence (at most 12 words) related to the topic.
+- topic_en: the same topic as a short English headline in Title Case (at most 8 words).
+- summary_en: a faithful, natural English version of summary_ko (2 sentences).
+- vocab: exactly 7 useful words or expressions (B1-C1) that appear in or clearly fit the article. Prefer collocations, phrasal verbs, and words usable in conversation. meaning_ko is short; definition_en is a concise learner's-dictionary-style English definition (at most 20 words, no Korean); example is one natural English sentence (at most 12 words) related to the topic.
 - questions: exactly 5 open-ended small-talk questions in English (8-20 words each) for discussing the article with a tutor, going from easy and personal to opinion-based."""
 
 
@@ -447,12 +451,12 @@ def validate_articles(n: int):
         if not isinstance(items, list) or len(items) < n:
             raise ValueError(f"articles 항목이 {n}개 미만")
         for i, a in enumerate(items[:n]):
-            _require_str(a, ["topic_ko", "summary_ko"], f"articles[{i}]")
+            _require_str(a, ["topic_ko", "summary_ko", "topic_en", "summary_en"], f"articles[{i}]")
             voc = a.get("vocab")
             if not isinstance(voc, list) or len(voc) < 7:
                 raise ValueError(f"articles[{i}].vocab 7개 미만")
             for j, v in enumerate(voc[:7]):
-                _require_str(v, ["word", "meaning_ko", "example"], f"articles[{i}].vocab[{j}]")
+                _require_str(v, ["word", "meaning_ko", "definition_en", "example"], f"articles[{i}].vocab[{j}]")
             qs = a.get("questions")
             if not isinstance(qs, list) or len([q for q in qs if isinstance(q, str) and q.strip()]) < 5:
                 raise ValueError(f"articles[{i}].questions 5개 미만")
@@ -484,16 +488,22 @@ def build_article_embed(i: int, c: "art.Candidate", a: dict, today) -> dict:
     }
 
 
-def send_discord_content(content: str, embeds: list[dict] | None = None) -> None:
-    payload = {"username": "English Coach", "content": content, "embeds": embeds or []}
+def send_discord_content(content: str, embeds: list[dict] | None = None) -> dict:
+    """발송 후 Discord 메시지 객체(id, channel_id 포함)를 돌려준다."""
+    payload = {"username": "English Coach", "content": content, "embeds": embeds or [],
+               "allowed_mentions": {"parse": []}}
     if DRY_RUN:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
-        return
+        return {}
     if not DISCORD_WEBHOOK_URL:
         raise RuntimeError("DISCORD_WEBHOOK_URL이 설정되지 않았습니다.")
-    r = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=30)
+    r = requests.post(DISCORD_WEBHOOK_URL, params={"wait": "true"}, json=payload, timeout=30)
     if r.status_code >= 300:
         raise RuntimeError(f"Discord 발송 실패 HTTP {r.status_code}: {r.text[:300]}")
+    try:
+        return r.json()
+    except ValueError:
+        return {}
 
 
 def run_articles() -> None:
@@ -524,16 +534,87 @@ def run_articles() -> None:
     header = f"📰 **[오늘의 아티클 {len(picks)}선]** {today:%Y-%m-%d} ({WEEKDAYS_KO[today.weekday()]})"
     if len(picks) < 3:
         header += f"\n-# 새 기사가 부족해 {len(picks)}개만 골랐어요."
+    posted = []
     for i, (c, a) in enumerate(zip(picks, obj["articles"]), 1):
-        send_discord_content(header if i == 1 else "", [build_article_embed(i, c, a, today)])
+        msg = send_discord_content(header if i == 1 else "", [build_article_embed(i, c, a, today)])
+        posted.append((c, a, msg))
         time.sleep(1)
     print(f"[Articles] {len(picks)}개 발송: " + ", ".join(c.source for c in picks))
 
     if not DRY_RUN:
-        for c in picks:
+        for c, a, msg in posted:
             sent.append({"url": c.url, "title": c.title, "source": c.source,
                          "published": c.published.isoformat() if c.published else None,
-                         "sent_date": today.isoformat()})
+                         "level": c.level, "sent_date": today.isoformat(),
+                         "message_id": msg.get("id"), "channel_id": msg.get("channel_id"),
+                         "card": {"topic_en": a["topic_en"].strip(), "summary_en": a["summary_en"].strip(),
+                                  "vocab": [{"word": v["word"].strip(), "definition_en": v["definition_en"].strip(),
+                                             "example": v["example"].strip()} for v in a["vocab"][:7]],
+                                  "questions": [q.strip() for q in a["questions"]
+                                                if isinstance(q, str) and q.strip()][:5]}})
+        save_json_list(ARTICLES_HISTORY_PATH, sent, 3000)
+
+
+# ───────────────────────── 영어 버전 (카드에 반응을 달면 발송) ─────────────────────────
+TRANSLATE_LOOKBACK_DAYS = 7
+
+
+def format_english_card(e: dict) -> str:
+    card = e["card"]
+    meta = [art.SOURCE_LABELS.get(e.get("source"), e.get("source") or "")]
+    if e.get("published"):
+        d = date.fromisoformat(e["published"])
+        meta.append(f"{d:%b} {d.day}, {d.year}")
+    if e.get("level"):
+        meta.append(f"Level {e['level']}")
+    lines = [" · ".join(meta), card["topic_en"], "", card["summary_en"], "", "[Vocab 7]"]
+    for v in card["vocab"]:
+        lines += [f"• {v['word']} : {v['definition_en']}", f"↳ {v['example']}", ""]
+    lines.append("[Small talk 5]")
+    lines += [f"{n}. {q}" for n, q in enumerate(card["questions"], 1)]
+    return "\n".join(lines).strip()
+
+
+def split_for_discord(text: str, limit: int = 1900) -> list[str]:
+    if len(text) <= limit:
+        return [text]
+    cut = text.find("[Small talk 5]")
+    if 0 < cut <= limit and len(text) - cut <= limit:
+        return [text[:cut].rstrip(), text[cut:]]
+    return [text[i:i + limit] for i in range(0, len(text), limit)]
+
+
+def get_discord_message(channel_id: str, message_id: str) -> dict | None:
+    r = requests.get(f"https://discord.com/api/v10/channels/{channel_id}/messages/{message_id}",
+                     headers={"Authorization": f"Bot {DISCORD_BOT_TOKEN}"}, timeout=20)
+    if r.status_code == 404:
+        return None
+    if r.status_code == 429:
+        time.sleep(float(r.json().get("retry_after", 2)) + 0.5)
+        return get_discord_message(channel_id, message_id)
+    r.raise_for_status()
+    return r.json()
+
+
+def run_translate() -> None:
+    if not DISCORD_BOT_TOKEN:
+        raise RuntimeError("DISCORD_BOT_TOKEN이 없어 카드 반응을 확인할 수 없습니다.")
+    sent = load_json_list(ARTICLES_HISTORY_PATH)
+    since = datetime.now(KST).date() - timedelta(days=TRANSLATE_LOOKBACK_DAYS)
+    targets = [e for e in sent if e.get("message_id") and e.get("channel_id") and e.get("card")
+               and not e.get("translated") and date.fromisoformat(e["sent_date"]) >= since]
+    done = 0
+    for e in targets:
+        msg = get_discord_message(e["channel_id"], e["message_id"])
+        if not msg or not any(r.get("count", 0) > 0 for r in msg.get("reactions", [])):
+            continue
+        for part in split_for_discord(format_english_card(e)):
+            send_discord_content(part)
+            time.sleep(1)
+        e["translated"] = datetime.now(KST).isoformat(timespec="minutes")
+        done += 1
+    print(f"[Translate] 확인 {len(targets)}개 · 영어 버전 발송 {done}개")
+    if done and not DRY_RUN:
         save_json_list(ARTICLES_HISTORY_PATH, sent, 3000)
 
 
@@ -552,13 +633,13 @@ def run_sources() -> None:
 # ───────────────────────── main ─────────────────────────
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["prep", "review", "articles", "morning", "sources"], required=True)
+    parser.add_argument("--mode", choices=["prep", "review", "articles", "morning", "sources", "translate"], required=True)
     mode = parser.parse_args().mode
     if mode == "sources":
         run_sources()
         return
     jobs = {"prep": [("prep", run_prep)], "review": [("review", run_review)],
-            "articles": [("articles", run_articles)],
+            "articles": [("articles", run_articles)], "translate": [("translate", run_translate)],
             "morning": [("review", run_review), ("articles", run_articles)]}[mode]
     failed = False
     for label, fn in jobs:  # morning: 한쪽이 실패해도 다른 쪽은 발송
