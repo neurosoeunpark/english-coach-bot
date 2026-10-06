@@ -86,5 +86,27 @@
         "my_line": "My train got delayed today, and that really held up my morning schedule."
       }
     ]
+  },
+  {
+    "date": "2026-10-06",
+    "sent_at": "2026-10-06T09:40:21.976376+00:00",
+    "verbs": [
+      {
+        "verb": "head back",
+        "meaning_ko": "다시 돌아가다",
+        "replaces": "return",
+        "nuance_ko": "일상 대화에서 물리적으로 출발했던 장소로 되돌아갈 때 'return'보다 훨씬 자연스럽게 쓰입니다.",
+        "example": "After a long and tiring day at the office, I usually head back home.",
+        "my_line": "I usually head back home right after finishing my last meeting every Tuesday."
+      },
+      {
+        "verb": "get stuck",
+        "meaning_ko": "오도가도 못하게 되다",
+        "replaces": "be delayed",
+        "nuance_ko": "교통체증이나 예상치 못한 상황으로 인해 갇히거나 정체될 때 감정을 실어 생생하게 표현하기 좋습니다.",
+        "example": "Unfortunately, my bus got stuck in heavy morning traffic on the highway.",
+        "my_line": "Sometimes I get stuck in heavy traffic on my way to work."
+      }
+    ]
   }
 ]
