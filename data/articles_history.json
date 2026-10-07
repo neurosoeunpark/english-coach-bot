@@ -257,5 +257,179 @@
         "Would you trust yourself to eat wild plants found near a city street, or is it too risky?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/average-american-rates-their-home-7-5-out-of-10/9Oms8Kh5EfGossdUvX6YgQ",
+    "title": "Average American Rates Their Home 7.5 Out of 10",
+    "source": "engoo",
+    "published": "2026-09-14",
+    "level": 4,
+    "sent_date": "2026-10-08",
+    "message_id": "1557528189616656478",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Average American Rates Their Home",
+      "summary_en": "This article explores the average rating that Americans give to their homes and the reasons for their satisfaction. It also examines what homeowners value most about their living spaces.",
+      "vocab": [
+        {
+          "word": "rate",
+          "definition_en": "To assign a value or rating to something based on quality.",
+          "example": "How would you rate your current living space?"
+        },
+        {
+          "word": "satisfaction",
+          "definition_en": "The good feeling you have when you achieve or possess something.",
+          "example": "Home satisfaction is important for mental health."
+        },
+        {
+          "word": "dissatisfaction",
+          "definition_en": "A feeling of displeasure or disappointment with something.",
+          "example": "High rent can cause major dissatisfaction among tenants."
+        },
+        {
+          "word": "homeowner",
+          "definition_en": "A person who owns their own home.",
+          "example": "Many homeowners like to renovate their kitchens."
+        },
+        {
+          "word": "living space",
+          "definition_en": "The area or room where someone lives.",
+          "example": "My living space is small but very cozy."
+        },
+        {
+          "word": "value",
+          "definition_en": "To consider something as important or useful.",
+          "example": "I value natural light in my apartment."
+        },
+        {
+          "word": "common reason",
+          "definition_en": "An explanation or cause that happens frequently.",
+          "example": "Location is a common reason for buying a house."
+        }
+      ],
+      "questions": [
+        "What score would you give to your current home out of ten?",
+        "What are the most important features you look for in a living space?",
+        "Why do you think location matters so much when choosing a home?",
+        "How does the design of your room affect your daily mood and productivity?",
+        "What changes would you make to your home if you had an unlimited budget?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/vr-project-brings-hope-to-kids-in-japan-hospitals/0OC-CrJsEfGvAocwd01C5g",
+    "title": "VR Project Brings Hope to Kids in Japan Hospitals",
+    "source": "engoo",
+    "published": "2026-09-25",
+    "level": 7,
+    "sent_date": "2026-10-08",
+    "message_id": "1557528195316711425",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "VR Project Brings Hope to Kids",
+      "summary_en": "A virtual reality project in Japan provides hospitalized children with the chance to explore virtual worlds. Through this, kids find hope and stay connected during long hospital stays.",
+      "vocab": [
+        {
+          "word": "hospitalized",
+          "definition_en": "Admitted to a hospital for treatment.",
+          "example": "The hospitalized children really enjoyed the VR experience."
+        },
+        {
+          "word": "virtual reality",
+          "definition_en": "An artificial environment created with computer technology.",
+          "example": "Virtual reality can take you to places you have never visited."
+        },
+        {
+          "word": "virtual world",
+          "definition_en": "An online or computer-simulated environment.",
+          "example": "Exploring a virtual world is a great way to escape boredom."
+        },
+        {
+          "word": "connect",
+          "definition_en": "To join or link together with others.",
+          "example": "Technology helps patients connect with their friends outside."
+        },
+        {
+          "word": "hospital stay",
+          "definition_en": "The period of time someone spends receiving care in a hospital.",
+          "example": "Long hospital stays can be very stressful for young kids."
+        },
+        {
+          "word": "find hope",
+          "definition_en": "To discover a feeling of optimism about the future.",
+          "example": "Programs like this help patients find hope during hard times."
+        },
+        {
+          "word": "explore",
+          "definition_en": "To travel through an unfamiliar area in order to learn about it.",
+          "example": "Kids love to explore new places using headsets."
+        }
+      ],
+      "questions": [
+        "Have you ever tried using a virtual reality headset before?",
+        "How do you usually pass the time when you are sick in bed?",
+        "In what ways can technology improve the lives of sick children?",
+        "Where would you like to visit first if you put on a VR headset?",
+        "Do you think immersive technology should be used more often in modern hospitals?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/osaka-metro-tests-ai-robot-station-worker/9xLxcqruEfGcujdddIVZCg",
+    "title": "Osaka Metro Tests AI Robot Station Worker",
+    "source": "engoo",
+    "published": "2026-09-10",
+    "level": 5,
+    "sent_date": "2026-10-08",
+    "message_id": "1557528202099032116",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Osaka Metro Tests AI Robot Worker",
+      "summary_en": "Osaka Metro is testing an AI robot station worker that assists passengers and answers questions. This project explores the future roles of robots in public transit.",
+      "vocab": [
+        {
+          "word": "test",
+          "definition_en": "To try something out to see how well it works.",
+          "example": "The company will test a new robot at the station."
+        },
+        {
+          "word": "station worker",
+          "definition_en": "An employee who works at a transportation station.",
+          "example": "The station worker helped me buy a train ticket."
+        },
+        {
+          "word": "assist",
+          "definition_en": "To give support or help to someone.",
+          "example": "AI robots can assist tourists with translation."
+        },
+        {
+          "word": "passenger",
+          "definition_en": "A person traveling in a vehicle, train, or plane.",
+          "example": "Passengers waited patiently on the platform."
+        },
+        {
+          "word": "public transit",
+          "definition_en": "A system of transport for passengers by group travel.",
+          "example": "Public transit in this city is very efficient."
+        },
+        {
+          "word": "role",
+          "definition_en": "The function assumed or part played by a person or thing.",
+          "example": "Robots will play a big role in future workplaces."
+        },
+        {
+          "word": "answer questions",
+          "definition_en": "To provide information in response to inquiries.",
+          "example": "Chatbots are designed to answer questions quickly."
+        }
+      ],
+      "questions": [
+        "Have you ever interacted with a robot or chatbot at a train station?",
+        "What are the benefits of having robot workers in public places?",
+        "Would you feel comfortable asking a robot for directions in a busy station?",
+        "What jobs do you think robots should take over in the near future?",
+        "Do you prefer dealing with human customer service or automated machines?"
+      ]
+    }
   }
 ]
