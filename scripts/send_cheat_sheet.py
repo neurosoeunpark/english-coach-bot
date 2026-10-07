@@ -488,10 +488,12 @@ def build_article_embed(i: int, c: "art.Candidate", a: dict, today) -> dict:
     }
 
 
-def send_discord_content(content: str, embeds: list[dict] | None = None) -> dict:
-    """발송 후 Discord 메시지 객체(id, channel_id 포함)를 돌려준다."""
+def send_discord_content(content: str, embeds: list[dict] | None = None, flags: int = 0) -> dict:
+    """발송 후 Discord 메시지 객체(id, channel_id 포함)를 돌려준다. flags=4 → 링크 미리보기 숨김"""
     payload = {"username": "English Coach", "content": content, "embeds": embeds or [],
                "allowed_mentions": {"parse": []}}
+    if flags:
+        payload["flags"] = flags
     if DRY_RUN:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
         return {}
@@ -559,6 +561,9 @@ def run_articles() -> None:
 TRANSLATE_LOOKBACK_DAYS = 7
 
 
+BLANK = "\u200b"  # 보이지 않는 문자. 빈 줄을 그냥 두면 디스코드에서 복사할 때 사라진다.
+
+
 def format_english_card(e: dict) -> str:
     card = e["card"]
     meta = [art.SOURCE_LABELS.get(e.get("source"), e.get("source") or "")]
@@ -567,12 +572,15 @@ def format_english_card(e: dict) -> str:
         meta.append(f"{d:%b} {d.day}, {d.year}")
     if e.get("level"):
         meta.append(f"Level {e['level']}")
-    lines = [" · ".join(meta), card["topic_en"], "", card["summary_en"], "", "[Vocab 7]"]
+    lines = [e["url"]]
+    if e.get("title"):
+        lines.append(e["title"])
+    lines += [BLANK, " · ".join(meta), card["topic_en"], BLANK, card["summary_en"], BLANK, "[Vocab 7]"]
     for v in card["vocab"]:
-        lines += [f"• {v['word']} : {v['definition_en']}", f"↳ {v['example']}", ""]
+        lines += [f"• {v['word']} : {v['definition_en']}", f"↳ {v['example']}", BLANK]
     lines.append("[Small talk 5]")
     lines += [f"{n}. {q}" for n, q in enumerate(card["questions"], 1)]
-    return "\n".join(lines).strip()
+    return "\n".join(lines)
 
 
 def split_for_discord(text: str, limit: int = 1900) -> list[str]:
@@ -580,7 +588,7 @@ def split_for_discord(text: str, limit: int = 1900) -> list[str]:
         return [text]
     cut = text.find("[Small talk 5]")
     if 0 < cut <= limit and len(text) - cut <= limit:
-        return [text[:cut].rstrip(), text[cut:]]
+        return [text[:cut].rstrip().removesuffix(BLANK).rstrip(), text[cut:]]
     return [text[i:i + limit] for i in range(0, len(text), limit)]
 
 
@@ -609,7 +617,7 @@ def run_translate() -> None:
         if not msg or not any(r.get("count", 0) > 0 for r in msg.get("reactions", [])):
             continue
         for part in split_for_discord(format_english_card(e)):
-            send_discord_content(part)
+            send_discord_content(part, flags=4)
             time.sleep(1)
         e["translated"] = datetime.now(KST).isoformat(timespec="minutes")
         done += 1
