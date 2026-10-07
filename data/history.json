@@ -108,5 +108,27 @@
         "my_line": "Sometimes I get stuck in heavy traffic on my way to work."
       }
     ]
+  },
+  {
+    "date": "2026-10-07",
+    "sent_at": "2026-10-07T09:40:18.530429+00:00",
+    "verbs": [
+      {
+        "verb": "burn out",
+        "meaning_ko": "지쳐버리다, 번아웃되다",
+        "replaces": "get exhausted",
+        "nuance_ko": "과도한 일이나 스트레스로 인해 에너지가 완전히 바닥났을 때 일상적으로 자주 씁니다.",
+        "example": "If you work too many hours without a break, you will quickly burn out.",
+        "my_line": "I sometimes worry that I might burn out if I take on too many projects."
+      },
+      {
+        "verb": "calm down",
+        "meaning_ko": "진정하다",
+        "replaces": "relax",
+        "nuance_ko": "흥분하거나 화가 난 상태를 가라앉힐 때 가장 자연스럽게 쓰는 표현입니다.",
+        "example": "Take a deep breath and try to calm down before you make a decision.",
+        "my_line": "I usually listen to soft acoustic music to calm down after a stressful day."
+      }
+    ]
   }
 ]
