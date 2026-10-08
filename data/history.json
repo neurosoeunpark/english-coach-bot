@@ -130,5 +130,27 @@
         "my_line": "I usually listen to soft acoustic music to calm down after a stressful day."
       }
     ]
+  },
+  {
+    "date": "2026-10-08",
+    "sent_at": "2026-10-08T09:40:20.966869+00:00",
+    "verbs": [
+      {
+        "verb": "head out",
+        "meaning_ko": "출발하다, 나서다",
+        "replaces": "leave",
+        "nuance_ko": "단순히 떠나는 것보다 집이나 사무실 같은 실내 공간에서 목적지를 향해 문을 나서며 이동을 시작할 때 훨씬 자연스럽습니다.",
+        "example": "I usually head out around seven thirty to avoid the heavy morning rush hour traffic.",
+        "my_line": "I had to head out a bit earlier today because the subway was extremely crowded."
+      },
+      {
+        "verb": "run into",
+        "meaning_ko": "(우연히) 마주치다",
+        "replaces": "meet",
+        "nuance_ko": "계획 없이 길이나 대중교통 안에서 우연히 아는 사람을 만났을 때 쓰는 아주 생동감 있는 표현입니다.",
+        "example": "I was surprised to run into my old college roommate on the morning train yesterday.",
+        "my_line": "I hope I do not run into my annoying boss on my way to the office."
+      }
+    ]
   }
 ]
