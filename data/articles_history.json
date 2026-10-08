@@ -432,5 +432,179 @@
         "Do you prefer dealing with human customer service or automated machines?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/reading-for-pleasure-improves-well-being/kWEBerD3EfGc0T99FydD0w",
+    "title": "Reading for Pleasure Improves Well-being",
+    "source": "engoo",
+    "published": "2026-09-26",
+    "level": 7,
+    "sent_date": "2026-10-09",
+    "message_id": "1557890578677497857",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Reading For Pleasure Improves Well-being",
+      "summary_en": "This article explores how reading for pleasure at any age supports mental, emotional, and social well-being. It also explains how regular reading helps reduce the risk of cognitive decline.",
+      "vocab": [
+        {
+          "word": "well-being",
+          "definition_en": "The state of being comfortable, healthy, or happy.",
+          "example": "Regular reading greatly improves your mental well-being."
+        },
+        {
+          "word": "cognitive decline",
+          "definition_en": "A gradual loss of brain function and memory.",
+          "example": "Reading daily can prevent cognitive decline as we age."
+        },
+        {
+          "word": "pleasure",
+          "definition_en": "A feeling of happy satisfaction and enjoyment.",
+          "example": "She reads books purely for pleasure on weekends."
+        },
+        {
+          "word": "reduce",
+          "definition_en": "To make something smaller or less in amount or degree.",
+          "example": "Good books help reduce stress after work."
+        },
+        {
+          "word": "support",
+          "definition_en": "To give assistance, comfort, or encouragement to someone.",
+          "example": "Libraries support lifelong learning in communities."
+        },
+        {
+          "word": "mental",
+          "definition_en": "Relating to the mind or the processes of the mind.",
+          "example": "Taking breaks is important for mental health."
+        },
+        {
+          "word": "risk",
+          "definition_en": "A situation involving exposure to danger or loss.",
+          "example": "Healthy habits lower the risk of illness."
+        }
+      ],
+      "questions": [
+        "Do you usually read books for fun, or only when you have to for work or school?",
+        "What was the last book you read, and did you actually enjoy it?",
+        "How do you usually feel after spending an hour reading a good book?",
+        "Do you think reading fiction or non-fiction is better for improving your well-being?",
+        "Why do you think many people find it hard to read books regularly nowadays?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/society/2026/10/08/worker-in-his-70s-falls-to-death-at-incheon-snack-factory",
+    "title": "Worker in 70s Falls to Death at Incheon Snack Factory",
+    "source": "sedaily",
+    "published": "2026-10-08",
+    "level": null,
+    "sent_date": "2026-10-09",
+    "message_id": "1557890583962329180",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Workplace Fatalities And Safety Rules",
+      "summary_en": "A worker in their 70s tragically died after falling into a freight elevator shaft at an Incheon snack factory. Authorities have launched investigations into this and other fatal workplace accidents across the country.",
+      "vocab": [
+        {
+          "word": "fatality",
+          "definition_en": "An occurrence of death by accident, disease, or war.",
+          "example": "The factory had a tragic workplace fatality yesterday."
+        },
+        {
+          "word": "autopsy",
+          "definition_en": "A post-mortem examination to discover the cause of death.",
+          "example": "Police will request an autopsy to determine the cause."
+        },
+        {
+          "word": "investigation",
+          "definition_en": "The action of investigating something or a formal inquiry.",
+          "example": "An official investigation into the accident has begun."
+        },
+        {
+          "word": "comply with",
+          "definition_en": "To act in accordance with a wish or command.",
+          "example": "Companies must strictly comply with safety regulations."
+        },
+        {
+          "word": "suspend",
+          "definition_en": "To temporarily prevent from continuing or being effective.",
+          "example": "The ministry ordered work at the site suspended."
+        },
+        {
+          "word": "guideline",
+          "definition_en": "A general rule, principle, or piece of advice.",
+          "example": "Safety guidelines are essential in every workplace."
+        },
+        {
+          "word": "collapse",
+          "definition_en": "To fall down or fall in suddenly.",
+          "example": "Old structures can collapse without proper maintenance."
+        }
+      ],
+      "questions": [
+        "Have you ever worked in a place where safety rules were very strict?",
+        "Why do you think workplace accidents still happen so frequently in some industries?",
+        "What responsibilities should factory owners have to protect older daily workers?",
+        "How can the government effectively force companies to follow safety guidelines?",
+        "Do you think severe punishments for company CEOs can prevent industrial accidents?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/mister-donut-returns-to-china-for-first-time-since-2019/2cC-YrwXEfGrt1MDQlW8EA",
+    "title": "Mister Donut Returns to China for First Time Since 2019",
+    "source": "engoo",
+    "published": "2026-10-06",
+    "level": 6,
+    "sent_date": "2026-10-09",
+    "message_id": "1557890588915929131",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Mister Donut Returns To China",
+      "summary_en": "This article covers Mister Donut returning to the Chinese market for the first time since 2019. It looks at how the popular Japanese donut chain is expanding its business across Asia.",
+      "vocab": [
+        {
+          "word": "expand",
+          "definition_en": "To become or make larger or more extensive.",
+          "example": "The famous brand plans to expand into new markets."
+        },
+        {
+          "word": "chain",
+          "definition_en": "A series of businesses owned by the same company.",
+          "example": "Mister Donut is a well-known international chain."
+        },
+        {
+          "word": "return",
+          "definition_en": "To come or go back to a place or person.",
+          "example": "Fans are excited about the brand's return to China."
+        },
+        {
+          "word": "popular",
+          "definition_en": "Liked or admired by many people or a particular person.",
+          "example": "Japanese bakeries are very popular among young adults."
+        },
+        {
+          "word": "market",
+          "definition_en": "A regular gathering of people for the purchase and sale of provisions.",
+          "example": "Entering the Chinese market requires a smart strategy."
+        },
+        {
+          "word": "launch",
+          "definition_en": "To introduce a new product or service to the public.",
+          "example": "They will launch a new seasonal menu next month."
+        },
+        {
+          "word": "strategy",
+          "definition_en": "A plan of action designed to achieve a long-term goal.",
+          "example": "Their business strategy focuses on trendy desserts."
+        }
+      ],
+      "questions": [
+        "What is your favorite donut or bakery brand, and why do you like it?",
+        "Have you ever tried Mister Donut when traveling or in your home country?",
+        "Why do you think foreign food chains are often very successful in Asian cities?",
+        "How important is social media marketing when a restaurant brand enters a new country?",
+        "If you could bring any international food brand to your neighborhood, which one would it be?"
+      ]
+    }
   }
 ]
