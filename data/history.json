@@ -152,5 +152,27 @@
         "my_line": "I hope I do not run into my annoying boss on my way to the office."
       }
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "sent_at": "2026-10-09T09:40:20.943423+00:00",
+    "verbs": [
+      {
+        "verb": "run by",
+        "meaning_ko": "간단히 의견을 묻다, 상의하다",
+        "replaces": "discuss",
+        "nuance_ko": "공식적인 회의 전이나 결정을 내리기 전에 상대방에게 아이디어를 가볍게 공유하고 반응을 볼 때 원어민들이 자주 씁니다.",
+        "example": "Let me run this new schedule idea by my manager before we finalize it.",
+        "my_line": "I need to run my project proposal by my team leader this afternoon."
+      },
+      {
+        "verb": "step in",
+        "meaning_ko": "개입하다, 도와주다",
+        "replaces": "help",
+        "nuance_ko": "누군가 어려움을 겪고 있거나 문제가 생겼을 때 자원해서 도움을 주거나 상황을 수습하기 위해 나설 때 사용합니다.",
+        "example": "My colleague had to step in and help me finish the presentation on time.",
+        "my_line": "I had to step in when our team faced an unexpected technical issue yesterday."
+      }
+    ]
   }
 ]
