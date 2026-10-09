@@ -607,5 +607,179 @@
         "If you could bring any international food brand to your neighborhood, which one would it be?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/seoul-has-the-worlds-coolest-neighborhood/WcuXWrN5EfG2tRMDvDk7TQ",
+    "title": "Seoul Has the World's 'Coolest' Neighborhood",
+    "source": "engoo",
+    "published": "2026-09-23",
+    "level": 6,
+    "sent_date": "2026-10-10",
+    "message_id": "1558252986780754101",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Seoul's Coolest Neighborhood",
+      "summary_en": "Explore why Seoul's Jongno 3-ga was named one of the world's coolest neighborhoods. It also highlights other trendy areas around the globe.",
+      "vocab": [
+        {
+          "word": "neighborhood",
+          "definition_en": "A district or area where people live.",
+          "example": "My neighborhood has many great cafes and restaurants."
+        },
+        {
+          "word": "trendy",
+          "definition_en": "Very fashionable or modern.",
+          "example": "We visited a trendy cafe in the city center."
+        },
+        {
+          "word": "highlight",
+          "definition_en": "The best or most interesting part of something.",
+          "example": "The highlight of the trip was exploring Jongno."
+        },
+        {
+          "word": "vibrant",
+          "definition_en": "Full of energy and life.",
+          "example": "The streets of Seoul are always vibrant at night."
+        },
+        {
+          "word": "hidden gem",
+          "definition_en": "A place that is special and not widely known.",
+          "example": "We found a hidden gem of a restaurant in the alley."
+        },
+        {
+          "word": "atmosphere",
+          "definition_en": "The character or feeling of a place.",
+          "example": "This cafe has a really cozy and warm atmosphere."
+        },
+        {
+          "word": "explore",
+          "definition_en": "To travel through a place in order to learn about it.",
+          "example": "I love to explore new neighborhoods on weekends."
+        }
+      ],
+      "questions": [
+        "What is your favorite neighborhood in Seoul?",
+        "Have you ever visited Jongno 3-ga recently?",
+        "What makes a neighborhood cool or trendy in your opinion?",
+        "Do you prefer quiet residential areas or busy, vibrant districts?",
+        "How would you introduce your local neighborhood to a foreign tourist?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/society/2026/10/09/court-orders-63-million-won-payout-after-dog-bite-at-seoul",
+    "title": "Court Orders 63 Million Won Payout After Dog Bite at Seoul Cafe",
+    "source": "sedaily",
+    "published": "2026-10-09",
+    "level": null,
+    "sent_date": "2026-10-10",
+    "message_id": "1558252991654531166",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Court Rules on Cafe Dog Bite",
+      "summary_en": "A woman in her 20s won part of her insurance claim after being bitten by a dog at a Seoul cafe. The court held the owner liable while also noting the victim's own actions.",
+      "vocab": [
+        {
+          "word": "liable",
+          "definition_en": "Legally responsible for something.",
+          "example": "The dog owner was held liable for the accident."
+        },
+        {
+          "word": "aggressive",
+          "definition_en": "Behaving in an angry or threatening way.",
+          "example": "Even docile dogs can sometimes turn aggressive."
+        },
+        {
+          "word": "compensation",
+          "definition_en": "Money awarded to someone for loss or injury.",
+          "example": "She sought financial compensation for her injuries."
+        },
+        {
+          "word": "negligence",
+          "definition_en": "Failure to take proper care in doing something.",
+          "example": "The court considered the victim's negligence as well."
+        },
+        {
+          "word": "docile",
+          "definition_en": "Ready to accept control or instruction; submissive.",
+          "example": "The pet dog looked completely docile and friendly."
+        },
+        {
+          "word": "lawsuit",
+          "definition_en": "A claim brought to a court for decision.",
+          "example": "She filed a lawsuit against the insurance company."
+        },
+        {
+          "word": "ruling",
+          "definition_en": "An official decision made by a judge.",
+          "example": "The judge announced the ruling in August."
+        }
+      ],
+      "questions": [
+        "Do you often see dogs visiting cafes in your neighborhood?",
+        "How do you usually react when you see a dog in a public place?",
+        "Do you think the court's decision to split the responsibility is fair?",
+        "What rules should pet owners follow when bringing dogs to public cafes?",
+        "How can people prevent unexpected accidents when interacting with unfamiliar pets?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/blake_mycoskie_the_three_words_that_saved_my_life",
+    "title": "The three words that saved my life",
+    "source": "ted",
+    "published": "2026-10-09",
+    "level": null,
+    "sent_date": "2026-10-10",
+    "message_id": "1558252997342011494",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Overcoming Depression and Finding Worth",
+      "summary_en": "TOMS Shoes founder Blake Mycoskie shares his struggle with depression behind his success. He spreads the powerful message that each person is inherently enough.",
+      "vocab": [
+        {
+          "word": "struggle",
+          "definition_en": "To make great efforts to achieve something or deal with difficulty.",
+          "example": "Many people struggle with mental health in silence."
+        },
+        {
+          "word": "inherently",
+          "definition_en": "In a way that is a permanent part of something.",
+          "example": "Every person is inherently valuable and enough."
+        },
+        {
+          "word": "vulnerability",
+          "definition_en": "The quality of being open to emotional injury.",
+          "example": "Sharing his story showed great personal vulnerability."
+        },
+        {
+          "word": "silence",
+          "definition_en": "Complete absence of sound or talking about a problem.",
+          "example": "We need to break the silence surrounding mental health."
+        },
+        {
+          "word": "shame",
+          "definition_en": "A painful feeling of humiliation or distress.",
+          "example": "He wants to remove the shame of feeling depressed."
+        },
+        {
+          "word": "success story",
+          "definition_en": "A person or thing that has achieved great success.",
+          "example": "He is often seen as a glowing business success story."
+        },
+        {
+          "word": "mission",
+          "definition_en": "An important assignment given to a person or group.",
+          "example": "His new mission is to spread a message of self-worth."
+        }
+      ],
+      "questions": [
+        "Have you ever heard of the brand TOMS Shoes before?",
+        "Why do you think successful people sometimes struggle with depression?",
+        "How important is it to talk openly about mental health issues?",
+        "What helps you feel that you are enough when you feel stressed?",
+        "How can friends best support someone who is suffering in silence?"
+      ]
+    }
   }
 ]
