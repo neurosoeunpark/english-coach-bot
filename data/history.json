@@ -174,5 +174,27 @@
         "my_line": "I had to step in when our team faced an unexpected technical issue yesterday."
       }
     ]
+  },
+  {
+    "date": "2026-10-12",
+    "sent_at": "2026-10-12T09:40:18.452741+00:00",
+    "verbs": [
+      {
+        "verb": "fight off",
+        "meaning_ko": "떨쳐내다, (질병이나 감기를) 이겨내다",
+        "replaces": "prevent",
+        "nuance_ko": "우리 몸이 감기나 피로 같은 공격적인 요소를 적극적으로 막아낼 때 원어민들이 자주 씁니다.",
+        "example": "I drink plenty of warm lemon water to fight off a bad cold.",
+        "my_line": "I am trying to fight off a mild cold since the weather got colder."
+      },
+      {
+        "verb": "wear out",
+        "meaning_ko": "녹초가 되게 하다, 닳게 하다",
+        "replaces": "tire",
+        "nuance_ko": "에너지가 완전히 고갈되어 지쳐버린 상태를 시각적으로 잘 나타내 주는 표현입니다.",
+        "example": "Running a marathon without proper training will completely wear your body out.",
+        "my_line": "My heavy workload at the office usually wears me out by Thursday."
+      }
+    ]
   }
 ]
