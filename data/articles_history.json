@@ -782,5 +782,179 @@
         "How can friends best support someone who is suffering in silence?"
       ]
     }
+  },
+  {
+    "url": "https://en.sedaily.com/culture/2026/10/12/lee-soo-man-returns-to-k-pop-after-three-years-with-tech",
+    "title": "Lee Soo-man Returns to K-pop After Three Years With Tech-Driven Groups",
+    "source": "sedaily",
+    "published": "2026-10-12",
+    "level": null,
+    "sent_date": "2026-10-13",
+    "message_id": "1559340165640749088",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Lee Soo-man Returns To K-Pop",
+      "summary_en": "Former SM Entertainment producer Lee Soo-man has returned to the domestic K-pop market with new groups after three years. He introduced fresh cultural content incorporating advanced technologies such as artificial intelligence and 4D Gaussian Splatting.",
+      "vocab": [
+        {
+          "word": "unveil",
+          "definition_en": "To show or introduce a new plan or product to the public for the first time.",
+          "example": "The company will unveil its new smartphone next week."
+        },
+        {
+          "word": "non-compete agreement",
+          "definition_en": "A contract preventing an employee or partner from working in a similar business for a specific period.",
+          "example": "His non-compete agreement finally expired this year."
+        },
+        {
+          "word": "reproduce",
+          "definition_en": "To recreate or copy something so that it appears again.",
+          "example": "This technology can reproduce three-dimensional movements accurately."
+        },
+        {
+          "word": "angle",
+          "definition_en": "The direction from which you look at something.",
+          "example": "Viewers can watch the performance from any angle they choose."
+        },
+        {
+          "word": "roll out",
+          "definition_en": "To make a new product or service available for purchase or use.",
+          "example": "They plan to roll out the video talk service later this month."
+        },
+        {
+          "word": "interactive",
+          "definition_en": "Allowing communication between a computer or program and a user.",
+          "example": "Fans enjoy joining the interactive live talk show."
+        },
+        {
+          "word": "differentiation",
+          "definition_en": "The action of making a product or brand distinct from others.",
+          "example": "Successful businesses focus on product differentiation."
+        }
+      ],
+      "questions": [
+        "Have you ever heard of Lee Soo-man, and what do you know about his history in K-pop?",
+        "What are your thoughts on using AI and advanced technology in K-pop performances?",
+        "Would you be interested in watching a concert where you can control the viewing angles?",
+        "How do you think technology will change the way fans interact with their favorite idols?",
+        "Do you prefer traditional music style debuts or tech-driven innovative group concepts?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/finance/2026/10/12/seoul-wedding-hall-meals-now-80000-won-a-head-as-costs-climb",
+    "title": "Seoul Wedding Hall Meals Now 80,000 Won a Head as Costs Climb",
+    "source": "sedaily",
+    "published": "2026-10-12",
+    "level": null,
+    "sent_date": "2026-10-13",
+    "message_id": "1559340171324039211",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Rising Wedding Costs In Seoul",
+      "summary_en": "Wedding venue rental fees and overall ceremony costs in Seoul have increased significantly, adding financial pressure to couples planning to marry. Meal prices for guests are approaching 80,000 won per head, driving up total wedding expenses.",
+      "vocab": [
+        {
+          "word": "surpass",
+          "definition_en": "To be greater than or exceed a particular amount or limit.",
+          "example": "The total contract price managed to surpass 21 million won."
+        },
+        {
+          "word": "catering",
+          "definition_en": "The business of providing food and drink at social events.",
+          "example": "Catering prices are rising rapidly across the capital region."
+        },
+        {
+          "word": "burden",
+          "definition_en": "A heavy load or a cause of worry and financial stress.",
+          "example": "High wedding costs create a heavy burden for young couples."
+        },
+        {
+          "word": "exceed",
+          "definition_en": "To be greater in number or size than a specific amount.",
+          "example": "The increase in venue costs far exceeded our expectations."
+        },
+        {
+          "word": "median",
+          "definition_en": "The middle value in a series of numbers arranged from smallest to largest.",
+          "example": "The median venue contract price also climbed this year."
+        },
+        {
+          "word": "fall short of",
+          "definition_en": "To fail to reach a desired or expected standard or amount.",
+          "example": "The savings on bridal packages fall short of the rising venue fees."
+        },
+        {
+          "word": "combined",
+          "definition_en": "Joined or added together to form a total.",
+          "example": "The combined contract price for venues and packages is quite high."
+        }
+      ],
+      "questions": [
+        "Have you or anyone you know recently planned a wedding in Korea?",
+        "What do you think is the most reasonable budget for a wedding ceremony today?",
+        "How do rising wedding and meal costs affect young people's decisions to marry?",
+        "Would you prefer a small, modest wedding or a traditional large ceremony?",
+        "What are some ways couples can cut down on expensive wedding expenses?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/finance/2026/10/12/cuckoo-teams-with-bot-in-kit-to-expand-b2b-food-tech",
+    "title": "Cuckoo Teams With Bot In Kit to Expand B2B Food Tech Business",
+    "source": "sedaily",
+    "published": "2026-10-12",
+    "level": null,
+    "sent_date": "2026-10-13",
+    "message_id": "1559340176579362837",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Cuckoo Expands Food Tech Business",
+      "summary_en": "Cuckoo has partnered with food tech company Bot In Kit to handle domestic sales, installation, and after-sales service for AI cooking robots. Through this collaboration, the company plans to expand its kitchen automation solutions and B2B business sector.",
+      "vocab": [
+        {
+          "word": "partnership",
+          "definition_en": "A relationship between two or more organizations working together for a common goal.",
+          "example": "The strategic partnership helped both companies grow faster."
+        },
+        {
+          "word": "installation",
+          "definition_en": "The act of putting equipment into position and making it ready for use.",
+          "example": "They offer integrated services covering sales and installation."
+        },
+        {
+          "word": "automate",
+          "definition_en": "To run a process or operation by using machines and automatic equipment.",
+          "example": "The machine can automate cooking and temperature control."
+        },
+        {
+          "word": "consistent",
+          "definition_en": "Always acting or behaving in the same way, producing similar good results.",
+          "example": "Cooking robots help restaurants maintain consistent food quality."
+        },
+        {
+          "word": "maintenance",
+          "definition_en": "The work of keeping something in good working order through regular care.",
+          "example": "Good after-sales maintenance is crucial for kitchen appliances."
+        },
+        {
+          "word": "accumulate",
+          "definition_en": "To gather or collect over a period of time.",
+          "example": "The firm has accumulated years of expertise in home appliances."
+        },
+        {
+          "word": "efficiency",
+          "definition_en": "The ability to do something well without wasting time, money, or energy.",
+          "example": "Cloud-based recipes and smart robots improve overall kitchen efficiency."
+        }
+      ],
+      "questions": [
+        "Have you ever seen a cooking robot working in a real restaurant?",
+        "What are the main advantages of using AI cooking robots in commercial kitchens?",
+        "Do you think robot-cooked food tastes the same as food made by human chefs?",
+        "Would you feel comfortable eating at a fully automated restaurant with no human staff?",
+        "How do you think kitchen automation will change restaurant jobs in the future?"
+      ]
+    }
   }
 ]
