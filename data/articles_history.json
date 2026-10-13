@@ -956,5 +956,179 @@
         "How do you think kitchen automation will change restaurant jobs in the future?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/what-are-the-worlds-happiest-destinations/nA8lOKxDEfGk1SfzZdr0BQ",
+    "title": "What Are the World's Happiest Destinations?",
+    "source": "engoo",
+    "published": "2026-09-13",
+    "level": 6,
+    "sent_date": "2026-10-14",
+    "message_id": "1559702510942294058",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Exploring the World's Happiest Travel Destinations",
+      "summary_en": "This article explores the world's happiest travel destinations based on research into visitor reviews and joy-filled experiences. It introduces places that bring happiness to people, ranging from beach towns to colorful cities.",
+      "vocab": [
+        {
+          "word": "destination",
+          "definition_en": "A place to which people are traveling or going.",
+          "example": "This beach is a popular holiday destination."
+        },
+        {
+          "word": "visitor review",
+          "definition_en": "An assessment of a place written by someone who visited it.",
+          "example": "I always check visitor reviews before booking a hotel."
+        },
+        {
+          "word": "joy-filled",
+          "definition_en": "Feeling or causing a great amount of happiness.",
+          "example": "We had a joy-filled weekend in the countryside."
+        },
+        {
+          "word": "research",
+          "definition_en": "The systematic investigation into studies to establish facts.",
+          "example": "Their research focuses on travel trends this year."
+        },
+        {
+          "word": "atmosphere",
+          "definition_en": "The character or feeling of a place or situation.",
+          "example": "The small town has a warm and friendly atmosphere."
+        },
+        {
+          "word": "unwind",
+          "definition_en": "Relax after a period of work or tension.",
+          "example": "Travel is a great way to unwind from stress."
+        },
+        {
+          "word": "memorable",
+          "definition_en": "Worthy of being remembered or easily remembered.",
+          "example": "That vacation was truly a memorable experience."
+        }
+      ],
+      "questions": [
+        "What is the most joyful or happiest place you have ever visited in your life?",
+        "Do you usually prefer traveling to quiet beach towns or busy, colorful cities?",
+        "How do online visitor reviews usually influence your choice of travel destinations?",
+        "What kind of atmosphere do you look for when you want to relax on vacation?",
+        "Why do you think certain cities or countries make people feel happier than others?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/meet-japans-90-year-old-bodybuilding-champion/rSf_4rjxEfGlMeOBzfSzvQ",
+    "title": "Meet Japan's 90-Year-Old Bodybuilding Champion",
+    "source": "engoo",
+    "published": "2026-10-08",
+    "level": 6,
+    "sent_date": "2026-10-14",
+    "message_id": "1559702516193824819",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Meet Japan's 90-Year-Old Bodybuilding Champion",
+      "summary_en": "This article covers the inspiring story of Toshisuke Kanazawa, Japan's 90-year-old bodybuilding champion, and his achievements. It examines his lifelong dedication and spirit of challenge.",
+      "vocab": [
+        {
+          "word": "champion",
+          "definition_en": "A person who has surpassed all rivals in a competition.",
+          "example": "He became the bodybuilding champion at age ninety."
+        },
+        {
+          "word": "dedication",
+          "definition_en": "The quality of being dedicated or committed to a task.",
+          "example": "Her dedication to fitness is truly impressive."
+        },
+        {
+          "word": "achievement",
+          "definition_en": "A thing done successfully, typically by effort or courage.",
+          "example": "Winning the contest was his greatest achievement."
+        },
+        {
+          "word": "inspiring",
+          "definition_en": "Providing inspiration or arousing a feeling of enthusiasm.",
+          "example": "His lifelong fitness journey is very inspiring."
+        },
+        {
+          "word": "routine",
+          "definition_en": "A sequence of actions regularly followed.",
+          "example": "He follows a strict daily workout routine."
+        },
+        {
+          "word": "longevity",
+          "definition_en": "Long life or long existence.",
+          "example": "Good diet and exercise contribute to longevity."
+        },
+        {
+          "word": "overcome",
+          "definition_en": "Succeed in dealing with a problem or difficulty.",
+          "example": "He had to overcome many physical challenges."
+        }
+      ],
+      "questions": [
+        "What was your first reaction when you heard about a 90-year-old bodybuilding champion?",
+        "Do you have a regular daily exercise routine to keep yourself healthy?",
+        "What do you think is the secret to living a long and healthy life?",
+        "How do you usually stay motivated when trying to achieve a difficult long-term goal?",
+        "Why do many people find older adults who learn new skills or stay fit so inspiring?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/climate-change-could-wipe-out-japans-ski-resorts/WjKafMFhEfGVzLON7aSj_Q",
+    "title": "Climate Change Could Wipe Out Japan's Ski Resorts",
+    "source": "engoo",
+    "published": "2026-10-11",
+    "level": 6,
+    "sent_date": "2026-10-14",
+    "message_id": "1559702521797148794",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Climate Change Threatens Japan's Ski Resorts",
+      "summary_en": "This article explains how climate change threatens Japan's ski resorts. It also covers the impact on tourism and efforts to protect ski culture and adapt to warming temperatures.",
+      "vocab": [
+        {
+          "word": "climate change",
+          "definition_en": "A long-term change in the earth's climate patterns.",
+          "example": "Climate change is affecting winter weather worldwide."
+        },
+        {
+          "word": "threaten",
+          "definition_en": "Cause vulnerability or pose a danger to something.",
+          "example": "Rising temperatures threaten many local ski resorts."
+        },
+        {
+          "word": "tourism",
+          "definition_en": "The commercial organization and operation of holidays and visits.",
+          "example": "Winter tourism is vital for the mountain economy."
+        },
+        {
+          "word": "adapt",
+          "definition_en": "Adjust to new conditions or environments.",
+          "example": "Resorts must adapt to a lack of natural snow."
+        },
+        {
+          "word": "impact",
+          "definition_en": "A marked effect or influence on someone or something.",
+          "example": "Global warming has a huge impact on winter sports."
+        },
+        {
+          "word": "preserve",
+          "definition_en": "Maintain something in its original or existing state.",
+          "example": "We need to preserve traditional winter cultures."
+        },
+        {
+          "word": "melt",
+          "definition_en": "Make or become liquefied by heating.",
+          "example": "The snow on the lower slopes began to melt early."
+        }
+      ],
+      "questions": [
+        "Do you enjoy winter sports like skiing or snowboarding, or do you prefer warmer seasons?",
+        "Have you noticed any strange changes in the winter weather in your area recently?",
+        "What kind of impact do you think global warming will have on future winter holidays?",
+        "How can ski resorts adapt if there is a serious lack of natural snow?",
+        "What actions should governments take to better protect the environment from climate change?"
+      ]
+    }
   }
 ]
