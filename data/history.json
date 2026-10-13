@@ -196,5 +196,27 @@
         "my_line": "My heavy workload at the office usually wears me out by Thursday."
       }
     ]
+  },
+  {
+    "date": "2026-10-13",
+    "sent_at": "2026-10-13T09:40:18.790430+00:00",
+    "verbs": [
+      {
+        "verb": "put off",
+        "meaning_ko": "미루다, 연기하다",
+        "replaces": "postpone",
+        "nuance_ko": "격식 없는 일상 회화에서 주로 사용하며, 대상을 사이에 넣을 수 있는 분리형 동사입니다.",
+        "example": "We had to put off our team meeting until Thursday morning due to traffic.",
+        "my_line": "I had to put off my dentist appointment this week because of extra work."
+      },
+      {
+        "verb": "wrap up",
+        "meaning_ko": "마무리하다, 끝내다",
+        "replaces": "finish",
+        "nuance_ko": "회의, 업무, 하루 일과 등을 최종적으로 깔끔하게 끝마칠 때 원어민들이 가장 즐겨 쓰는 표현입니다.",
+        "example": "Let's try to wrap up this project before the weekend arrives without fail.",
+        "my_line": "I usually try to wrap up all my important tasks by four o'clock every day."
+      }
+    ]
   }
 ]
