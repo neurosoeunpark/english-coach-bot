@@ -1131,5 +1131,179 @@
         "What actions should governments take to better protect the environment from climate change?"
       ]
     }
+  },
+  {
+    "url": "https://en.sedaily.com/politics/2026/10/14/harris-says-korean-investment-in-us-must-not-come-under",
+    "title": "Harris Says Korean Investment in U.S. Must Not Be Coerced",
+    "source": "sedaily",
+    "published": "2026-10-14",
+    "level": null,
+    "sent_date": "2026-10-15",
+    "message_id": "1560064905288220745",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "US-Korea Economic Alliance and Investment",
+      "summary_en": "Former Vice President Kamala Harris emphasized that South Korean investments in the U.S. should be voluntary rather than forced by pressure. She also criticized punitive tariffs and stressed the importance of mutual cooperation in shipbuilding and semiconductors.",
+      "vocab": [
+        {
+          "word": "coerce",
+          "definition_en": "To persuade someone forcefully to do something they are unwilling to do.",
+          "example": "Investment should never be coerced through political pressure."
+        },
+        {
+          "word": "punitive",
+          "definition_en": "Intended as a punishment.",
+          "example": "The government imposed punitive tariffs on imported goods."
+        },
+        {
+          "word": "mutually beneficial",
+          "definition_en": "Producing good results for both parties involved.",
+          "example": "We need a mutually beneficial economic agreement."
+        },
+        {
+          "word": "scale back",
+          "definition_en": "To make something smaller in size, amount, or extent.",
+          "example": "They decided to scale back the joint military drills."
+        },
+        {
+          "word": "competitiveness",
+          "definition_en": "The ability of a business to compete effectively with others.",
+          "example": "Technological innovation boosts industrial competitiveness."
+        },
+        {
+          "word": "strategic alliance",
+          "definition_en": "An agreement between groups to cooperate for specific goals.",
+          "example": "The strategic alliance ensures long-term security."
+        },
+        {
+          "word": "draw a clear line",
+          "definition_en": "To establish a distinct boundary between two things.",
+          "example": "She had to draw a clear line regarding fair trade."
+        }
+      ],
+      "questions": [
+        "What do you think about South Korean companies investing heavily in the United States?",
+        "How important is the manufacturing and shipbuilding industry to our national economy?",
+        "Why do you think political leaders debate about trade policies and tariffs so much?",
+        "Have you ever felt pressured to make a major decision that you didn't want to make?",
+        "In your opinion, what is the best way for allied countries to maintain a strong partnership?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/leopoldo_lopez_inside_venezuela_s_uncertain_path_to_freedom",
+    "title": "Inside Venezuela's uncertain path to freedom",
+    "source": "ted",
+    "published": "2026-10-06",
+    "level": null,
+    "sent_date": "2026-10-15",
+    "message_id": "1560064910673580057",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Democracy and Freedom in Venezuela",
+      "summary_en": "Activist Leopoldo López discusses the global decline of democracy based on his experiences in confinement. He also explains Venezuela's political transition and the importance of global solidarity against autocracy.",
+      "vocab": [
+        {
+          "word": "solitary confinement",
+          "definition_en": "The isolation of a prisoner in a separate cell.",
+          "example": "He spent months in strict solitary confinement."
+        },
+        {
+          "word": "lose ground",
+          "definition_en": "To become less successful or popular over time.",
+          "example": "Democratic values are beginning to lose ground globally."
+        },
+        {
+          "word": "transition",
+          "definition_en": "The process of changing from one state to another.",
+          "example": "The country is experiencing a peaceful political transition."
+        },
+        {
+          "word": "autocracy",
+          "definition_en": "A system of government by one person with absolute power.",
+          "example": "Citizens protested courageously against the autocracy."
+        },
+        {
+          "word": "solidarity",
+          "definition_en": "Unity or agreement of feeling or action among individuals.",
+          "example": "International solidarity is crucial for human rights."
+        },
+        {
+          "word": "activist",
+          "definition_en": "A person who campaigns for political or social change.",
+          "example": "The activist spoke out bravely against corruption."
+        },
+        {
+          "word": "uncertain",
+          "definition_en": "Not completely known or decided.",
+          "example": "The future of the economic reform remains uncertain."
+        }
+      ],
+      "questions": [
+        "What does personal freedom mean to you in your daily life?",
+        "Why do you think democratic systems face challenges in various parts of the world?",
+        "How can ordinary citizens support people fighting for freedom in other countries?",
+        "Have you ever had to overcome a very difficult or uncertain period in your life?",
+        "In what ways can international organizations help nations transition to democracy?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/couples-share-musical-taste-more-than-personality/a2omXrebEfGYhgfDYyWwuA",
+    "title": "Couples Share Musical Taste More than Personality",
+    "source": "engoo",
+    "published": "2026-09-30",
+    "level": 7,
+    "sent_date": "2026-10-15",
+    "message_id": "1560064916549926935",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Couples Share Musical Taste More Than Personality",
+      "summary_en": "This lesson explores research showing that couples are more likely to share musical tastes than similar personality traits. It examines how musical preferences influence the formation of human relationships.",
+      "vocab": [
+        {
+          "word": "personality trait",
+          "definition_en": "A habitual pattern of behavior, thought, and emotion.",
+          "example": "They share many personality traits despite different backgrounds."
+        },
+        {
+          "word": "musical preference",
+          "definition_en": "The types of music a person likes to listen to.",
+          "example": "Our musical preferences match surprisingly well."
+        },
+        {
+          "word": "common ground",
+          "definition_en": "Opinions or interests shared by each of two or more parties.",
+          "example": "Finding common ground is essential for a lasting relationship."
+        },
+        {
+          "word": "compatibility",
+          "definition_en": "The ability of people to live or work together happily.",
+          "example": "Musical compatibility can strengthen a romantic bond."
+        },
+        {
+          "word": "bond",
+          "definition_en": "A relationship uniting people based on shared commonality.",
+          "example": "They formed a strong bond through their love of jazz."
+        },
+        {
+          "word": "align",
+          "definition_en": "To bring into agreement or alignment with something.",
+          "example": "Their tastes in art and music align closely."
+        },
+        {
+          "word": "fascinating",
+          "definition_en": "Extremely interesting and attractive.",
+          "example": "It is fascinating how music brings people together."
+        }
+      ],
+      "questions": [
+        "How important is it for you to share the same music taste with your partner?",
+        "What kind of music do you usually listen to when you want to relax?",
+        "Do you think people with completely opposite personalities can have a successful relationship?",
+        "How does listening to music help you connect with your friends or family?",
+        "What do you think shared hobbies reveal about compatibility in a relationship?"
+      ]
+    }
   }
 ]
