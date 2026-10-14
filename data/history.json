@@ -218,5 +218,27 @@
         "my_line": "I usually try to wrap up all my important tasks by four o'clock every day."
       }
     ]
+  },
+  {
+    "date": "2026-10-14",
+    "sent_at": "2026-10-14T09:40:17.653220+00:00",
+    "verbs": [
+      {
+        "verb": "back up",
+        "meaning_ko": "뒷받침하다, 증거를 대다",
+        "replaces": "support",
+        "nuance_ko": "의견이나 주장을 데이터나 사실로 뒷받침할 때 원어민들이 아주 즐겨 쓰는 표현입니다.",
+        "example": "You need to back up your proposal with solid market data before presenting.",
+        "my_line": "I always try to back up my weekly reports with actual sales numbers."
+      },
+      {
+        "verb": "step up",
+        "meaning_ko": "나서다, 한층 강화하다",
+        "replaces": "increase",
+        "nuance_ko": "필요할 때 자원해서 나서거나 기존의 노력이나 속도를 더 끌어올릴 때 사용합니다.",
+        "example": "We need to step up our marketing efforts to reach the quarterly targets.",
+        "my_line": "I had to step up my game this week because of the sudden project deadline."
+      }
+    ]
   }
 ]
