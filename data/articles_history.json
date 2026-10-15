@@ -1307,5 +1307,179 @@
         "What do you think shared hobbies reveal about compatibility in a relationship?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/uniqlo-set-to-be-worlds-second-largest-fashion-retailer/8o2IaMQJEfGtK0OH2WWufg",
+    "title": "Uniqlo Set to Be World's Second-Largest Fashion Retailer",
+    "source": "engoo",
+    "published": "2026-10-12",
+    "level": 8,
+    "sent_date": "2026-10-16",
+    "message_id": "1560427307179577455",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Uniqlo's Growth Toward Global Expansion",
+      "summary_en": "This article explores Uniqlo's recent profits and global expansion. It also looks at the brand's growth toward becoming the world's second-largest fashion retailer.",
+      "vocab": [
+        {
+          "word": "fashion retailer",
+          "definition_en": "A company that sells clothing and accessories directly to consumers.",
+          "example": "Uniqlo is becoming a major fashion retailer globally."
+        },
+        {
+          "word": "global expansion",
+          "definition_en": "The process of growing a business internationally.",
+          "example": "Their global expansion is growing rapidly this year."
+        },
+        {
+          "word": "profit",
+          "definition_en": "Financial gain obtained through business operations.",
+          "example": "The company reported high profit margins this quarter."
+        },
+        {
+          "word": "growth",
+          "definition_en": "An increase in size, amount, or importance.",
+          "example": "Rapid growth helped them reach the top."
+        },
+        {
+          "word": "market share",
+          "definition_en": "The portion of a market controlled by a particular company.",
+          "example": "They increased their market share significantly."
+        },
+        {
+          "word": "trend",
+          "definition_en": "A general direction in which something is developing.",
+          "example": "Fast fashion trends change very quickly."
+        },
+        {
+          "word": "retail",
+          "definition_en": "The sale of goods to the public in small quantities.",
+          "example": "She works in retail management."
+        }
+      ],
+      "questions": [
+        "Do you often shop at Uniqlo, and what do you usually buy there?",
+        "Why do you think Uniqlo has become so popular around the world?",
+        "How does Uniqlo differ from other fast fashion brands in your opinion?",
+        "What challenges do you think global fashion retailers face today?",
+        "How has your clothing shopping habit changed over the last few years?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/finance/2026/10/15/brokerages-see-kospi-floor-near-5300-after-seven-day-slide",
+    "title": "Brokerages See KOSPI Floor Near 5,300 After Seven-Day Slide",
+    "source": "sedaily",
+    "published": "2026-10-15",
+    "level": null,
+    "sent_date": "2026-10-16",
+    "message_id": "1560427313118707763",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Brokerages Analyze KOSPI Floor After Slide",
+      "summary_en": "Brokerages are scrambling to identify support levels for the KOSPI after a seven-day slide. Market analysts are forecasting future stock trends based on past crisis patterns.",
+      "vocab": [
+        {
+          "word": "benchmark index",
+          "definition_en": "A standard against which the performance of a security can be measured.",
+          "example": "The benchmark index fell sharply today."
+        },
+        {
+          "word": "support level",
+          "definition_en": "A price level where a downtrend can pause due to demand concentration.",
+          "example": "Analysts are looking for a strong support level."
+        },
+        {
+          "word": "downturn",
+          "definition_en": "A significant decline in economic activity or stock prices.",
+          "example": "Many investors are worried about this market downturn."
+        },
+        {
+          "word": "volatility",
+          "definition_en": "Liability to change rapidly and unpredictably, especially for worse.",
+          "example": "Oil price volatility is affecting the stock market."
+        },
+        {
+          "word": "analyst",
+          "definition_en": "A person who examines financial data to make predictions.",
+          "example": "An analyst predicted a recovery later this year."
+        },
+        {
+          "word": "plunge",
+          "definition_en": "To fall or drop suddenly and steeply.",
+          "example": "Stock prices began to plunge this morning."
+        },
+        {
+          "word": "forecast",
+          "definition_en": "A prediction or estimate of future events.",
+          "example": "The economic forecast remains uncertain."
+        }
+      ],
+      "questions": [
+        "Do you follow the stock market or invest in stocks regularly?",
+        "How do you feel when you see major stock indexes dropping sharply?",
+        "What factors do you think cause sudden drops in the stock market?",
+        "How can individual investors protect their money during a financial downturn?",
+        "Do you think government intervention is necessary when stock markets crash?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/bill_mckibben_beyond_the_talk_bill_mckibben_on_oil_wars_and_the_solar_revolution",
+    "title": "Beyond the Talk: Bill McKibben on oil wars and the solar revolution",
+    "source": "ted",
+    "published": "2026-10-12",
+    "level": null,
+    "sent_date": "2026-10-16",
+    "message_id": "1560427318411919454",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Bill McKibben On Renewable Energy Shift",
+      "summary_en": "Environmentalist Bill McKibben explains how solar power became the Costco of energy. He also discusses how wars are accelerating the shift to renewables.",
+      "vocab": [
+        {
+          "word": "renewable energy",
+          "definition_en": "Energy from a source that is not depleted when used.",
+          "example": "Solar power is a great form of renewable energy."
+        },
+        {
+          "word": "shift",
+          "definition_en": "A slight change in position, direction, or tendency.",
+          "example": "We need a quick shift toward green technology."
+        },
+        {
+          "word": "climate change",
+          "definition_en": "Long-term shifts in temperatures and weather patterns.",
+          "example": "Climate change is a global crisis today."
+        },
+        {
+          "word": "accelerate",
+          "definition_en": "To begin to move more quickly or make something happen faster.",
+          "example": "New policies will accelerate the green transition."
+        },
+        {
+          "word": "environmentalist",
+          "definition_en": "A person concerned with the protection of the natural environment.",
+          "example": "The environmentalist spoke about protecting nature."
+        },
+        {
+          "word": "solar power",
+          "definition_en": "Power obtained by harnessing the energy of the sun.",
+          "example": "Many homes now use solar power to save money."
+        },
+        {
+          "word": "community action",
+          "definition_en": "Collective efforts by people living in the same area to solve problems.",
+          "example": "Community action can protect local natural resources."
+        }
+      ],
+      "questions": [
+        "What do you do in your daily life to help protect the environment?",
+        "How common are solar panels and renewable energy sources in your neighborhood?",
+        "Do you think governments are doing enough to fight climate change right now?",
+        "How can ordinary people push large corporations to use green energy?",
+        "What lifestyle changes would you be willing to make to reduce your carbon footprint?"
+      ]
+    }
   }
 ]
