@@ -1481,5 +1481,179 @@
         "What lifestyle changes would you be willing to make to reduce your carbon footprint?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/trump-and-tech-giants-agree-to-self-police-ai/6alR1rzBEfGZOJ9auJq9Sg",
+    "title": "Trump and Tech Giants Agree to 'Self-Police' AI",
+    "source": "engoo",
+    "published": "2026-09-30",
+    "level": 8,
+    "sent_date": "2026-10-17",
+    "message_id": "1560789701701402797",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Trump And Tech Giants Agree To Self-Police AI",
+      "summary_en": "This article explores the agreement between Trump and major tech companies to voluntarily monitor and manage artificial intelligence risks. Both parties aim to ensure the safety of AI technology through self-regulation instead of strict government-led rules.",
+      "vocab": [
+        {
+          "word": "voluntarily",
+          "definition_en": "Done without being forced or paid to do it.",
+          "example": "Tech companies agreed to voluntarily monitor AI risks."
+        },
+        {
+          "word": "monitor",
+          "definition_en": "To watch and check a situation over a period of time.",
+          "example": "We need to monitor how new AI tools behave."
+        },
+        {
+          "word": "regulation",
+          "definition_en": "An official rule made by a government or authority.",
+          "example": "Strict regulations can sometimes slow down technological innovation."
+        },
+        {
+          "word": "artificial intelligence",
+          "definition_en": "Computer systems able to perform tasks normally requiring human intelligence.",
+          "example": "Artificial intelligence is changing the way we work."
+        },
+        {
+          "word": "risk",
+          "definition_en": "A situation involving exposure to danger or loss.",
+          "example": "Developers must reduce the risks of biased algorithms."
+        },
+        {
+          "word": "agreement",
+          "definition_en": "An arrangement or promise made between two or more people.",
+          "example": "The agreement was signed by major industry leaders."
+        },
+        {
+          "word": "tech giant",
+          "definition_en": "A very large and powerful technology company.",
+          "example": "Tech giants are investing heavily in machine learning."
+        }
+      ],
+      "questions": [
+        "What do you know about artificial intelligence?",
+        "Do you think tech companies can effectively self-police their own AI?",
+        "Why might governments want to regulate AI development closely?",
+        "What are some potential risks of unregulated artificial intelligence?",
+        "How would you balance innovation and safety in the tech industry?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/international/2026/10/16/chinese-graduate-student-arrested-for-poisoning-colleagues",
+    "title": "Chinese Graduate Student Arrested for Poisoning Colleague's Tea at Wyoming",
+    "source": "sedaily",
+    "published": "2026-10-16",
+    "level": null,
+    "sent_date": "2026-10-17",
+    "message_id": "1560789707594539059",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Chinese Student Arrested For Poisoning Colleague",
+      "summary_en": "A Chinese graduate student in the US was arrested for putting a toxic substance into a colleague's tea cup. The suspect reportedly committed the crime out of envy and now faces serious felony charges.",
+      "vocab": [
+        {
+          "word": "arrest",
+          "definition_en": "To take someone to a police station by legal authority.",
+          "example": "The police decided to arrest the suspect at the airport."
+        },
+        {
+          "word": "substance",
+          "definition_en": "A particular kind of matter with uniform properties.",
+          "example": "A dangerous chemical substance was found in the tea."
+        },
+        {
+          "word": "envy",
+          "definition_en": "A feeling of discontented or resentful longing aroused by someone else's qualities.",
+          "example": "Her academic success triggered intense envy from her peer."
+        },
+        {
+          "word": "symptom",
+          "definition_en": "A physical or mental feature indicating a condition of disease.",
+          "example": "The victim experienced severe fatigue and numbness in his fingers."
+        },
+        {
+          "word": "felony",
+          "definition_en": "A crime regarded as more serious than a misdemeanor.",
+          "example": "She faces felony charges of aggravated assault and battery."
+        },
+        {
+          "word": "detain",
+          "definition_en": "To keep someone in official custody, typically for questioning.",
+          "example": "Officers detained her before she could board the flight."
+        },
+        {
+          "word": "recover",
+          "definition_en": "To return to a normal state of health or mind.",
+          "example": "It is unclear whether the victim will fully recover."
+        }
+      ],
+      "questions": [
+        "Have you ever heard about crimes happening in academic environments?",
+        "What do you think drives someone to harm a colleague out of jealousy?",
+        "How can universities better support the mental health of graduate students?",
+        "What punishment do you think is appropriate for such a serious crime?",
+        "How would this incident affect the trust among international students on campus?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/society/2026/10/16/dropping-out-to-reset-grades-korean-students-gamble-on",
+    "title": "Dropping Out to Reset Grades: Korean Students Gamble on Second Chances",
+    "source": "sedaily",
+    "published": "2026-10-16",
+    "level": null,
+    "sent_date": "2026-10-17",
+    "message_id": "1560789712887619636",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Korean Students Drop Out To Reset Grades",
+      "summary_en": "Some high school students in Korea are choosing to drop out to reset their grades for a better chance at college. This trend is growing because a single bad exam result can heavily impact admissions under the new grading system.",
+      "vocab": [
+        {
+          "word": "drop out",
+          "definition_en": "To leave school or a training program before finishing.",
+          "example": "More students are choosing to drop out during their first year."
+        },
+        {
+          "word": "reset",
+          "definition_en": "To set something again or to a different value.",
+          "example": "They hope to reset their academic records by re-enrolling."
+        },
+        {
+          "word": "admission",
+          "definition_en": "The process or fact of entering an institution or organization.",
+          "example": "High school grades play a vital role in college admissions."
+        },
+        {
+          "word": "achievement",
+          "definition_en": "A thing done successfully, typically by effort, courage, or skill.",
+          "example": "Grades reflect a student's current academic achievement."
+        },
+        {
+          "word": "option",
+          "definition_en": "A thing that is or may be chosen.",
+          "example": "Taking the equivalency exam is another viable option."
+        },
+        {
+          "word": "pressure",
+          "definition_en": "Continuous physical or mental force or influence.",
+          "example": "The competitive grading system puts immense pressure on teenagers."
+        },
+        {
+          "word": "evaluation",
+          "definition_en": "The making of a judgment about the amount, number, or value of something.",
+          "example": "Continuous evaluation can cause severe stress for students."
+        }
+      ],
+      "questions": [
+        "Did you ever feel pressured by your high school grades?",
+        "What do you think about the trend of students dropping out to reset their grades?",
+        "How does a competitive grading system affect teenage mental health?",
+        "Is entering university the most important goal for young people today?",
+        "What changes would you make to the current school education system if you could?"
+      ]
+    }
   }
 ]
