@@ -262,5 +262,27 @@
         "my_line": "I usually listen to upbeat music to cheer myself up on busy mornings."
       }
     ]
+  },
+  {
+    "date": "2026-10-16",
+    "sent_at": "2026-10-16T09:40:18.781420+00:00",
+    "verbs": [
+      {
+        "verb": "burn out",
+        "meaning_ko": "지치다, 번아웃되다",
+        "replaces": "get tired",
+        "nuance_ko": "단순히 피곤한 것을 넘어 과로나 스트레스로 심신이 완전히 지쳐 더 이상 에너지가 없을 때 주로 씁니다.",
+        "example": "If you work too many overtime hours this week, you will quickly burn out.",
+        "my_line": "I felt like I was going to burn out by Wednesday because of heavy workloads."
+      },
+      {
+        "verb": "freak out",
+        "meaning_ko": "겁먹다, 패닉에 빠지다",
+        "replaces": "panic",
+        "nuance_ko": "갑작스러운 일에 지나치게 놀라거나 당황해서 어쩔 줄 모르는 감정을 생생하게 표현할 때 자주 씁니다.",
+        "example": "I always freak out when my computer crashes right before an important deadline.",
+        "my_line": "I nearly freaked out when my boss asked me to present without any preparation."
+      }
+    ]
   }
 ]
