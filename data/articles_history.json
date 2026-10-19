@@ -1657,5 +1657,179 @@
       ]
     },
     "translated": "2026-10-19T19:00+09:00"
+  },
+  {
+    "url": "https://en.sedaily.com/finance/2026/10/19/samyang-foods-builds-new-business-unit-in-us-beyond-buldak",
+    "title": "Samyang Foods Builds New-Business Unit in U.S. Beyond Buldak",
+    "source": "sedaily",
+    "published": "2026-10-19",
+    "level": null,
+    "sent_date": "2026-10-20",
+    "message_id": "1561876838614306924",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Samyang Foods Builds New U.S. Unit",
+      "summary_en": "Samyang Foods is setting up an independent U.S. organization dedicated to local product development and commercialization. Through this move, the company plans to expand beyond ramen into new business areas and target Latin American markets.",
+      "vocab": [
+        {
+          "word": "overtake",
+          "definition_en": "To catch up with and pass someone or something in amount or level.",
+          "example": "U.S. sales finally overtook China sales last year."
+        },
+        {
+          "word": "tailored",
+          "definition_en": "Made or designed to fit a specific person or purpose.",
+          "example": "They created snacks tailored to local consumer demand."
+        },
+        {
+          "word": "commercial viability",
+          "definition_en": "The likelihood of a product making a profit in the market.",
+          "example": "The lab tests the commercial viability of new food ideas."
+        },
+        {
+          "word": "prototype",
+          "definition_en": "A first model of something from which other forms are copied or developed.",
+          "example": "The team built a prototype of the grain snack."
+        },
+        {
+          "word": "localization strategy",
+          "definition_en": "Adapting a product to meet the language and cultural needs of a specific country.",
+          "example": "Their localization strategy helped boost sales in supermarkets."
+        },
+        {
+          "word": "distribution network",
+          "definition_en": "The system of people and places that helps move products from the maker to stores.",
+          "example": "They used an existing distribution network to launch new items."
+        },
+        {
+          "word": "broaden its lineup",
+          "definition_en": "To increase the variety of products offered by a company.",
+          "example": "The brand wants to broaden its lineup with health snacks."
+        }
+      ],
+      "questions": [
+        "Have you ever tried Buldak spicy ramen, and how do you feel about spicy food?",
+        "Why do you think Samyang Foods decided to build a research lab in the U.S.?",
+        "What are some popular Korean food products that have gone viral in your country?",
+        "If you started a food business abroad, how would you adapt your products for locals?",
+        "Do you think food companies should change their flavors to fit different cultures, or keep them original?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/eli_j_finkel_the_secret_to_lasting_love",
+    "title": "The secret to lasting love",
+    "source": "ted",
+    "published": "2026-10-05",
+    "level": null,
+    "sent_date": "2026-10-20",
+    "message_id": "1561876844796584000",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "The Secret To Lasting Love",
+      "summary_en": "Social psychologist Eli Finkel studies successful partnerships over decades to analyze what happy couples do differently. He shares practical advice on how to stay true to ourselves while building better relationships.",
+      "vocab": [
+        {
+          "word": "partnership",
+          "definition_en": "A close relationship between two people who live together or work together.",
+          "example": "Building a strong partnership requires honest communication every day."
+        },
+        {
+          "word": "stay true to oneself",
+          "definition_en": "To remain faithful to your own values and personality.",
+          "example": "It is hard to stay true to yourself in a new relationship."
+        },
+        {
+          "word": "psychologist",
+          "definition_en": "An expert in psychology, the study of the mind and behavior.",
+          "example": "The psychologist spent decades studying romantic relationships."
+        },
+        {
+          "word": "conflict resolution",
+          "definition_en": "The methods used to settle a disagreement peacefully.",
+          "example": "Good conflict resolution is key to lasting love."
+        },
+        {
+          "word": "compromise",
+          "definition_en": "An agreement where both sides give up something they want.",
+          "example": "Happy couples always learn how to compromise on small issues."
+        },
+        {
+          "word": "vulnerability",
+          "definition_en": "The quality of being open to emotional hurt or showing true feelings.",
+          "example": "Showing vulnerability helps build deeper emotional connections."
+        },
+        {
+          "word": "nurture",
+          "definition_en": "To care for and help something grow and develop.",
+          "example": "You must nurture a relationship if you want it to last."
+        }
+      ],
+      "questions": [
+        "What do you think is the most important quality in a long-term partner?",
+        "How do couples usually balance their personal goals with their life together?",
+        "Why is it sometimes difficult to stay true to yourself when you fall in love?",
+        "In your opinion, how can people resolve major arguments without hurting each other?",
+        "Do you believe that romantic relationships require hard work, or should they feel effortless?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/cara_hale_alter_is_your_body_language_working_against_you",
+    "title": "Is your body language working against you?",
+    "source": "ted",
+    "published": "2026-10-14",
+    "level": null,
+    "sent_date": "2026-10-20",
+    "message_id": "1561876850333196403",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Is Your Body Language Working Against You?",
+      "summary_en": "Public speaking expert Cara Hale Alter studies the importance of body language that conveys confidence and credibility. She explains two key behavioral habits that help us fully express our potential at work and in life.",
+      "vocab": [
+        {
+          "word": "body language",
+          "definition_en": "Movements and posture that communicate what you are feeling or thinking.",
+          "example": "Her confident body language made a great impression during the interview."
+        },
+        {
+          "word": "credibility",
+          "definition_en": "The quality of being trusted and believed in by other people.",
+          "example": "Good eye contact builds instant credibility with an audience."
+        },
+        {
+          "word": "pinpoint",
+          "definition_en": "To find or explain something with absolute clarity and precision.",
+          "example": "The speaker could pinpoint the exact habits that ruin posture."
+        },
+        {
+          "word": "project confidence",
+          "definition_en": "To make other people notice your self-assurance through actions or voice.",
+          "example": "Learning how to project confidence takes regular practice."
+        },
+        {
+          "word": "posture",
+          "definition_en": "The position in which you hold your body while standing or sitting.",
+          "example": "Good posture helps you look more alert and professional."
+        },
+        {
+          "word": "actionable",
+          "definition_en": "Able to be done or acted upon immediately.",
+          "example": "The coach gave us actionable tips for our next presentation."
+        },
+        {
+          "word": "first impression",
+          "definition_en": "The idea or opinion that someone forms about you when you first meet.",
+          "example": "Nonverbal cues play a huge role in making a strong first impression."
+        }
+      ],
+      "questions": [
+        "How do you usually feel when you have to speak in front of a large group?",
+        "What kind of body language do you find most convincing or trustworthy in a speaker?",
+        "Do you think first impressions are accurate, or can they be misleading?",
+        "What are some small physical habits you use to calm your nerves before a big meeting?",
+        "How much do you think nonverbal communication matters compared to the words we actually say?"
+      ]
+    }
   }
 ]
