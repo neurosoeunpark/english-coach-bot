@@ -284,5 +284,27 @@
         "my_line": "I nearly freaked out when my boss asked me to present without any preparation."
       }
     ]
+  },
+  {
+    "date": "2026-10-19",
+    "sent_at": "2026-10-19T09:40:16.929935+00:00",
+    "verbs": [
+      {
+        "verb": "fight off",
+        "meaning_ko": "뿌리치다, 이겨내다",
+        "replaces": "resist",
+        "nuance_ko": "감기나 피로 같은 부정적인 요소를 적극적으로 물리칠 때 원어민들이 자주 씁니다.",
+        "example": "I am trying to fight off a bad cold before the big presentation.",
+        "my_line": "I tried to fight off my afternoon fatigue by drinking a strong coffee."
+      },
+      {
+        "verb": "wear out",
+        "meaning_ko": "지치게 하다, 닳게 하다",
+        "replaces": "exhaust",
+        "nuance_ko": "에너지를 완전히 소모하여 녹초가 만들거나 물건이 닳아 없어질 때 주로 사용합니다.",
+        "example": "Intensive morning workouts usually wear me out for the rest of the day.",
+        "my_line": "My heavy workload last week completely wore me out by Friday night."
+      }
+    ]
   }
 ]
