@@ -306,5 +306,27 @@
         "my_line": "My heavy workload last week completely wore me out by Friday night."
       }
     ]
+  },
+  {
+    "date": "2026-10-20",
+    "sent_at": "2026-10-20T09:40:20.841780+00:00",
+    "verbs": [
+      {
+        "verb": "iron out",
+        "meaning_ko": "문제를 원만히 해결하다, 조율하다",
+        "replaces": "solve",
+        "nuance_ko": "다림질하듯 작은 마찰이나 세부 사항을 매끄럽게 정리할 때 주로 씁니다.",
+        "example": "We need to iron out a few final details before signing the contract.",
+        "my_line": "I had to iron out a schedule conflict with my client this morning."
+      },
+      {
+        "verb": "run into",
+        "meaning_ko": "문제나 난관에 부딪히다",
+        "replaces": "encounter",
+        "nuance_ko": "예상치 못한 문제나 장애물을 우연히 마주쳤을 때 자연스럽게 사용합니다.",
+        "example": "The development team ran into a serious bug while testing the new app.",
+        "my_line": "I ran into some unexpected trouble while trying to finish my report yesterday."
+      }
+    ]
   }
 ]
