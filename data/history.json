@@ -328,5 +328,27 @@
         "my_line": "I ran into some unexpected trouble while trying to finish my report yesterday."
       }
     ]
+  },
+  {
+    "date": "2026-10-21",
+    "sent_at": "2026-10-21T09:40:18.691347+00:00",
+    "verbs": [
+      {
+        "verb": "doze off",
+        "meaning_ko": "깜빡 잠들다",
+        "replaces": "fall asleep",
+        "nuance_ko": "의도치 않게 스르륵 잠에 빠져들 때 주로 쓰며, 낮 시간이나 지루한 상황에서 흔히 씁니다.",
+        "example": "I always tend to doze off during long afternoon meetings at work.",
+        "my_line": "I almost doze off on the subway because I stayed up late studying."
+      },
+      {
+        "verb": "perk up",
+        "meaning_ko": "기운을 차리다",
+        "replaces": "become energetic",
+        "nuance_ko": "피곤하거나 우울하던 사람이 커피나 좋은 소식 덕분에 활기를 되찾을 때 자연스럽습니다.",
+        "example": "Drinking a large iced coffee usually helps me perk up in the morning.",
+        "my_line": "I usually perk up right after I drink my morning coffee."
+      }
+    ]
   }
 ]
