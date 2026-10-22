@@ -350,5 +350,27 @@
         "my_line": "I usually perk up right after I drink my morning coffee."
       }
     ]
+  },
+  {
+    "date": "2026-10-22",
+    "sent_at": "2026-10-22T09:40:16.849569+00:00",
+    "verbs": [
+      {
+        "verb": "run out",
+        "meaning_ko": "다 바닥나다, 다 써버리다",
+        "replaces": "finish",
+        "nuance_ko": "주로 물건이나 시간, 에너지가 완전히 소진되어 더 이상 없을 때 자연스럽게 씁니다.",
+        "example": "We need to go to the grocery store because the milk has run out.",
+        "my_line": "I realized my coffee had run out right before my morning meeting started."
+      },
+      {
+        "verb": "turn down",
+        "meaning_ko": "거절하다, (소리나 온도를) 낮추다",
+        "replaces": "reject",
+        "nuance_ko": "제안이나 초대 등을 정중하게 거절하거나 볼륨을 줄일 때 일상적으로 아주 많이 사용합니다.",
+        "example": "She decided to turn down the job offer because the commute was too long.",
+        "my_line": "I had to turn down a dinner invitation last night because I was too tired."
+      }
+    ]
   }
 ]
