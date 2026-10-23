@@ -372,5 +372,27 @@
         "my_line": "I had to turn down a dinner invitation last night because I was too tired."
       }
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "sent_at": "2026-10-23T09:40:22.890816+00:00",
+    "verbs": [
+      {
+        "verb": "call off",
+        "meaning_ko": "취소하다",
+        "replaces": "cancel",
+        "nuance_ko": "이미 예정된 행사나 회의를 더 이상 진행하지 않기로 결정할 때 원어민들이 'cancel' 대신 훨씬 더 자주 쓰는 표현입니다.",
+        "example": "We had to call off the weekly marketing meeting because the manager was sick.",
+        "my_line": "I had to call off my dentist appointment this morning due to an urgent task."
+      },
+      {
+        "verb": "run through",
+        "meaning_ko": "대략적으로 훑어보다",
+        "replaces": "review",
+        "nuance_ko": "회의나 발표 전에 준비된 내용을 빠르게 점검하거나 리허설할 때 주로 사용하는 자연스러운 표현입니다.",
+        "example": "Let's quickly run through the slide deck before the client presentation starts.",
+        "my_line": "I need to run through my presentation notes one more time before our 1:1 call."
+      }
+    ]
   }
 ]
