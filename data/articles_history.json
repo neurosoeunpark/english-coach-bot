@@ -2529,5 +2529,179 @@
         "How can young people in Korea and Japan build better connections moving forward?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/many-japanese-parents-dont-find-mealtimes-enjoyable/zSnRascmEfGNla8yrm0vrg",
+    "title": "Many Japanese Parents Don't Find Mealtimes Enjoyable",
+    "source": "engoo",
+    "published": "2026-10-21",
+    "level": 6,
+    "sent_date": "2026-10-27",
+    "message_id": "1564413551777415311",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Japanese Parents Struggling With Mealtimes",
+      "summary_en": "This article discusses how many Japanese parents do not find mealtimes with their children enjoyable. It highlights the burden parents face when daily family meals become another stressor amid busy routines.",
+      "vocab": [
+        {
+          "word": "mealtime",
+          "definition_en": "The time at which a meal is eaten.",
+          "example": "Our family mealtime is usually very busy and loud."
+        },
+        {
+          "word": "enjoyable",
+          "definition_en": "Giving pleasure or delight.",
+          "example": "We always try to make dinner an enjoyable experience."
+        },
+        {
+          "word": "routine",
+          "definition_en": "A sequence of actions regularly followed.",
+          "example": "Evening routines can be quite stressful for parents."
+        },
+        {
+          "word": "burden",
+          "definition_en": "A heavy load, typically a difficult one to bear.",
+          "example": "Cooking every single day can feel like a big burden."
+        },
+        {
+          "word": "stressful",
+          "definition_en": "Causing mental or emotional stress.",
+          "example": "Working full-time while raising kids is really stressful."
+        },
+        {
+          "word": "parenting",
+          "definition_en": "The process of raising a child.",
+          "example": "Modern parenting comes with unique challenges and pressures."
+        },
+        {
+          "word": "gather",
+          "definition_en": "Come together as a group.",
+          "example": "All family members gather around the table for dinner."
+        }
+      ],
+      "questions": [
+        "How do you usually feel when it is time to eat?",
+        "Do you prefer eating meals alone or with your family?",
+        "What makes family dinner times stressful for parents today?",
+        "How can busy families make their mealtimes more relaxing and fun?",
+        "Do you think modern parents face more pressure than past generations?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/ai-recommends-pricier-options-to-wealthier-users/iRxaQMaXEfGo4eM3sEu_Ew",
+    "title": "AI Recommends Pricier Options to Wealthier Users",
+    "source": "engoo",
+    "published": "2026-10-24",
+    "level": 8,
+    "sent_date": "2026-10-27",
+    "message_id": "1564413557028692069",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "AI Recommends Pricier Options to Wealthier Users",
+      "summary_en": "This article explores how AI shopping recommendations change based on users' wealth and data, leading to pricing disparities. It highlights the hidden side of personalized algorithms tailored to consumers' financial levels.",
+      "vocab": [
+        {
+          "word": "recommendation",
+          "definition_en": "A suggestion or proposal for a best course of action.",
+          "example": "Online shopping sites always give me good product recommendations."
+        },
+        {
+          "word": "disparity",
+          "definition_en": "A great difference between things.",
+          "example": "There is a growing price disparity between similar products."
+        },
+        {
+          "word": "personalized",
+          "definition_en": "Designed or tailored to meet someone's specific needs.",
+          "example": "AI offers personalized suggestions based on your search history."
+        },
+        {
+          "word": "algorithm",
+          "definition_en": "A process or set of rules to be followed in calculations.",
+          "example": "The shopping algorithm knows what I want to buy."
+        },
+        {
+          "word": "affluent",
+          "definition_en": "Having a great deal of money; wealthy.",
+          "example": "Targeting affluent customers can increase brand revenue quickly."
+        },
+        {
+          "word": "transparent",
+          "definition_en": "Easy to perceive or detect; open and honest.",
+          "example": "Companies should be transparent about their pricing policies."
+        },
+        {
+          "word": "consumer",
+          "definition_en": "A person who purchases goods and services for personal use.",
+          "example": "Modern consumers care a lot about fair pricing."
+        }
+      ],
+      "questions": [
+        "Do you usually trust product recommendations from AI shopping apps?",
+        "How would you feel if you found out you were shown higher prices?",
+        "Is it fair for companies to use AI to change prices for different users?",
+        "How do you think personalized algorithms change our online shopping habits?",
+        "What regulations should governments put on AI pricing systems in the future?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/finance/2026/10/26/chinese-and-japanese-beauty-brands-push-into-k-beautys-turf",
+    "title": "Chinese and Japanese Beauty Brands Push Into K-Beauty's Turf Abroad",
+    "source": "sedaily",
+    "published": "2026-10-26",
+    "level": null,
+    "sent_date": "2026-10-27",
+    "message_id": "1564413562326089759",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Chinese and Japanese Beauty Brands Push Abroad",
+      "summary_en": "Chinese and Japanese beauty brands are expanding into Western markets as K-beauty's popularity boosts global interest in Asian cosmetics. Global retailers are adding these labels to their lineups, making competition much fiercer.",
+      "vocab": [
+        {
+          "word": "expand",
+          "definition_en": "Become or make larger or more extensive.",
+          "example": "Many cosmetic brands want to expand into global markets."
+        },
+        {
+          "word": "cosmetics",
+          "definition_en": "Products applied to the face or body to improve appearance.",
+          "example": "Asian cosmetics are becoming extremely popular worldwide."
+        },
+        {
+          "word": "retailer",
+          "definition_en": "A person or business that sells goods to the public.",
+          "example": "Major global retailers are adding new beauty brands."
+        },
+        {
+          "word": "intensify",
+          "definition_en": "Become or make more intense or sharp.",
+          "example": "Competition in the beauty industry continues to intensify."
+        },
+        {
+          "word": "platform",
+          "definition_en": "An opportunity to make something known or available.",
+          "example": "The company launched a new brand incubation platform."
+        },
+        {
+          "word": "presence",
+          "definition_en": "The state or fact of existing in a place.",
+          "example": "K-beauty has established a strong presence in Europe."
+        },
+        {
+          "word": "strategy",
+          "definition_en": "A plan of action designed to achieve a long-term goal.",
+          "example": "Retailers changed their strategy to include C-beauty."
+        }
+      ],
+      "questions": [
+        "What are some of your favorite cosmetic brands to buy nowadays?",
+        "Have you ever tried using Chinese or Japanese beauty products?",
+        "Why do you think Asian cosmetics have become so popular globally?",
+        "How can K-beauty brands maintain their top position against new competitors?",
+        "What role do global retail stores play in spreading international beauty trends?"
+      ]
+    }
   }
 ]
