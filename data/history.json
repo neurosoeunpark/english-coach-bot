@@ -394,5 +394,27 @@
         "my_line": "I need to run through my presentation notes one more time before our 1:1 call."
       }
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "sent_at": "2026-10-26T09:40:22.057853+00:00",
+    "verbs": [
+      {
+        "verb": "run into",
+        "meaning_ko": "예상치 못한 문제에 부딪히다",
+        "replaces": "encounter",
+        "nuance_ko": "계획이나 일상 업무를 진행하다가 예상치 못한 장애물이나 문제를 만났을 때 자연스럽게 쓰는 표현입니다.",
+        "example": "We might run into some unexpected technical issues during the live online presentation.",
+        "my_line": "I ran into a minor problem with my computer while working from home this morning."
+      },
+      {
+        "verb": "figure out",
+        "meaning_ko": "문제를 해결하다, 생각해내다",
+        "replaces": "solve",
+        "nuance_ko": "복잡한 상황이나 문제를 깊이 생각하여 답을 찾아내거나 이해했을 때 주로 사용하는 표현입니다.",
+        "example": "It took me a few hours to figure out why the software was crashing.",
+        "my_line": "I need to figure out how to manage my busy schedule more effectively this week."
+      }
+    ]
   }
 ]
