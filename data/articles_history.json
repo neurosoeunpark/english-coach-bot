@@ -2704,5 +2704,179 @@
         "What role do global retail stores play in spreading international beauty trends?"
       ]
     }
+  },
+  {
+    "url": "https://www.ted.com/talks/laura_smythe_can_you_spot_the_lies_in_your_news_feed",
+    "title": "Can you spot the lies in your news feed?",
+    "source": "ted",
+    "published": "2026-10-23",
+    "level": null,
+    "sent_date": "2026-10-28",
+    "message_id": "1564775977006141594",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Spotting Lies In Your News Feed",
+      "summary_en": "Laura Smythe explains why journalists' information-vetting habits are essential for everyone in the age of algorithmic feeds and deepfakes. She shares methods to improve media literacy and highlights a country already teaching it in elementary school.",
+      "vocab": [
+        {
+          "word": "spot",
+          "definition_en": "To notice or recognize someone or something easily.",
+          "example": "Can you spot fake news online?"
+        },
+        {
+          "word": "vet",
+          "definition_en": "To check carefully for accuracy or safety.",
+          "example": "Journalists must vet their sources."
+        },
+        {
+          "word": "cautionary tale",
+          "definition_en": "A story that provides a warning.",
+          "example": "The festival was a cautionary tale."
+        },
+        {
+          "word": "media literacy",
+          "definition_en": "The ability to analyze and evaluate media content.",
+          "example": "Schools should teach media literacy."
+        },
+        {
+          "word": "deepfake",
+          "definition_en": "An AI-generated manipulated video or image.",
+          "example": "Deepfakes can easily trick people."
+        },
+        {
+          "word": "algorithmic",
+          "definition_en": "Relating to computer algorithms and automated systems.",
+          "example": "Algorithmic feeds control what we see."
+        },
+        {
+          "word": "vital skill",
+          "definition_en": "An extremely important ability for success.",
+          "example": "Critical thinking is a vital skill."
+        }
+      ],
+      "questions": [
+        "How often do you see fake news or misleading posts on your social media feeds?",
+        "Have you ever accidentally believed a fake story or deepfake video online?",
+        "What are some easy ways people can check if a news story is true?",
+        "Why do you think media literacy education is becoming more important for young people today?",
+        "How would you feel if schools in your country started teaching media literacy in elementary school?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/james_rojas_how_would_you_design_your_dream_city",
+    "title": "How would you design your dream city?",
+    "source": "ted",
+    "published": "2026-10-21",
+    "level": null,
+    "sent_date": "2026-10-28",
+    "message_id": "1564775982748016641",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Designing Your Dream City",
+      "summary_en": "Urban planner James Rojas discovered that workshop participants design strikingly similar communities when using small objects. He demonstrates how we can shape our living spaces through childhood memories and imagination.",
+      "vocab": [
+        {
+          "word": "urban planner",
+          "definition_en": "A person who designs urban spaces and communities.",
+          "example": "The urban planner redesigned the park."
+        },
+        {
+          "word": "ideal",
+          "definition_en": "Perfection or the best possible standard.",
+          "example": "This is my ideal neighborhood."
+        },
+        {
+          "word": "community",
+          "definition_en": "A group of people living in the same place.",
+          "example": "We live in a friendly community."
+        },
+        {
+          "word": "strikingly",
+          "definition_en": "In a way that is very noticeable or unusual.",
+          "example": "Their ideas were strikingly similar."
+        },
+        {
+          "word": "childhood memory",
+          "definition_en": "A memory from when you were a child.",
+          "example": "Childhood memories influence our design choices."
+        },
+        {
+          "word": "imagination",
+          "definition_en": "The ability to create ideas or pictures in your mind.",
+          "example": "Use your imagination to build this."
+        },
+        {
+          "word": "shape",
+          "definition_en": "To influence or determine the development of something.",
+          "example": "Citizens can shape their own city."
+        }
+      ],
+      "questions": [
+        "What are three things your ideal neighborhood or dream city must have?",
+        "Do you prefer living in a bustling city center or a quiet suburb?",
+        "How has your hometown changed since you were a child?",
+        "If you could redesign one public space in your neighborhood, what would you change?",
+        "Why do you think adults and children often imagine similar kinds of communities?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/news/2026/10/27/three-standards-for-a-good-life-from-the-first-line-of-the",
+    "title": "Three Standards for a Good Life, From the First Line of the Analects",
+    "source": "sedaily",
+    "published": "2026-10-27",
+    "level": null,
+    "sent_date": "2026-10-28",
+    "message_id": "1564775988280172585",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "A Good Life From The Analects",
+      "summary_en": "The first line of the Analects presents standards for a good life through the joy of learning, friends, and staying unbothered by others' judgments. Although written 2500 years ago, it connects deeply with our modern life concerns.",
+      "vocab": [
+        {
+          "word": "classic",
+          "definition_en": "A work of art or literature of accepted excellence.",
+          "example": "The Analects is an ancient classic."
+        },
+        {
+          "word": "transcend",
+          "definition_en": "To go beyond normal limits or boundaries.",
+          "example": "Wisdom can transcend time and culture."
+        },
+        {
+          "word": "delight",
+          "definition_en": "A great pleasure or happiness.",
+          "example": "Learning new things is a true delight."
+        },
+        {
+          "word": "noble",
+          "definition_en": "Having fine personal qualities or high moral principles.",
+          "example": "He showed a noble attitude."
+        },
+        {
+          "word": "judgment",
+          "definition_en": "An opinion or decision based on careful thought.",
+          "example": "Try not to fear the judgment of others."
+        },
+        {
+          "word": "ring hollow",
+          "definition_en": "To seem insincere or untrue.",
+          "example": "His promise to study hard rang hollow."
+        },
+        {
+          "word": "concern",
+          "definition_en": "Something that matters to you or worries you.",
+          "example": "Modern career concerns are quite stressful."
+        }
+      ],
+      "questions": [
+        "What was your least favorite subject when you were a student?",
+        "Do you think ancient philosophies like the Analects are still useful today?",
+        "What does the phrase 'the joy of learning' mean to you personally?",
+        "How do you usually handle it when people misunderstand or judge you?",
+        "If you could ask Confucius one question about modern life, what would it be?"
+      ]
+    }
   }
 ]
