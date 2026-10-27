@@ -416,5 +416,27 @@
         "my_line": "I need to figure out how to manage my busy schedule more effectively this week."
       }
     ]
+  },
+  {
+    "date": "2026-10-27",
+    "sent_at": "2026-10-27T09:40:19.148694+00:00",
+    "verbs": [
+      {
+        "verb": "pencil in",
+        "meaning_ko": "잠정적으로 일정을 잡다",
+        "replaces": "schedule",
+        "nuance_ko": "확정되지 않은 일정을 연필로 적어두듯 유연하게 잡을 때 원어민들이 자주 씁니다.",
+        "example": "Let's pencil in our meeting for next Thursday morning and confirm later.",
+        "my_line": "Can we pencil in our next conversation class for this coming Friday afternoon?"
+      },
+      {
+        "verb": "push back",
+        "meaning_ko": "일정을 뒤로 미루다",
+        "replaces": "postpone",
+        "nuance_ko": "격식 있는 단어 대신 일상이나 업무에서 일정을 연기할 때 가장 입에 붙는 표현입니다.",
+        "example": "We had to push back the project deadline because of unexpected technical issues.",
+        "my_line": "I might need to push back my schedule because my meeting is running long."
+      }
+    ]
   }
 ]
