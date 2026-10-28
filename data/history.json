@@ -438,5 +438,27 @@
         "my_line": "I might need to push back my schedule because my meeting is running long."
       }
     ]
+  },
+  {
+    "date": "2026-10-28",
+    "sent_at": "2026-10-28T09:40:21.402073+00:00",
+    "verbs": [
+      {
+        "verb": "fight off",
+        "meaning_ko": "물리치다, 이겨내다",
+        "replaces": "defeat",
+        "nuance_ko": "감기 같은 질병이나 피로가 몸에 침투하지 못하게 저항할 때 자연스럽게 씁니다.",
+        "example": "I drank plenty of warm lemon tea to fight off the mild cold.",
+        "my_line": "I tried to fight off my afternoon fatigue by drinking a large iced americano."
+      },
+      {
+        "verb": "burn out",
+        "meaning_ko": "지쳐버리다, 번아웃되다",
+        "replaces": "exhaust",
+        "nuance_ko": "과도한 업무나 스트레스로 인해 완전히 에너지가 바닥나 더 이상 일할 수 없는 상태를 뜻합니다.",
+        "example": "Workers often burn out quickly when they take on too many projects simultaneously.",
+        "my_line": "I need to balance my workload carefully this week so I do not burn out."
+      }
+    ]
   }
 ]
