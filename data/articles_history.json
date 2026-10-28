@@ -2879,5 +2879,179 @@
         "If you could ask Confucius one question about modern life, what would it be?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/cyberattack-disrupts-hundreds-of-french-supermarkets/7VYmYsfSEfGzH3f5O0jbxQ",
+    "title": "Cyberattack Disrupts Hundreds of French Supermarkets",
+    "source": "engoo",
+    "published": "2026-10-14",
+    "level": 9,
+    "sent_date": "2026-10-29",
+    "message_id": "1565138342914298068",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Cyberattack Disrupts French Supermarkets",
+      "summary_en": "Numerous French supermarkets were disrupted by a cyberattack, leading to food spoilage and fires. This incident highlights cybersecurity risks and the importance of effective responses.",
+      "vocab": [
+        {
+          "word": "cyberattack",
+          "definition_en": "An unauthorized attempt to access or damage a computer system.",
+          "example": "The recent cyberattack caused massive disruptions at local supermarkets."
+        },
+        {
+          "word": "disrupt",
+          "definition_en": "To interrupt the normal progress or activity of something.",
+          "example": "The power outage will disrupt business operations all afternoon."
+        },
+        {
+          "word": "spoilage",
+          "definition_en": "The action of spoiling or the process of decaying.",
+          "example": "Poor refrigeration can lead to serious food spoilage."
+        },
+        {
+          "word": "cybersecurity",
+          "definition_en": "Measures taken to protect a computer system against unauthorized access.",
+          "example": "Our company invests heavily in cybersecurity to protect customer data."
+        },
+        {
+          "word": "vulnerability",
+          "definition_en": "The quality or state of being exposed to attack or harm.",
+          "example": "Hackers always look for a vulnerability in the software."
+        },
+        {
+          "word": "infrastructure",
+          "definition_en": "The basic physical and organizational structures needed for operation.",
+          "example": "Critical infrastructure must be protected from foreign hackers."
+        },
+        {
+          "word": "response",
+          "definition_en": "A reaction to something that has happened or been said.",
+          "example": "The quick emergency response prevented a much larger disaster."
+        }
+      ],
+      "questions": [
+        "Have you ever experienced a major system outage or cyberattack in your daily life?",
+        "How vulnerable do you think modern supermarkets and grocery stores are to cyber threats?",
+        "What steps should large companies take to protect their computer systems from hackers?",
+        "Do you think governments are doing enough to punish international cybercriminals?",
+        "How might our heavy reliance on digital technology change the future of retail business?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/international/2026/10/28/us-allies-trim-treasury-holdings-korea-posts-record-selling",
+    "title": "U.S. Allies Trim Treasury Holdings; Korea Posts Record Selling",
+    "source": "sedaily",
+    "published": "2026-10-28",
+    "level": null,
+    "sent_date": "2026-10-29",
+    "message_id": "1565138348652232757",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "U.S. Allies Trim Treasury Holdings",
+      "summary_en": "U.S. allies, including South Korea, are scaling back their purchases of U.S. Treasuries, with Korea posting record net selling. This trend reflects changing domestic monetary policies and growing unease over U.S. policies.",
+      "vocab": [
+        {
+          "word": "treasury",
+          "definition_en": "Government bonds issued to raise funds.",
+          "example": "Investors are shifting their focus away from U.S. treasuries."
+        },
+        {
+          "word": "trim",
+          "definition_en": "To reduce the size, amount, or number of something.",
+          "example": "Many countries decided to trim their foreign debt holdings."
+        },
+        {
+          "word": "allocation",
+          "definition_en": "The action or process of allocating shares or resources.",
+          "example": "We need to adjust our asset allocation for the next quarter."
+        },
+        {
+          "word": "surplus",
+          "definition_en": "An amount of something left over after requirements have been met.",
+          "example": "The country maintained a strong current-account surplus this year."
+        },
+        {
+          "word": "fluctuate",
+          "definition_en": "To rise and fall irregularly in number or amount.",
+          "example": "Foreign exchange rates tend to fluctuate based on global events."
+        },
+        {
+          "word": "strategist",
+          "definition_en": "An expert in strategy, especially in politics, business, or finance.",
+          "example": "A financial strategist explained the reasons behind the market drop."
+        },
+        {
+          "word": "uncertainty",
+          "definition_en": "The state of being uncertain or having unpredictable outcomes.",
+          "example": "Economic uncertainty makes people hesitant to invest large sums."
+        }
+      ],
+      "questions": [
+        "How closely do you follow international financial news and global stock markets?",
+        "Why do you think countries like South Korea and Japan are reducing their U.S. treasury holdings?",
+        "How does the fluctuation of foreign exchange rates affect your everyday life?",
+        "What factors do you consider most important when deciding where to invest your savings?",
+        "Do you think global economic power is shifting away from the United States to other regions?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/finance/2026/10/28/koreas-marriages-fall-12-percent-in-august-clouding-birth",
+    "title": "Korea's Marriages Fall 1.2% in August, Clouding Birth Rebound",
+    "source": "sedaily",
+    "published": "2026-10-28",
+    "level": null,
+    "sent_date": "2026-10-29",
+    "message_id": "1565138354281124103",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Korea Marriages Fall in August",
+      "summary_en": "South Korea's marriages fell in August for the first time since the pandemic, raising concerns about future birth rates. This slowdown is driven by exhausted pent-up demand and high housing costs.",
+      "vocab": [
+        {
+          "word": "rebound",
+          "definition_en": "A recovery in price, value, or amount after a previous decrease.",
+          "example": "Economists hope to see a strong rebound in consumer spending."
+        },
+        {
+          "word": "exhaust",
+          "definition_en": "To use up completely or tire out.",
+          "example": "The pandemic-era pent-up demand has finally been exhausted."
+        },
+        {
+          "word": "demographic",
+          "definition_en": "Relating to the structure of human populations.",
+          "example": "Korea faces serious demographic challenges due to low birth rates."
+        },
+        {
+          "word": "mount",
+          "definition_en": "To grow larger or more intense over time.",
+          "example": "Housing costs continue to mount in major metropolitan areas."
+        },
+        {
+          "word": "momentum",
+          "definition_en": "The impetus gained by a moving object or process.",
+          "example": "The recent economic recovery is starting to lose momentum."
+        },
+        {
+          "word": "depletion",
+          "definition_en": "Reduction of the number or quantity of something.",
+          "example": "The depletion of the younger workforce worries many policymakers."
+        },
+        {
+          "word": "postpone",
+          "definition_en": "To arrange for an event to take place at a later time.",
+          "example": "Many young couples choose to postpone marriage until they buy a home."
+        }
+      ],
+      "questions": [
+        "Have you noticed your friends or peers delaying marriage more than previous generations?",
+        "What do you think are the main reasons young adults in Korea hesitate to get married?",
+        "How big of a role do high housing prices play in major life decisions like marriage?",
+        "What government policies do you think would actually help encourage marriage and childbirth?",
+        "How do you think a shrinking population will change Korean society in the next twenty years?"
+      ]
+    }
   }
 ]
