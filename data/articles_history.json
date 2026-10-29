@@ -3054,5 +3054,179 @@
         "How do you think a shrinking population will change Korean society in the next twenty years?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/asia-pacific-youth-want-real-world-work-skills/A8rdirkJEfGBwn9RBIEozA",
+    "title": "Asia-Pacific Youth Want Real-World Work Skills",
+    "source": "engoo",
+    "published": "2026-10-19",
+    "level": 7,
+    "sent_date": "2026-10-30",
+    "message_id": "1565500725742674075",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Asia Pacific Youth Want Practical Skills",
+      "summary_en": "A survey shows that young people in the Asia-Pacific region want more practical work skills and real-world experience for their future careers. They also want to develop an entrepreneurial mindset to succeed in the changing labor market.",
+      "vocab": [
+        {
+          "word": "practical skill",
+          "definition_en": "A useful ability that can be applied directly to real-world tasks.",
+          "example": "Schools should focus more on teaching practical skills."
+        },
+        {
+          "word": "real-world experience",
+          "definition_en": "Experience gained by working in actual professional environments.",
+          "example": "Internships give students valuable real-world experience."
+        },
+        {
+          "word": "entrepreneurial mindset",
+          "definition_en": "An attitude that encourages innovation, risk-taking, and problem-solving.",
+          "example": "An entrepreneurial mindset helps you find new career opportunities."
+        },
+        {
+          "word": "labor market",
+          "definition_en": "The market in which workers compete for jobs and employers compete for workers.",
+          "example": "Entering the modern labor market can be quite challenging."
+        },
+        {
+          "word": "career path",
+          "definition_en": "The progression of professional life over a period of years.",
+          "example": "Many young people are rethinking their traditional career paths."
+        },
+        {
+          "word": "hands-on",
+          "definition_en": "Involving actual practice rather than just theoretical learning.",
+          "example": "I prefer hands-on training over listening to long lectures."
+        },
+        {
+          "word": "adaptability",
+          "definition_en": "The quality of being able to adjust to new conditions.",
+          "example": "High adaptability is essential in today's fast-paced workplace."
+        }
+      ],
+      "questions": [
+        "What kind of skills did you learn in school that helped you the most?",
+        "Do you think traditional education prepares students well for modern jobs?",
+        "How important is it to have real-world work experience before graduating?",
+        "What does having an entrepreneurial mindset mean to you personally?",
+        "If you could learn any new professional skill right now, what would it be?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/norway-seeks-temporary-ban-on-smart-glasses/nc4pJsGZEfGXqwuWBHd-Ng",
+    "title": "Norway Seeks Temporary Ban on Smart Glasses",
+    "source": "engoo",
+    "published": "2026-10-08",
+    "level": 8,
+    "sent_date": "2026-10-30",
+    "message_id": "1565500731883131042",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Norway Seeks Temporary Smart Glasses Ban",
+      "summary_en": "This lesson explores Norway's proposed temporary ban on smart glasses due to privacy concerns in public spaces. It also examines tech companies' responses and the ongoing public debate.",
+      "vocab": [
+        {
+          "word": "privacy concern",
+          "definition_en": "Worries about the protection of personal data and private life.",
+          "example": "Smart glasses have raised major privacy concerns everywhere."
+        },
+        {
+          "word": "public space",
+          "definition_en": "An area that is open and accessible to the general public.",
+          "example": "Recording videos in public spaces without consent is controversial."
+        },
+        {
+          "word": "temporary ban",
+          "definition_en": "An official rule stopping something for a limited period of time.",
+          "example": "The government announced a temporary ban on the new device."
+        },
+        {
+          "word": "surveillance",
+          "definition_en": "The close observation of a person or group, especially by authorities.",
+          "example": "Some citizens fear smart devices lead to increased surveillance."
+        },
+        {
+          "word": "infringe on",
+          "definition_en": "To actively limit or violate someone's rights or privacy.",
+          "example": "Hidden cameras can infringe on people's personal privacy."
+        },
+        {
+          "word": "wearable tech",
+          "definition_en": "Electronic devices that are worn on the body as accessories.",
+          "example": "Wearable tech includes smartwatches and augmented reality glasses."
+        },
+        {
+          "word": "regulatory body",
+          "definition_en": "An official organization set up to oversee a particular industry.",
+          "example": "Regulatory bodies are reviewing the safety of smart glasses."
+        }
+      ],
+      "questions": [
+        "Have you ever tried using smart glasses or augmented reality headsets?",
+        "What are your main concerns regarding privacy with new wearable tech?",
+        "Do you think governments should ban certain gadgets to protect citizens' privacy?",
+        "How can tech companies balance cool features with user privacy?",
+        "Would you feel comfortable if someone wore smart glasses near you in a cafe?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/jennifer_cearns_how_people_are_using_ai_to_grieve_love_and_connect",
+    "title": "How people are using AI to grieve, love and connect",
+    "source": "ted",
+    "published": "2026-10-26",
+    "level": null,
+    "sent_date": "2026-10-30",
+    "message_id": "1565500737415286787",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "How People Use AI to Connect",
+      "summary_en": "Many fear AI is eroding our humanity, but digital anthropologist Jennifer Cearns believes the opposite might be true. After talking to people who turn to AI for grief and love, she reveals what these relationships teach us about ourselves.",
+      "vocab": [
+        {
+          "word": "erode",
+          "definition_en": "To gradually destroy or wear away something important over time.",
+          "example": "Some worry that excessive screen time will erode our social skills."
+        },
+        {
+          "word": "synthetic",
+          "definition_en": "Made by chemical or artificial synthesis rather than being natural.",
+          "example": "AI companions offer synthetic relationships to lonely people."
+        },
+        {
+          "word": "anthropologist",
+          "definition_en": "A person who studies human societies, cultures, and their development.",
+          "example": "The anthropologist studied how technology changes human behavior."
+        },
+        {
+          "word": "poke holes in",
+          "definition_en": "To show that a theory or argument has flaws or weaknesses.",
+          "example": "Her research helps poke holes in common myths about technology."
+        },
+        {
+          "word": "grief",
+          "definition_en": "Deep sorrow, especially caused by someone's death or loss.",
+          "example": "People sometimes use AI chatbots to help cope with grief."
+        },
+        {
+          "word": "companionship",
+          "definition_en": "The relationship of spending time with someone and being friendly.",
+          "example": "Many elderly individuals seek companionship through smart devices."
+        },
+        {
+          "word": "redefine",
+          "definition_en": "To give a new or better definition to a concept or idea.",
+          "example": "Modern technology continues to redefine what friendship means."
+        }
+      ],
+      "questions": [
+        "Have you ever heard of people using AI chatbots for emotional support or comfort?",
+        "Do you think an AI companion can ever truly replace a human friend?",
+        "Why do you think some people find it easier to open up to AI than to humans?",
+        "In what ways might relying on AI affect our real-life social skills?",
+        "Would you ever talk to an AI avatar of someone you lost to ease your grief?"
+      ]
+    }
   }
 ]
