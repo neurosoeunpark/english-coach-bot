@@ -460,5 +460,27 @@
         "my_line": "I need to balance my workload carefully this week so I do not burn out."
       }
     ]
+  },
+  {
+    "date": "2026-10-29",
+    "sent_at": "2026-10-29T09:40:18.591937+00:00",
+    "verbs": [
+      {
+        "verb": "patch up",
+        "meaning_ko": "수습하다, 고치다",
+        "replaces": "fix",
+        "nuance_ko": "문제가 생겼을 때 임시로라도 빠르게 수습하거나 관계를 회복할 때 주로 사용합니다.",
+        "example": "We need to patch up the critical bug in the software before the update.",
+        "my_line": "I had to patch up a major scheduling conflict with my team yesterday."
+      },
+      {
+        "verb": "track down",
+        "meaning_ko": "추적해서 찾아내다",
+        "replaces": "find",
+        "nuance_ko": "단서를 쫓아 숨겨져 있거나 찾기 힘든 사람이나 물건을 결국 찾아낼 때 씁니다.",
+        "example": "It took me hours to track down the missing invoice in our system.",
+        "my_line": "I spent the entire morning trying to track down the source of this error."
+      }
+    ]
   }
 ]
