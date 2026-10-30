@@ -3229,5 +3229,179 @@
         "Would you ever talk to an AI avatar of someone you lost to ease your grief?"
       ]
     }
+  },
+  {
+    "url": "https://en.sedaily.com/culture/2026/10/30/thorough-fasting-and-bowel-prep-are-key-to-accurate",
+    "title": "Thorough Fasting and Bowel Prep Are Key to Accurate Endoscopy",
+    "source": "sedaily",
+    "published": "2026-10-30",
+    "level": null,
+    "sent_date": "2026-10-31",
+    "message_id": "1565863111611650309",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Tips For Accurate Endoscopy Preparation",
+      "summary_en": "This article discusses the importance of thorough fasting and bowel preparation for accurate endoscopy exams. It also explains the need to watch for sedation side effects and manage eating habits.",
+      "vocab": [
+        {
+          "word": "health checkup",
+          "definition_en": "A medical examination to check your overall health status.",
+          "example": "I need to schedule my annual health checkup soon."
+        },
+        {
+          "word": "gagging",
+          "definition_en": "The reflex of wanting to vomit.",
+          "example": "The upper endoscopy caused minor gagging during the procedure."
+        },
+        {
+          "word": "laxative",
+          "definition_en": "A substance that helps you empty your bowels.",
+          "example": "You must drink the laxative completely before a colonoscopy."
+        },
+        {
+          "word": "apprehension",
+          "definition_en": "Worry or fear that something unpleasant will happen.",
+          "example": "Many patients feel apprehension about sedated medical exams."
+        },
+        {
+          "word": "prevalent",
+          "definition_en": "Widespread in a particular area or at a particular time.",
+          "example": "Stomach cancer remains highly prevalent among adults here."
+        },
+        {
+          "word": "hypoglycemia",
+          "definition_en": "A condition in which your blood sugar level is too low.",
+          "example": "Fasting for too long can cause dizziness and hypoglycemia."
+        },
+        {
+          "word": "delay",
+          "definition_en": "To make something happen later than planned.",
+          "example": "Certain diet medications can delay stomach emptying significantly."
+        }
+      ],
+      "questions": [
+        "How do you usually feel before getting a medical checkup?",
+        "Have you ever had an upper endoscopy or a colonoscopy?",
+        "What do you think is the hardest part of preparing for an endoscopy?",
+        "How do you manage your diet and fasting when you have a medical test?",
+        "Do you think sedated endoscopies are safe enough for general patients?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/one-in-four-european-pilots-fly-when-tired/KbppTtIXEfGEgEctFq9f_A",
+    "title": "One in Four European Pilots Fly When Tired",
+    "source": "engoo",
+    "published": "2026-10-30",
+    "level": 6,
+    "sent_date": "2026-10-31",
+    "message_id": "1565863116888346707",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "European Pilots Flying While Fatigued",
+      "summary_en": "This article explores survey findings showing that one in four European airline pilots flies while fatigued. It also examines the related safety risks and the impact of company culture on reporting.",
+      "vocab": [
+        {
+          "word": "survey findings",
+          "definition_en": "The results and conclusions discovered from a questionnaire.",
+          "example": "The recent survey findings shocked many passengers."
+        },
+        {
+          "word": "fatigued",
+          "definition_en": "Extremely tired from physical or mental exertion.",
+          "example": "Flying while fatigued increases the risk of mistakes."
+        },
+        {
+          "word": "airline",
+          "definition_en": "A company that provides regular flights for passengers.",
+          "example": "The airline improved its safety reporting system recently."
+        },
+        {
+          "word": "company culture",
+          "definition_en": "The shared values and practices of an organization.",
+          "example": "A strong safety culture encourages employees to speak up."
+        },
+        {
+          "word": "safety reporting",
+          "definition_en": "The process of officially documenting safety hazards.",
+          "example": "Transparent safety reporting prevents future accidents."
+        },
+        {
+          "word": "risk",
+          "definition_en": "A situation involving exposure to danger.",
+          "example": "Pilots must minimize every potential risk before takeoff."
+        },
+        {
+          "word": "impact",
+          "definition_en": "A powerful effect that something has on a situation.",
+          "example": "Fatigue has a severe impact on reaction time."
+        }
+      ],
+      "questions": [
+        "How often do you feel completely exhausted during your workday?",
+        "Were you surprised to learn that many pilots fly while tired?",
+        "What industries do you think suffer the most from worker fatigue?",
+        "How should companies handle employees who report being too tired to work?",
+        "What rules do you think airlines should implement to protect pilot health?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/danish-supermarket-tests-humanoid-robot-workers/vjHGXMcKEfGIoy-gPvYS9A",
+    "title": "Danish Supermarket Tests Humanoid Robot Workers",
+    "source": "engoo",
+    "published": "2026-10-16",
+    "level": 7,
+    "sent_date": "2026-10-31",
+    "message_id": "1565863121632104524",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Humanoid Robots In Danish Supermarkets",
+      "summary_en": "This article explores how Denmark's largest retailer is testing humanoid robots to automate shelf-stocking. This trial aims to address growing labor shortages in supermarkets.",
+      "vocab": [
+        {
+          "word": "retailer",
+          "definition_en": "A business that sells goods directly to consumers.",
+          "example": "The large retailer tested robots in several grocery stores."
+        },
+        {
+          "word": "automate",
+          "definition_en": "To run a process by electronic and automatic means.",
+          "example": "Supermarkets want to automate repetitive stocking tasks."
+        },
+        {
+          "word": "labor shortage",
+          "definition_en": "A shortage of available workers in the job market.",
+          "example": "Many retail stores are struggling with severe labor shortages."
+        },
+        {
+          "word": "shelf-stocking",
+          "definition_en": "The act of putting products onto store shelves.",
+          "example": "Shelf-stocking takes up many hours of employee time."
+        },
+        {
+          "word": "trial",
+          "definition_en": "A formal test of the quality or performance of something.",
+          "example": "The robot trial lasted for two weeks in the store."
+        },
+        {
+          "word": "efficiency",
+          "definition_en": "Achieving maximum productivity with minimum wasted effort.",
+          "example": "Robots can improve work efficiency during busy hours."
+        },
+        {
+          "word": "replace",
+          "definition_en": "To take the place of someone or something.",
+          "example": "Technology will not completely replace human workers soon."
+        }
+      ],
+      "questions": [
+        "Have you ever seen a robot working in a store or restaurant?",
+        "How would you feel if a robot stocked the shelves at your local grocery store?",
+        "What are the main advantages of using humanoid robots in retail jobs?",
+        "Do you worry that robots will take away many traditional jobs in the future?",
+        "What kind of tasks would you prefer to hand over to a robot?"
+      ]
+    }
   }
 ]
