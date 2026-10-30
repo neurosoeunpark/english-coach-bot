@@ -482,5 +482,27 @@
         "my_line": "I spent the entire morning trying to track down the source of this error."
       }
     ]
+  },
+  {
+    "date": "2026-10-30",
+    "sent_at": "2026-10-30T09:40:19.080518+00:00",
+    "verbs": [
+      {
+        "verb": "pull over",
+        "meaning_ko": "(차를) 길 가에 대다",
+        "replaces": "stop",
+        "nuance_ko": "운전 중 길가에 안전하게 차를 멈출 때 주로 쓰는 표현입니다.",
+        "example": "The police officer told me to pull over because of a flat tire.",
+        "my_line": "I had to pull over to check my navigation system during my commute this morning."
+      },
+      {
+        "verb": "run behind",
+        "meaning_ko": "일정이 늦어지다",
+        "replaces": "be late",
+        "nuance_ko": "시간이나 스케줄이 계획보다 지체되고 있을 때 자연스럽게 쓰입니다.",
+        "example": "We are running behind schedule due to heavy traffic on the highway.",
+        "my_line": "I was running behind this morning because my train arrived much later than usual."
+      }
+    ]
   }
 ]
