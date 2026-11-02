@@ -3403,5 +3403,179 @@
         "What kind of tasks would you prefer to hand over to a robot?"
       ]
     }
+  },
+  {
+    "url": "https://en.sedaily.com/finance/2026/11/02/large-insurance-agencies-press-insurers-for-extra-perks",
+    "title": "Large Insurance Agencies Press Insurers for Extra Perks Before Payout Reform",
+    "source": "sedaily",
+    "published": "2026-11-02",
+    "level": null,
+    "sent_date": "2026-11-03",
+    "message_id": "1566950290937094146",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Large Insurance Agencies Press Insurers",
+      "summary_en": "Large insurance agencies are demanding extra perks and incentives from insurers ahead of commission reforms. These requests are raising concerns about undermining the purpose of new regulations.",
+      "vocab": [
+        {
+          "word": "press",
+          "definition_en": "To try to persuade or force someone to do something.",
+          "example": "Agencies press insurers for extra perks before the reform."
+        },
+        {
+          "word": "mount",
+          "definition_en": "To increase gradually in amount or intensity.",
+          "example": "Demands for added financial support continue to mount."
+        },
+        {
+          "word": "skirt",
+          "definition_en": "To avoid dealing with a difficulty or rule.",
+          "example": "They tried to skirt the strict commission cap."
+        },
+        {
+          "word": "bargaining power",
+          "definition_en": "The relative power of parties in a negotiation.",
+          "example": "Growing sales networks increase their bargaining power."
+        },
+        {
+          "word": "undercut",
+          "definition_en": "To undermine or weaken something gradually.",
+          "example": "Such demands might undercut the new policy's purpose."
+        },
+        {
+          "word": "cap",
+          "definition_en": "A legal limit on the amount of something.",
+          "example": "The rule places a strict cap on first-year commissions."
+        },
+        {
+          "word": "spur",
+          "definition_en": "To encourage an activity or development.",
+          "example": "The trip was designed to spur policy sales."
+        }
+      ],
+      "questions": [
+        "Have you ever negotiated a difficult deal or contract in your life?",
+        "Why do you think large companies often try to push the boundaries of new rules?",
+        "How can governments effectively prevent businesses from finding loopholes in regulations?",
+        "What do you think are the main challenges when two powerful companies negotiate?",
+        "In your opinion, how should regulatory authorities handle organizations that pressure others for unfair perks?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/americans-may-eat-more-processed-food-than-they-think/B2MKNM2vEfGmOl9E4AY6uA",
+    "title": "Americans May Eat More Processed Food than They Think",
+    "source": "engoo",
+    "published": "2026-10-27",
+    "level": 7,
+    "sent_date": "2026-11-03",
+    "message_id": "1566950296385490979",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Hidden Dangers of Processed Food",
+      "summary_en": "Americans consume far more ultra-processed foods than they realize, which leads to serious health risks. This article explores the differences between processed and ultra-processed foods along with common misconceptions.",
+      "vocab": [
+        {
+          "word": "ultra-processed",
+          "definition_en": "Formulated from industrial ingredients with many additives.",
+          "example": "Many people eat ultra-processed foods every single day."
+        },
+        {
+          "word": "misconception",
+          "definition_en": "A view or opinion that is incorrect because based on faulty thinking.",
+          "example": "There is a common misconception about healthy snack choices."
+        },
+        {
+          "word": "additive",
+          "definition_en": "A substance added to food in small quantities to improve it.",
+          "example": "Read labels carefully to avoid harmful chemical additives."
+        },
+        {
+          "word": "intake",
+          "definition_en": "An amount of food or other substance taken into the body.",
+          "example": "Reducing your sugar intake can greatly improve health."
+        },
+        {
+          "word": "nutritional",
+          "definition_en": "Relating to the nutrition of food.",
+          "example": "Processed snacks often lack essential nutritional value."
+        },
+        {
+          "word": "ingredient",
+          "definition_en": "Any of the foods or substances that are combined to make a dish.",
+          "example": "Check the ingredient list before buying packaged meals."
+        },
+        {
+          "word": "dietary",
+          "definition_en": "Relating to the diet or the food you eat.",
+          "example": "Making small dietary changes can prevent health issues."
+        }
+      ],
+      "questions": [
+        "How often do you check ingredient labels before buying food?",
+        "What is your favorite snack, and do you think it is considered heavily processed?",
+        "Why do you think ultra-processed foods are so popular and addictive today?",
+        "What are the biggest challenges of maintaining a healthy diet in modern society?",
+        "How can governments and schools better educate people about the risks of processed foods?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/many-travelers-become-different-people-on-vacation/WSQJlLK3EfGuEi__Y2Q3qA",
+    "title": "Many Travelers Become Different People on Vacation",
+    "source": "engoo",
+    "published": "2026-10-06",
+    "level": 7,
+    "sent_date": "2026-11-03",
+    "message_id": "1566950302123561204",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "How Travel Changes Your Personality",
+      "summary_en": "Many travelers become completely different people when they are on vacation. This article explores how travel prompts behavioral and personality changes, backed by psychological research.",
+      "vocab": [
+        {
+          "word": "prompt",
+          "definition_en": "To cause or bring about an action or feeling.",
+          "example": "New environments often prompt people to change their behavior."
+        },
+        {
+          "word": "behavior",
+          "definition_en": "The way in which someone conducts themselves.",
+          "example": "His vacation behavior was completely different from usual."
+        },
+        {
+          "word": "comfort zone",
+          "definition_en": "A situation where one feels safe and comfortable.",
+          "example": "Travel pushes people far outside their comfort zones."
+        },
+        {
+          "word": "spontaneous",
+          "definition_en": "Performed or occurring as a result of a sudden inner impulse.",
+          "example": "She made a spontaneous decision to visit a local market."
+        },
+        {
+          "word": "adapt",
+          "definition_en": "To adjust to new conditions or environments.",
+          "example": "Travelers must quickly adapt to unfamiliar cultures."
+        },
+        {
+          "word": "perspective",
+          "definition_en": "A particular attitude towards or way of regarding something.",
+          "example": "Visiting new places gives us a fresh perspective."
+        },
+        {
+          "word": "unwind",
+          "definition_en": "To relax after a period of work or tension.",
+          "example": "Going on vacation helps busy people truly unwind."
+        }
+      ],
+      "questions": [
+        "Do you think you act differently when you travel compared to your daily routine?",
+        "What was the most spontaneous thing you have ever done while on vacation?",
+        "Why do you think new environments help people step out of their comfort zones?",
+        "How can traveling to a foreign country change a person's worldview over time?",
+        "In what ways can we bring the relaxed mindset of a vacation back into our everyday lives?"
+      ]
+    }
   }
 ]
