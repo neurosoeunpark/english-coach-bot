@@ -504,5 +504,27 @@
         "my_line": "I was running behind this morning because my train arrived much later than usual."
       }
     ]
+  },
+  {
+    "date": "2026-11-02",
+    "sent_at": "2026-11-02T09:40:52.347661+00:00",
+    "verbs": [
+      {
+        "verb": "smooth out",
+        "meaning_ko": "문제나 갈등을 원만히 해결하다",
+        "replaces": "solve",
+        "nuance_ko": "주름이나 울퉁불퉁한 곳을 다림질하듯, 복잡하거나 껄끄러운 문제를 부드럽게 정리할 때 씁니다.",
+        "example": "We need to smooth out a few minor details before signing the final contract.",
+        "my_line": "I had to smooth out a misunderstanding with my coworker this morning."
+      },
+      {
+        "verb": "clear up",
+        "meaning_ko": "오해를 풀다, 문제를 해명하다",
+        "replaces": "explain",
+        "nuance_ko": "흐린 날씨가 개듯, 혼란이나 오해를 깔끔하게 해소하여 분명하게 만들 때 자주 사용합니다.",
+        "example": "Let us have a quick meeting this afternoon to clear up any confusion.",
+        "my_line": "I want to clear up any confusion about the new project schedule today."
+      }
+    ]
   }
 ]
