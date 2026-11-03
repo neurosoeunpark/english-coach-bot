@@ -526,5 +526,27 @@
         "my_line": "I want to clear up any confusion about the new project schedule today."
       }
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "sent_at": "2026-11-03T09:40:21.886566+00:00",
+    "verbs": [
+      {
+        "verb": "catch up",
+        "meaning_ko": "밀린 이야기를 나누다",
+        "replaces": "talk",
+        "nuance_ko": "오랫동안 못 보거나 바빠서 연락이 뜸했던 사람과 만나서 최근 소식을 나눌 때 원어민들이 아주 즐겨 쓰는 표현입니다.",
+        "example": "I really need to grab a coffee and catch up with my old college roommate.",
+        "my_line": "This weekend I am planning to meet my close friend to catch up on our lives."
+      },
+      {
+        "verb": "drop by",
+        "meaning_ko": "잠깐 들르다",
+        "replaces": "visit",
+        "nuance_ko": "약속을 거창하게 잡기보다 지나가는 길에 가볍게 방문하거나 들르는 상황에서 부담 없이 쓰기 좋은 표현입니다.",
+        "example": "Feel free to drop by my desk anytime if you have any questions today.",
+        "my_line": "I might drop by the local bakery on my way home from work this evening."
+      }
+    ]
   }
 ]
