@@ -3752,5 +3752,179 @@
         "Do you believe age restrictions on online platforms and games actually work in practice?"
       ]
     }
+  },
+  {
+    "url": "https://en.sedaily.com/politics/2026/11/04/us-nuclear-submarine-docks-in-australia-to-counter-china",
+    "title": "U.S. Nuclear Submarine Docks in Australia to Counter China",
+    "source": "sedaily",
+    "published": "2026-11-04",
+    "level": null,
+    "sent_date": "2026-11-05",
+    "message_id": "1567675128119300127",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "U.S. Nuclear Submarine Docks in Australia",
+      "summary_en": "The U.S. Navy's nuclear-powered attack submarine arrived at an Australian naval base to counter China and strengthen security cooperation in the Indo-Pacific. This deployment is part of the AUKUS security partnership and prepares the ground for future rotational deployments.",
+      "vocab": [
+        {
+          "word": "collective deterrence",
+          "definition_en": "Combined military power used by allied nations to discourage hostile actions by adversaries.",
+          "example": "Allies rely on collective deterrence to maintain regional stability."
+        },
+        {
+          "word": "rotational deployment",
+          "definition_en": "The practice of sending military forces to a location for temporary, rotating periods.",
+          "example": "The rotational deployment of submarines strengthens allied naval presence."
+        },
+        {
+          "word": "trilateral security partnership",
+          "definition_en": "An alliance or cooperative agreement involving three different countries.",
+          "example": "The trilateral security partnership aims to protect shared interests."
+        },
+        {
+          "word": "strategic location",
+          "definition_en": "A place that offers significant military or geopolitical advantages.",
+          "example": "The naval base is situated in a highly strategic location."
+        },
+        {
+          "word": "counter China",
+          "definition_en": "To take actions that check or limit the growing influence of China.",
+          "example": "The military agreement is designed to counter China's expansion."
+        },
+        {
+          "word": "naval base",
+          "definition_en": "A military facility where naval ships and submarines are docked and serviced.",
+          "example": "The submarine successfully docked at the Australian naval base."
+        },
+        {
+          "word": "maintenance period",
+          "definition_en": "A scheduled time for repairing and servicing equipment or vehicles.",
+          "example": "The submarine will undergo a month-long maintenance period."
+        }
+      ],
+      "questions": [
+        "What do you know about the AUKUS security partnership between the US, UK, and Australia?",
+        "Why is stationing nuclear submarines in Australia considered a strategic move against China?",
+        "How do you think local communities in Australia feel about hosting nuclear submarines?",
+        "What are the pros and cons of military alliances expanding their presence in the Indo-Pacific region?",
+        "If you were a defense minister, how would you balance military deterrence and diplomatic dialogue?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/finance/2026/11/04/ai-power-grid-tools-take-center-stage-at-koreas-bixpo",
+    "title": "AI Power Grid Tools Take Center Stage at Korea's BIXPO",
+    "source": "sedaily",
+    "published": "2026-11-04",
+    "level": null,
+    "sent_date": "2026-11-05",
+    "message_id": "1567675133328498782",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "AI Power Grid Tools for Data Centers",
+      "summary_en": "KEPCO showcased AI-based virtual power grids and real-time transmission capacity calculation technologies at BIXPO. These tools aim to address surging electricity demand from data centers and shortages in transmission lines.",
+      "vocab": [
+        {
+          "word": "power grid",
+          "definition_en": "An interconnected network for delivering electricity from suppliers to consumers.",
+          "example": "Upgrading the power grid is essential for renewable energy."
+        },
+        {
+          "word": "spare capacity",
+          "definition_en": "Unused potential or available room within a system to handle extra load.",
+          "example": "The virtual grid helps find spare capacity on transmission lines."
+        },
+        {
+          "word": "transmission line",
+          "definition_en": "High-voltage cables used to transport electricity over long distances.",
+          "example": "Building new transmission lines takes a significant amount of time."
+        },
+        {
+          "word": "virtual grid",
+          "definition_en": "A computer simulation that replicates actual power plants and substations.",
+          "example": "Engineers used a virtual grid to test energy flow efficiency."
+        },
+        {
+          "word": "renewable energy",
+          "definition_en": "Energy from a source that is not depleted when used, such as wind or solar.",
+          "example": "Surplus renewable energy can be stored in battery systems."
+        },
+        {
+          "word": "constraint",
+          "definition_en": "A limitation or restriction that prevents something from growing or functioning freely.",
+          "example": "Power shortages remain a major constraint for new data centers."
+        },
+        {
+          "word": "real time",
+          "definition_en": "Happening immediately as events or data occur without noticeable delay.",
+          "example": "The new technology calculates safe transmission limits in real time."
+        }
+      ],
+      "questions": [
+        "How often do you think about where the electricity powering your devices comes from?",
+        "Why is it so difficult to build new transmission lines compared to building data centers?",
+        "Do you think artificial intelligence can effectively solve complex energy grid problems?",
+        "What measures should governments take to balance high AI energy demand and green goals?",
+        "How might power shortages in major cities change where tech companies build future data centers?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/technology/2026/11/04/postech-team-wins-top-paper-award-at-emnlp-2026",
+    "title": "POSTECH Team Wins Top Paper Award at EMNLP 2026",
+    "source": "sedaily",
+    "published": "2026-11-04",
+    "level": null,
+    "sent_date": "2026-11-05",
+    "message_id": "1567675139322286091",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "POSTECH Team Wins Top NLP Award",
+      "summary_en": "A research team from POSTECH won the Outstanding Paper Award at EMNLP 2026, marking a first for a solely Korean-institution team. They proposed an 'in-place feedback' method allowing AI to resume reasoning from points corrected by users.",
+      "vocab": [
+        {
+          "word": "natural language processing",
+          "definition_en": "A branch of artificial intelligence focused on helping computers understand human language.",
+          "example": "Advances in natural language processing have improved AI chatbots significantly."
+        },
+        {
+          "word": "erroneous",
+          "definition_en": "Containing mistakes or incorrect information.",
+          "example": "The model quickly corrected the erroneous part of the answer."
+        },
+        {
+          "word": "incorporate",
+          "definition_en": "To take in or include something as part of a larger whole.",
+          "example": "Good AI models easily incorporate user feedback into future tasks."
+        },
+        {
+          "word": "benchmark",
+          "definition_en": "A standard or point of reference against which things may be compared.",
+          "example": "The new method was tested across five different reasoning benchmarks."
+        },
+        {
+          "word": "token",
+          "definition_en": "A basic unit of text, such as a word or word piece, processed by language models.",
+          "example": "The optimized algorithm used fewer tokens while improving performance."
+        },
+        {
+          "word": "resume reasoning",
+          "definition_en": "To continue a logical thinking process after a pause or correction.",
+          "example": "The AI can resume reasoning right where the teacher marked the error."
+        },
+        {
+          "word": "expertise",
+          "definition_en": "Expert skill or knowledge in a particular field.",
+          "example": "User expertise is crucial when correcting complex AI-generated code."
+        }
+      ],
+      "questions": [
+        "How often do you use AI chatbots for your studies or daily work?",
+        "Have you ever experienced frustration when an AI tool ignores your corrections?",
+        "Why is it significant that a Korean university research team won this international award?",
+        "How can better human-AI collaboration change the way we write and do research?",
+        "What features would an ideal AI assistant have to make editing and reasoning completely seamless?"
+      ]
+    }
   }
 ]
