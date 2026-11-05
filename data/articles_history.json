@@ -3927,5 +3927,179 @@
         "What features would an ideal AI assistant have to make editing and reasoning completely seamless?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/new-robot-butler-can-help-you-find-your-keys/0dxuZtHkEfGP1ncYJgCRqA",
+    "title": "New Robot Butler Can Help You Find Your Keys",
+    "source": "engoo",
+    "published": "2026-11-01",
+    "level": 7,
+    "sent_date": "2026-11-06",
+    "message_id": "1568037568925147168",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "New Robot Butler Can Help You Find Your Keys",
+      "summary_en": "This article introduces Voxel, a new robot butler designed to help with household chores and find lost items. The robot has the potential to make people's home lives much more convenient.",
+      "vocab": [
+        {
+          "word": "robot butler",
+          "definition_en": "A machine designed to perform domestic tasks inside a house.",
+          "example": "A robot butler could clean your room while you sleep."
+        },
+        {
+          "word": "household chores",
+          "definition_en": "Routine tasks done around the house like cleaning or washing.",
+          "example": "Sharing household chores makes living together much easier."
+        },
+        {
+          "word": "convenient",
+          "definition_en": "Suited to personal comfort or causing little difficulty.",
+          "example": "Smart home devices make daily routines very convenient."
+        },
+        {
+          "word": "lost item",
+          "definition_en": "Something that cannot be found because it was misplaced.",
+          "example": "The robot quickly found my lost item under the couch."
+        },
+        {
+          "word": "domestic",
+          "definition_en": "Relating to the running of a home or family.",
+          "example": "Domestic robots are becoming more popular in modern homes."
+        },
+        {
+          "word": "technology",
+          "definition_en": "The application of scientific knowledge for practical purposes.",
+          "example": "New technology is changing how we manage our homes."
+        },
+        {
+          "word": "automate",
+          "definition_en": "To convert a process to be operated by electronic devices.",
+          "example": "We can automate many boring tasks using smart gadgets."
+        }
+      ],
+      "questions": [
+        "What do you think is the most annoying household chore you have to do?",
+        "Would you feel comfortable having a robot butler moving around your private home?",
+        "What specific features would you want most in a personal robot helper?",
+        "How much money would you be willing to spend on a robot that finds lost items?",
+        "Do you think having robots do our chores will make people lazier in the future?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/politics/2026/11/05/lee-calls-for-making-korea-a-giant-startup-incubator",
+    "title": "Lee Calls for Making Korea a Giant Startup Incubator",
+    "source": "sedaily",
+    "published": "2026-11-05",
+    "level": null,
+    "sent_date": "2026-11-06",
+    "message_id": "1568037574524674223",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Korea's Push for Startup Incubator",
+      "summary_en": "President Lee Jae-myung emphasized that South Korea must become a giant startup incubator as economic growth no longer translates into jobs. To achieve this, the government plans to reform school curricula, expand financial support, and overhaul regulations.",
+      "vocab": [
+        {
+          "word": "incubator",
+          "definition_en": "An organization designed to support new and startup companies.",
+          "example": "The city aims to become a major startup incubator for young entrepreneurs."
+        },
+        {
+          "word": "entrepreneurship",
+          "definition_en": "The activity of setting up a business and taking on financial risks.",
+          "example": "Schools should encourage more creativity and entrepreneurship among students."
+        },
+        {
+          "word": "regulatory reform",
+          "definition_en": "The revision or removal of government rules affecting businesses.",
+          "example": "Regulatory reform is essential for helping small businesses grow faster."
+        },
+        {
+          "word": "economic growth",
+          "definition_en": "An increase in the production of goods and services in an economy.",
+          "example": "Traditional economic growth does not always create enough new jobs."
+        },
+        {
+          "word": "financial support",
+          "definition_en": "Monetary assistance provided to help fund a project or business.",
+          "example": "Promotional startups often rely heavily on early government financial support."
+        },
+        {
+          "word": "curriculum reform",
+          "definition_en": "Changes made to the subjects taught in schools and universities.",
+          "example": "Curriculum reform helps students learn skills demanded by modern industries."
+        },
+        {
+          "word": "global company",
+          "definition_en": "An enterprise that operates in multiple countries around the world.",
+          "example": "Many local startups dream of expanding into successful global companies."
+        }
+      ],
+      "questions": [
+        "Have you ever thought about starting your own business or creating a startup?",
+        "What do you think is the biggest challenge for young people starting a business today?",
+        "Do you agree that AI and robotics are changing the traditional job market?",
+        "How can schools better prepare students for an entrepreneurial society?",
+        "If the government gave you financial support, what kind of business would you launch?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/31-of-japans-graduates-quit-jobs-within-3-years/-6jWnNMIEfGHtjuCF6RpOw",
+    "title": "31% of Japan's Graduates Quit Jobs Within 3 Years",
+    "source": "engoo",
+    "published": "2026-11-02",
+    "level": 6,
+    "sent_date": "2026-11-06",
+    "message_id": "1568037580061151384",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "31% of Japan's Graduates Quit Jobs",
+      "summary_en": "This article explores the trend where 31% of Japanese university graduates leave their jobs within three years of joining. It examines changing attitudes toward lifetime employment and modern workforce trends.",
+      "vocab": [
+        {
+          "word": "graduate",
+          "definition_en": "A person who has successfully completed a degree at a school or university.",
+          "example": "Many fresh graduates struggle to find a job that matches their goals."
+        },
+        {
+          "word": "lifetime employment",
+          "definition_en": "A traditional system where workers stay at the same company until retirement.",
+          "example": "The culture of lifetime employment is slowly disappearing in many modern companies."
+        },
+        {
+          "word": "workforce trend",
+          "definition_en": "A general direction or shift in how people behave in their jobs.",
+          "example": "Remote work is one of the biggest workforce trends of this decade."
+        },
+        {
+          "word": "attitude",
+          "definition_en": "A settled way of thinking or feeling about something.",
+          "example": "Younger generations have a different attitude toward work-life balance."
+        },
+        {
+          "word": "resign",
+          "definition_en": "To voluntarily leave a job or position.",
+          "example": "He decided to resign because he found a better career opportunity."
+        },
+        {
+          "word": "burnout",
+          "definition_en": "Physical or mental collapse caused by overwork or stress.",
+          "example": "Many young employees experience burnout within their first year of work."
+        },
+        {
+          "word": "career path",
+          "definition_en": "The progression of professional life over a period of time.",
+          "example": "Changing jobs frequently can sometimes create a diverse career path."
+        }
+      ],
+      "questions": [
+        "Why do you think so many young graduates decide to quit their jobs quickly?",
+        "Do you think the concept of lifetime employment is completely dead today?",
+        "How long do you think a person should ideally stay at their first job?",
+        "What are the main reasons that cause employees to suffer from burnout at work?",
+        "If you hated your first job, would you quit right away or try to stick it out?"
+      ]
+    }
   }
 ]
