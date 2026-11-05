@@ -548,5 +548,27 @@
         "my_line": "I might drop by the local bakery on my way home from work this evening."
       }
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "sent_at": "2026-11-05T09:40:23.945254+00:00",
+    "verbs": [
+      {
+        "verb": "fight off",
+        "meaning_ko": "물리치다, 이겨내다",
+        "replaces": "defeat",
+        "nuance_ko": "질병이나 피로가 몸에 침투하려 할 때 이를 저항해서 막아내는 느낌으로 자주 씁니다.",
+        "example": "I am trying to fight off a bad cold before the weekend starts.",
+        "my_line": "I managed to fight off a slight cold earlier this week."
+      },
+      {
+        "verb": "run down",
+        "meaning_ko": "지치게 하다, 기력을 잃다",
+        "replaces": "exhaust",
+        "nuance_ko": "에너지가 바닥나서 배터리가 다 닳은 것처럼 지친 상태를 표현할 때 주로 수동태로 씁니다.",
+        "example": "Working long hours without proper breaks will quickly run you down.",
+        "my_line": "I felt completely run down after working on a tight deadline yesterday."
+      }
+    ]
   }
 ]
