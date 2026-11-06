@@ -570,5 +570,27 @@
         "my_line": "I felt completely run down after working on a tight deadline yesterday."
       }
     ]
+  },
+  {
+    "date": "2026-11-06",
+    "sent_at": "2026-11-06T09:40:21.230171+00:00",
+    "verbs": [
+      {
+        "verb": "free up",
+        "meaning_ko": "시간이나 공간을 비우다",
+        "replaces": "make time",
+        "nuance_ko": "바쁜 일정 속에서 특정 목적을 위해 시간이나 자원을 낼 때 원어민들이 아주 즐겨 쓰는 표현입니다.",
+        "example": "I need to free up some time this weekend to finish my report.",
+        "my_line": "I managed to free up Friday afternoon to prepare for the weekend trip."
+      },
+      {
+        "verb": "wind down",
+        "meaning_ko": "긴장을 풀고 쉬다",
+        "replaces": "relax",
+        "nuance_ko": "바쁜 일과나 한 주가 끝난 후 서서히 휴식 상태로 들어갈 때 사용하는 매우 자연스러운 표현입니다.",
+        "example": "After a long stressful week at work, I like to wind down by listening to music.",
+        "my_line": "I usually wind down on Friday nights by watching my favorite drama series."
+      }
+    ]
   }
 ]
