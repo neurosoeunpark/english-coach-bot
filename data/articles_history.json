@@ -4278,5 +4278,179 @@
         "If you could organize a charity sports event, what sport would you choose and why?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/finlands-24-7-puppy-livestream-draws-millions/DdrfnM7FEfG8LfedOqYhjA",
+    "title": "Finland's 24/7 Puppy Livestream Draws Millions",
+    "source": "engoo",
+    "published": "2026-10-26",
+    "level": 6,
+    "sent_date": "2026-11-10",
+    "message_id": "1569486994642440307",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Finland's 24/7 Puppy Livestream",
+      "summary_en": "Finland's 24/7 puppy livestream brings joy and relaxation to millions of viewers. It explores how calming 'slow TV' content helps reduce stress for modern people.",
+      "vocab": [
+        {
+          "word": "livestream",
+          "definition_en": "An event broadcast live over the internet.",
+          "example": "I love watching the cute puppy livestream."
+        },
+        {
+          "word": "relaxation",
+          "definition_en": "The state of being free from tension and anxiety.",
+          "example": "Watching animals brings deep relaxation to my mind."
+        },
+        {
+          "word": "reduce stress",
+          "definition_en": "To make mental tension and pressure less severe.",
+          "example": "Nature videos can effectively reduce stress."
+        },
+        {
+          "word": "comforting",
+          "definition_en": "Providing a sense of physical or mental comfort.",
+          "example": "The gentle sounds of the stream are very comforting."
+        },
+        {
+          "word": "viewer",
+          "definition_en": "A person who watches television or a broadcast.",
+          "example": "Millions of viewers tuned into the show."
+        },
+        {
+          "word": "captivating",
+          "definition_en": "Capable of attracting and holding interest; charming.",
+          "example": "The playful puppies are truly captivating."
+        },
+        {
+          "word": "unwind",
+          "definition_en": "To relax after a period of work or tension.",
+          "example": "I usually unwind by watching cute pet videos."
+        }
+      ],
+      "questions": [
+        "Have you ever watched a live broadcast of animals or nature?",
+        "Why do you think people enjoy watching slow TV content so much?",
+        "What are some of your favorite ways to unwind after a long day?",
+        "Do you think digital content can effectively improve our mental health?",
+        "Would you tune in to watch a 24/7 puppy livestream in your free time?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/jessica_irwin_i_can_t_speak_here_s_how_i_get_people_to_listen",
+    "title": "I can't speak. Here's how I get people to listen",
+    "source": "ted",
+    "published": "2026-10-22",
+    "level": null,
+    "sent_date": "2026-11-10",
+    "message_id": "1569487000409473055",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Communicating Without Speech",
+      "summary_en": "Jessica Irwin, an artist with cerebral palsy who cannot speak, shares how she communicates using a device. She reminds us that being nonverbal has nothing to do with intelligence and shares tips for better communication.",
+      "vocab": [
+        {
+          "word": "nonverbal",
+          "definition_en": "Not involving or using words or speech.",
+          "example": "She is a talented artist who is nonverbal."
+        },
+        {
+          "word": "intelligence",
+          "definition_en": "The ability to acquire and apply knowledge and skills.",
+          "example": "Speech ability does not reflect a person's intelligence."
+        },
+        {
+          "word": "communicate",
+          "definition_en": "To share or exchange information, news, or ideas.",
+          "example": "There are many ways to communicate without speaking."
+        },
+        {
+          "word": "assumption",
+          "definition_en": "A thing that is accepted as true without proof.",
+          "example": "We should avoid making assumptions about disabled people."
+        },
+        {
+          "word": "inclusive",
+          "definition_en": "Not excluding any section of society or a group.",
+          "example": "We need to build a more inclusive community."
+        },
+        {
+          "word": "express",
+          "definition_en": "To convey thought or feelings in words or by gestures.",
+          "example": "Technology helps her express her thoughts clearly."
+        },
+        {
+          "word": "patient",
+          "definition_en": "Able to accept or tolerate delays without becoming annoyed.",
+          "example": "It is important to be patient when listening to others."
+        }
+      ],
+      "questions": [
+        "How do you usually communicate with people who have different abilities?",
+        "Why do people often make wrong assumptions about nonverbal individuals?",
+        "What can we do to make our daily conversations more inclusive?",
+        "How has modern technology changed the way disabled people live and work?",
+        "What did you find most surprising about Jessica Irwin's message?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/change-employers-for-career-progress-workers-say/Aq702s5PEfGHt-M2NSkIkg",
+    "title": "Change Employers for Career Progress, Workers Say",
+    "source": "engoo",
+    "published": "2026-11-08",
+    "level": 6,
+    "sent_date": "2026-11-10",
+    "message_id": "1569487005463613597",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Changing Employers for Career Progress",
+      "summary_en": "Many workers believe that changing employers is necessary for career advancement. It explores the importance of developing new skills and achieving workplace growth.",
+      "vocab": [
+        {
+          "word": "advancement",
+          "definition_en": "The promotion of a person to a higher rank or position.",
+          "example": "Many employees seek career advancement through new jobs."
+        },
+        {
+          "word": "employer",
+          "definition_en": "A person or organization that employs people.",
+          "example": "Changing employers can sometimes lead to better salaries."
+        },
+        {
+          "word": "skill set",
+          "definition_en": "The particular range of skills or abilities that a person has.",
+          "example": "You need to update your skill set regularly."
+        },
+        {
+          "word": "opportunity",
+          "definition_en": "A set of circumstances that makes it possible to do something.",
+          "example": "This job offers a great opportunity for learning."
+        },
+        {
+          "word": "professional",
+          "definition_en": "Relating to or connected with a profession.",
+          "example": "Building a strong professional network is crucial."
+        },
+        {
+          "word": "experience",
+          "definition_en": "Knowledge or skill gained by doing a job for a period.",
+          "example": "Diverse experience helps you adapt to new challenges."
+        },
+        {
+          "word": "growth",
+          "definition_en": "The process of increasing in amount, value, or importance.",
+          "example": "Personal growth is important for long-term happiness."
+        }
+      ],
+      "questions": [
+        "Do you think changing jobs frequently is good for your career?",
+        "What are the biggest benefits of staying at the same company for a long time?",
+        "How do you decide when it is time to look for a new employer?",
+        "What skills do you think are most important for career advancement today?",
+        "Would you rather work for a stable company or a fast-growing startup?"
+      ]
+    }
   }
 ]
