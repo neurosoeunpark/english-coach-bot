@@ -592,5 +592,27 @@
         "my_line": "I usually wind down on Friday nights by watching my favorite drama series."
       }
     ]
+  },
+  {
+    "date": "2026-11-09",
+    "sent_at": "2026-11-09T09:40:18.505217+00:00",
+    "verbs": [
+      {
+        "verb": "head out",
+        "meaning_ko": "출발하다, 자리를 떠나다",
+        "replaces": "leave",
+        "nuance_ko": "집이나 모임 등에서 다른 곳으로 이동하거나 떠날 때 원어민들이 가장 편하게 쓰는 표현입니다.",
+        "example": "We should probably head out soon if we want to catch the early movie.",
+        "my_line": "I usually head out to meet my friends around six o'clock on Fridays."
+      },
+      {
+        "verb": "meet up",
+        "meaning_ko": "만나다",
+        "replaces": "meet",
+        "nuance_ko": "단순히 '만나다'라는 뜻의 meet보다, 약속을 정하고 서로 만나서 어울린다는 뉘앙스가 강합니다.",
+        "example": "Let's meet up this weekend to grab some coffee and chat about our plans.",
+        "my_line": "I plan to meet up with my old college roommate downtown this Saturday afternoon."
+      }
+    ]
   }
 ]
