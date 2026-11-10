@@ -4452,5 +4452,179 @@
         "Would you rather work for a stable company or a fast-growing startup?"
       ]
     }
+  },
+  {
+    "url": "https://www.ted.com/talks/pico_iyer_beyond_the_talk_pico_iyer_on_quieting_your_mind_in_a_noisy_world",
+    "title": "Beyond the Talk: Pico Iyer on quieting your mind in a noisy world",
+    "source": "ted",
+    "published": "2026-11-10",
+    "level": null,
+    "sent_date": "2026-11-11",
+    "message_id": "1569849379366637641",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Quieting Your Mind in a Noisy World",
+      "summary_en": "Author Pico Iyer discusses how humans, not designed to match machine speeds, can slow down and find peace of mind. He shares practices for restoring time instead of killing it in a busy world.",
+      "vocab": [
+        {
+          "word": "quiet the mind",
+          "definition_en": "To calm your thoughts and achieve mental peace",
+          "example": "I try to quiet the mind every single morning."
+        },
+        {
+          "word": "at a pace",
+          "definition_en": "At a particular speed or rate",
+          "example": "We live at a pace driven by modern technology."
+        },
+        {
+          "word": "speed up",
+          "definition_en": "To move or happen faster",
+          "example": "Modern life seems to speed up every year."
+        },
+        {
+          "word": "restore time",
+          "definition_en": "To reclaim and make good use of your time",
+          "example": "Meditation helps us restore time for ourselves."
+        },
+        {
+          "word": "designed to",
+          "definition_en": "Built or intended to do a specific thing",
+          "example": "Humans were never designed to work constantly."
+        },
+        {
+          "word": "intent on",
+          "definition_en": "1. Determined to do something",
+          "example": "Society is intent on speeding up constantly."
+        },
+        {
+          "word": "restore",
+          "definition_en": "To bring back something to its former condition",
+          "example": "Quiet places restore our mental energy."
+        }
+      ],
+      "questions": [
+        "How often do you feel like your daily life is moving too fast?",
+        "What is your favorite way to quiet your mind after a long day?",
+        "Do you think modern technology makes it harder to disconnect and relax?",
+        "How would you spend a whole afternoon if you had no digital devices?",
+        "What advice would you give to someone who is always busy and stressed?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/loud-working-is-the-new-workplace-trend/-JuhuMHPEfGqmOfnyu21bA",
+    "title": "'Loud Working' Is the New Workplace Trend",
+    "source": "engoo",
+    "published": "2026-10-20",
+    "level": 6,
+    "sent_date": "2026-11-11",
+    "message_id": "1569849384735219843",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Loud Working Is the New Workplace Trend",
+      "summary_en": "Explore the workplace trend of loud working, where employees make their achievements more visible. It highlights how professionals actively share their contributions to stand out.",
+      "vocab": [
+        {
+          "word": "workplace trend",
+          "definition_en": "A popular new pattern of behavior in offices",
+          "example": "This workplace trend is changing how we communicate."
+        },
+        {
+          "word": "stand out",
+          "definition_en": "To be easily noticeable among others",
+          "example": "You need unique skills to stand out at work."
+        },
+        {
+          "word": "make visible",
+          "definition_en": "To ensure others can see your work clearly",
+          "example": "Loud working helps make your daily achievements visible."
+        },
+        {
+          "word": "career advancement",
+          "definition_en": "Progress in your career and professional growth",
+          "example": "Good communication is essential for career advancement."
+        },
+        {
+          "word": "achievement",
+          "definition_en": "Something successfully done through hard work",
+          "example": "Share your weekly achievement during the meeting."
+        },
+        {
+          "word": "contribute",
+          "definition_en": "To help bring about a result",
+          "example": "Everyone wants to contribute to the project's success."
+        },
+        {
+          "word": "recognition",
+          "definition_en": "Public appreciation for a person's work",
+          "example": "She received recognition for her hard work."
+        }
+      ],
+      "questions": [
+        "Have you ever heard of the term loud working before today?",
+        "Do you prefer to keep your work quiet or make it visible to others?",
+        "What are the potential pros and cons of practicing loud working?",
+        "How do you usually showcase your achievements without seeming arrogant?",
+        "In your opinion, is loud working necessary for career advancement nowadays?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/lotti_tajouri_your_phone_is_disgusting_here_s_how_to_clean_it",
+    "title": "Your phone is disgusting. Here's how to clean it",
+    "source": "ted",
+    "published": "2026-11-10",
+    "level": null,
+    "sent_date": "2026-11-11",
+    "message_id": "1569849389839556611",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Your Phone Is Disgusting And Needs Cleaning",
+      "summary_en": "Molecular biologist Lotti Tajouri highlights the hygiene gap of touching phones right after washing hands. He explores the microbial world on phones and shows how to clean this third hand.",
+      "vocab": [
+        {
+          "word": "hygiene routine",
+          "definition_en": "Habits and practices to keep yourself clean",
+          "example": "A good hygiene routine protects us from illnesses."
+        },
+        {
+          "word": "microbial world",
+          "definition_en": "The ecosystem of tiny organisms like bacteria and viruses",
+          "example": "Scientists study the microbial world on everyday objects."
+        },
+        {
+          "word": "third hand",
+          "definition_en": "A metaphor for mobile phones that we constantly touch",
+          "example": "Many people treat their smartphones like a third hand."
+        },
+        {
+          "word": "disgusting",
+          "definition_en": "Extremely unpleasant or unacceptable",
+          "example": "It is disgusting how rarely people clean their phones."
+        },
+        {
+          "word": "bacteria and viruses",
+          "definition_en": "Microscopic organisms that can cause diseases",
+          "example": "Regular cleaning removes harmful bacteria and viruses."
+        },
+        {
+          "word": "scrub clean",
+          "definition_en": "To clean something thoroughly by rubbing it hard",
+          "example": "You should scrub your hands clean with soap."
+        },
+        {
+          "word": "warm and humid",
+          "definition_en": "Having a warm temperature and high moisture",
+          "example": "Bacteria love warm and humid environments to grow."
+        }
+      ],
+      "questions": [
+        "How often do you clean or disinfect your smartphone screen?",
+        "Were you surprised to learn how many germs live on your phone?",
+        "What are some other everyday items that are surprisingly dirty?",
+        "How has learning about phone hygiene changed your daily habits?",
+        "What steps should people take to keep their mobile devices clean?"
+      ]
+    }
   }
 ]
