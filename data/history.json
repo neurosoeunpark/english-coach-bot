@@ -614,5 +614,27 @@
         "my_line": "I plan to meet up with my old college roommate downtown this Saturday afternoon."
       }
     ]
+  },
+  {
+    "date": "2026-11-10",
+    "sent_at": "2026-11-10T09:40:19.400991+00:00",
+    "verbs": [
+      {
+        "verb": "hold up",
+        "meaning_ko": "지연시키다, 정체되다",
+        "replaces": "delay",
+        "nuance_ko": "주로 교통 체증이나 예상치 못한 문제로 인해 일정이 늦어졌을 때 수동태(be held up)로 아주 자주 씁니다.",
+        "example": "Heavy morning traffic on the highway completely held up my commute today.",
+        "my_line": "I was held up in traffic this morning because of a broken-down car."
+      },
+      {
+        "verb": "set off",
+        "meaning_ko": "출발하다",
+        "replaces": "start",
+        "nuance_ko": "여행이나 출근을 위해 집이나 현재 장소를 떠나 이동을 시작할 때 쓰는 자연스러운 표현입니다.",
+        "example": "We need to set off early tomorrow morning to avoid the rush hour crowds.",
+        "my_line": "I usually set off for work around 7:30 AM to beat the heavy traffic."
+      }
+    ]
   }
 ]
