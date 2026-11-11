@@ -636,5 +636,27 @@
         "my_line": "I usually set off for work around 7:30 AM to beat the heavy traffic."
       }
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "sent_at": "2026-11-11T09:40:20.016994+00:00",
+    "verbs": [
+      {
+        "verb": "calm down",
+        "meaning_ko": "진정하다",
+        "replaces": "relax",
+        "nuance_ko": "흥분하거나 화가 난 상태를 가라앉힐 때 원어민들이 가장 자연스럽게 쓰는 표현입니다.",
+        "example": "Take a deep breath and calm down before you answer that difficult email.",
+        "my_line": "I usually listen to soft jazz music to calm down after a stressful workday."
+      },
+      {
+        "verb": "open up",
+        "meaning_ko": "마음을 털어놓다",
+        "replaces": "talk",
+        "nuance_ko": "상대방에게 숨겨둔 감정이나 비밀을 진솔하게 이야기하기 시작할 때 사용합니다.",
+        "example": "It took him a long time to open up about his personal struggles.",
+        "my_line": "I find it quite difficult to open up to new people when I first meet them."
+      }
+    ]
   }
 ]
