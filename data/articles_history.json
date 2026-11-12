@@ -4802,5 +4802,179 @@
         "Do you think social media companies should do more to archive important news?"
       ]
     }
+  },
+  {
+    "url": "https://en.sedaily.com/economy/2026/11/13/korea-import-prices-fall-18-percent-in-october-as-won-oil",
+    "title": "Korea Import Prices Fall 1.8% in October as Won Strengthens, Oil Prices Fall",
+    "source": "sedaily",
+    "published": "2026-11-13",
+    "level": null,
+    "sent_date": "2026-11-13",
+    "message_id": "1570574190384250914",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Korea Import Prices Fall",
+      "summary_en": "Korean import prices fell in October due to a stronger won and lower global oil prices. Meanwhile, exports increased significantly thanks to demand related to AI infrastructure.",
+      "vocab": [
+        {
+          "word": "strengthen",
+          "definition_en": "To become stronger or increase in value.",
+          "example": "The Korean won tends to strengthen against the US dollar."
+        },
+        {
+          "word": "decline",
+          "definition_en": "A decrease in the quantity, quality, or value of something.",
+          "example": "We saw a sudden decline in global oil prices last month."
+        },
+        {
+          "word": "attribute to",
+          "definition_en": "To regard something as being caused by a particular circumstance.",
+          "example": "Experts attribute the drop in prices to lower production costs."
+        },
+        {
+          "word": "offset",
+          "definition_en": "To counterbalance or counteract an effect with an equal force.",
+          "example": "Higher electronic sales helped offset losses in other sectors."
+        },
+        {
+          "word": "raw materials",
+          "definition_en": "The basic material from which a product is made.",
+          "example": "Manufacturers rely heavily on imported raw materials."
+        },
+        {
+          "word": "intermediate goods",
+          "definition_en": "Goods used as inputs in the production of other goods.",
+          "example": "The cost of intermediate goods affects final consumer prices."
+        },
+        {
+          "word": "surge",
+          "definition_en": "To increase suddenly and powerfully.",
+          "example": "Export volumes began to surge because of high demand for chips."
+        }
+      ],
+      "questions": [
+        "How do you usually check the prices of daily goods or groceries in Korea?",
+        "Have you noticed any changes in the prices of imported products recently?",
+        "Do you think a stronger currency brings more benefits or disadvantages to consumers?",
+        "How might fluctuating oil prices influence your daily travel and utility costs?",
+        "Why do you think technology exports play such a crucial role in the Korean economy?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/why-cold-showers-are-good-for-you-and-the-planet/KOBhZtf1EfGc6aMrJ_26Tg",
+    "title": "Why Cold Showers Are Good for You and the Planet",
+    "source": "engoo",
+    "published": "2026-11-09",
+    "level": 7,
+    "sent_date": "2026-11-13",
+    "message_id": "1570574196101226507",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Benefits Of Cold Showers",
+      "summary_en": "This lesson explores the health and environmental benefits of taking cold showers. It covers studies on general well-being, illness prevention, and saving water and energy.",
+      "vocab": [
+        {
+          "word": "well-being",
+          "definition_en": "The state of being comfortable, healthy, or happy.",
+          "example": "Daily exercise contributes greatly to your overall physical well-being."
+        },
+        {
+          "word": "refreshing",
+          "definition_en": "Giving new strength or energy to someone.",
+          "example": "A cold shower can be very refreshing after a hot summer workout."
+        },
+        {
+          "word": "boost",
+          "definition_en": "To help or encourage something to increase or improve.",
+          "example": "Some studies suggest cold water helps boost your immune system."
+        },
+        {
+          "word": "circulation",
+          "definition_en": "The movement of blood through the body.",
+          "example": "Cold water immersion can improve blood circulation throughout the body."
+        },
+        {
+          "word": "eco-friendly",
+          "definition_en": "Not harmful to the environment.",
+          "example": "Taking shorter showers is a simple eco-friendly habit."
+        },
+        {
+          "word": "consumption",
+          "definition_en": "The using up of a resource.",
+          "example": "We need to reduce our energy consumption to protect the planet."
+        },
+        {
+          "word": "endure",
+          "definition_en": "To suffer something painful or difficult patiently.",
+          "example": "It is hard to endure a freezing cold shower in winter."
+        }
+      ],
+      "questions": [
+        "Do you prefer taking hot showers or cold showers, and why?",
+        "Have you ever tried taking a cold shower during the hot summer months?",
+        "What are some health benefits you think people can get from cold water?",
+        "How important is it for you to save water and energy in your daily routine?",
+        "Would you be willing to give up hot showers entirely to help the environment?"
+      ]
+    }
+  },
+  {
+    "url": "https://www.ted.com/talks/felix_hol_the_surprising_beauty_of_mosquitos",
+    "title": "The surprising beauty of mosquitos",
+    "source": "ted",
+    "published": "2026-10-30",
+    "level": null,
+    "sent_date": "2026-11-13",
+    "message_id": "1570574201000165417",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "The Surprising Beauty Of Mosquitoes",
+      "summary_en": "Biotechnologist Felix Hol studies mosquitoes in his lab and shares their fascinating aspects despite their bad reputation. He also explains smarter ways to control the diseases they spread.",
+      "vocab": [
+        {
+          "word": "biotechnologist",
+          "definition_en": "A scientist who uses living organisms to develop technology or products.",
+          "example": "The biotechnologist examined the insect samples closely under the microscope."
+        },
+        {
+          "word": "fascinating",
+          "definition_en": "Extremely interesting and attractive.",
+          "example": "Learning about insect behavior can be surprisingly fascinating."
+        },
+        {
+          "word": "insecticide",
+          "definition_en": "A substance used for killing insects.",
+          "example": "Farmers often spray insecticide to protect their crops from pests."
+        },
+        {
+          "word": "overdrive",
+          "definition_en": "A state of great activity, effort, or emotional intensity.",
+          "example": "Chemicals might send certain pests into reproductive overdrive."
+        },
+        {
+          "word": "curb",
+          "definition_en": "To restrain or keep in check.",
+          "example": "Public health campaigns aim to curb the spread of mosquito-borne diseases."
+        },
+        {
+          "word": "pest",
+          "definition_en": "A destructive insect or other animal that attacks crops or food.",
+          "example": "Mosquitoes are considered one of the most annoying pests on Earth."
+        },
+        {
+          "word": "reputation",
+          "definition_en": "The beliefs or opinions that are generally held about someone or something.",
+          "example": "Despite their bad reputation, mosquitoes play a role in nature."
+        }
+      ],
+      "questions": [
+        "What is your general reaction when you see a mosquito near you?",
+        "How do you usually protect yourself against mosquito bites in the summer?",
+        "Do you find science talks about small creatures like insects interesting or boring?",
+        "Why do you think mosquitoes have such a negative reputation worldwide?",
+        "If scientists could eliminate all mosquitoes using biotechnology, should they do it?"
+      ]
+    }
   }
 ]
