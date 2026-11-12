@@ -658,5 +658,27 @@
         "my_line": "I find it quite difficult to open up to new people when I first meet them."
       }
     ]
+  },
+  {
+    "date": "2026-11-12",
+    "sent_at": "2026-11-12T09:40:19.452805+00:00",
+    "verbs": [
+      {
+        "verb": "sort out",
+        "meaning_ko": "문제를 해결하다, 정리하다",
+        "replaces": "solve",
+        "nuance_ko": "복잡한 문제나 혼란스러운 상황을 깔끔하게 정리하고 해결할 때 원어민들이 즐겨 쓰는 표현입니다.",
+        "example": "We need to sort out this billing issue before the client gets angry.",
+        "my_line": "I had to sort out a scheduling conflict with my team this morning."
+      },
+      {
+        "verb": "deal with",
+        "meaning_ko": "처리하다, 대처하다",
+        "replaces": "handle",
+        "nuance_ko": "어려운 상황이나 사람을 피하지 않고 직접 마주하고 해결할 때 주로 사용합니다.",
+        "example": "Customer service representatives have to deal with difficult complaints on a daily basis.",
+        "my_line": "I usually deal with urgent customer requests first thing in the morning."
+      }
+    ]
   }
 ]
