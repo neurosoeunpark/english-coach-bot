@@ -680,5 +680,27 @@
         "my_line": "I usually deal with urgent customer requests first thing in the morning."
       }
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "sent_at": "2026-11-13T09:40:31.392753+00:00",
+    "verbs": [
+      {
+        "verb": "head out",
+        "meaning_ko": "출발하다, 나서다",
+        "replaces": "leave",
+        "nuance_ko": "단순히 떠나는 것보다 집이나 사무실에서 목적지를 향해 나설 때 훨씬 자연스럽게 쓰입니다.",
+        "example": "I need to head out soon to avoid the heavy Friday evening traffic.",
+        "my_line": "I usually head out for work around 7:30 AM every morning."
+      },
+      {
+        "verb": "pull over",
+        "meaning_ko": "(차를) 길 가에 대다",
+        "replaces": "stop the car",
+        "nuance_ko": "운전 중 길가에 정차할 때 쓰는 필수 표현으로, 비상등을 켜고 멈추는 상황에 자주 사용됩니다.",
+        "example": "Please pull over near the station so I can get out safely.",
+        "my_line": "I had to pull over to check my navigation app this morning."
+      }
+    ]
   }
 ]
