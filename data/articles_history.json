@@ -5150,5 +5150,179 @@
         "How do you think traditional office spaces will change over the next ten years?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/hawaii-leads-us-in-life-expectancy/mJ1iRsy7EfG2nPdAjJJYpg",
+    "title": "Hawaii Leads US in Life Expectancy",
+    "source": "engoo",
+    "published": "2026-10-24",
+    "level": 6,
+    "sent_date": "2026-11-17",
+    "message_id": "1572023863313703057",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Hawaii Leads US in Life Expectancy",
+      "summary_en": "This article explores why Hawaii has the highest life expectancy in the US. It also examines state-by-state differences and factors affecting lifespan.",
+      "vocab": [
+        {
+          "word": "life expectancy",
+          "definition_en": "The average period that a person may expect to live.",
+          "example": "Life expectancy in Hawaii is higher than in most states."
+        },
+        {
+          "word": "state-by-state",
+          "definition_en": "Considered or varying separately for each state.",
+          "example": "We can see clear state-by-state differences in health."
+        },
+        {
+          "word": "lifespan",
+          "definition_en": "The length of time for which a person lives.",
+          "example": "Diet and exercise can help increase your lifespan."
+        },
+        {
+          "word": "factor",
+          "definition_en": "A circumstance, fact, or influence that contributes to a result.",
+          "example": "Stress is a major factor in modern health issues."
+        },
+        {
+          "word": "well-being",
+          "definition_en": "The state of being comfortable, healthy, or happy.",
+          "example": "Outdoor activities improve our mental well-being."
+        },
+        {
+          "word": "longevity",
+          "definition_en": "Long service or existence, or long life.",
+          "example": "Good genetics often contribute to personal longevity."
+        },
+        {
+          "word": "examine",
+          "definition_en": "Inspect someone or something in detail to determine their nature or condition.",
+          "example": "Scientists examine health data to find useful trends."
+        }
+      ],
+      "questions": [
+        "What comes to your mind when you hear about the state of Hawaii?",
+        "Do you think where you live affects how long you will live?",
+        "What lifestyle habits do you think are most important for a long life?",
+        "How does the stressful pace of modern city life impact our health?",
+        "What changes would you make in your daily routine to improve your longevity?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/british-adventurer-finishes-28-year-walk-around-the-world/IZKRftd2EfGjHofdFeUpCg",
+    "title": "British Adventurer Finishes 28-Year Walk Around the World",
+    "source": "engoo",
+    "published": "2026-11-03",
+    "level": 7,
+    "sent_date": "2026-11-17",
+    "message_id": "1572023868967747635",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "British Adventurer Finishes 28-Year Walk",
+      "summary_en": "This story follows Karl Bushby, who completed a 28-year, 50,000 km walk around the world. He faced many challenges, delays, and emotional reunions along the way.",
+      "vocab": [
+        {
+          "word": "adventurer",
+          "definition_en": "A person who enjoys taking risks and seeking exciting experiences.",
+          "example": "The adventurer traveled across the globe on foot."
+        },
+        {
+          "word": "complete",
+          "definition_en": "Finish making or doing something.",
+          "example": "He was proud to complete his long journey."
+        },
+        {
+          "word": "challenge",
+          "definition_en": "A task or situation that tests someone's abilities.",
+          "example": "Walking across borders presented a major challenge."
+        },
+        {
+          "word": "delay",
+          "definition_en": "A period of time by which something is late or postponed.",
+          "example": "Visa issues caused a long delay in his travel plans."
+        },
+        {
+          "word": "reunion",
+          "definition_en": "An instance of two or more people coming together again after a time apart.",
+          "example": "His emotional reunion with family was captured on camera."
+        },
+        {
+          "word": "endure",
+          "definition_en": "Suffer through something painful or difficult patiently.",
+          "example": "He had to endure harsh weather conditions for months."
+        },
+        {
+          "word": "inspire",
+          "definition_en": "Fill someone with the urge or ability to do or feel something.",
+          "example": "His incredible determination can inspire many people."
+        }
+      ],
+      "questions": [
+        "Would you ever consider going on a long walking trip in your country?",
+        "What is the longest journey or trip you have ever taken in your life?",
+        "How do you think someone keeps going after facing years of travel delays?",
+        "What qualities are most necessary to achieve such an extreme long-term goal?",
+        "If you could walk across any continent, which one would you choose and why?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/business/2026/11/17/why-nand-spot-prices-fell-20-percent-in-a-month-amid-ai-boom",
+    "title": "Why NAND Spot Prices Fell 20% in a Month Amid AI Boom",
+    "source": "sedaily",
+    "published": "2026-11-17",
+    "level": null,
+    "sent_date": "2026-11-17",
+    "message_id": "1572023874130813029",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "NAND Spot Prices Fall Amid AI Boom",
+      "summary_en": "While the AI boom drives up general memory prices, NAND flash spot prices for smartphones and PCs fell 20% in a month. Weak demand and inventory adjustments are causing the NAND market to move differently from AI data center products.",
+      "vocab": [
+        {
+          "word": "spot price",
+          "definition_en": "The current price level in the market for immediate delivery of a commodity.",
+          "example": "The spot price of memory chips dropped significantly this month."
+        },
+        {
+          "word": "boom",
+          "definition_en": "A period of great economic growth or popularity.",
+          "example": "The artificial intelligence boom has changed the tech industry."
+        },
+        {
+          "word": "paradoxically",
+          "definition_en": "In a way that seems impossible or brings contradictory ideas together.",
+          "example": "Paradoxically, high memory prices began to hurt device demand."
+        },
+        {
+          "word": "erode",
+          "definition_en": "Gradually destroy or be worn away over time.",
+          "example": "Rising inflation can erode consumer purchasing power quickly."
+        },
+        {
+          "word": "postpone",
+          "definition_en": "Cause or arrange for something to take place at a later time.",
+          "example": "Many consumers decide to postpone buying a new smartphone."
+        },
+        {
+          "word": "inventory",
+          "definition_en": "A complete list of items such as property, goods in stock, or the contents of a building.",
+          "example": "PC makers are trying to draw down their existing inventory."
+        },
+        {
+          "word": "intensify",
+          "definition_en": "Become or make more intense or sharp.",
+          "example": "Competition between chip manufacturers continues to intensify."
+        }
+      ],
+      "questions": [
+        "Have you noticed electronic devices becoming more expensive recently?",
+        "How often do you usually upgrade your smartphone or personal computer?",
+        "Why do you think high demand for AI does not automatically help all memory chips?",
+        "How do rising component prices usually influence your decision to buy new gadgets?",
+        "What technology trends do you find most surprising in the current market?"
+      ]
+    }
   }
 ]
