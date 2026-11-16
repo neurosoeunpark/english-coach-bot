@@ -702,5 +702,27 @@
         "my_line": "I had to pull over to check my navigation app this morning."
       }
     ]
+  },
+  {
+    "date": "2026-11-16",
+    "sent_at": "2026-11-16T09:40:20.574783+00:00",
+    "verbs": [
+      {
+        "verb": "free up",
+        "meaning_ko": "(시간이나 공간을) 비우다, 확보하다",
+        "replaces": "make",
+        "nuance_ko": "이미 바쁜 일정 속에서 특정 목적을 위해 시간이나 자원을 따로 낼 때 원어민들이 자주 씁니다.",
+        "example": "I need to free up some time this weekend to finish my report.",
+        "my_line": "I am trying to free up some time this Wednesday for our project."
+      },
+      {
+        "verb": "head out",
+        "meaning_ko": "(어딘가로) 출발하다, 나서다",
+        "replaces": "leave",
+        "nuance_ko": "현재 있는 장소를 떠나 다른 곳으로 이동하기 위해 자리에서 일어날 때 매우 자연스럽게 쓰입니다.",
+        "example": "We should head out soon to avoid the heavy evening rush hour traffic.",
+        "my_line": "I usually head out for work around eight o'clock every morning."
+      }
+    ]
   }
 ]
