@@ -724,5 +724,27 @@
         "my_line": "I usually head out for work around eight o'clock every morning."
       }
     ]
+  },
+  {
+    "date": "2026-11-17",
+    "sent_at": "2026-11-17T09:40:17.252235+00:00",
+    "verbs": [
+      {
+        "verb": "sleep in",
+        "meaning_ko": "늦잠을 자다",
+        "replaces": "sleep late",
+        "nuance_ko": "알람을 끄고 평소보다 아침에 더 오래 잘 때 주로 주말이나 휴일에 편하게 쓰는 표현입니다.",
+        "example": "I usually try to sleep in on weekends to recover my lost energy.",
+        "my_line": "I managed to sleep in this morning because I had no early meetings."
+      },
+      {
+        "verb": "stay up",
+        "meaning_ko": "안 자고 깨어 있다",
+        "replaces": "stay awake",
+        "nuance_ko": "평소 잠드는 시간보다 늦게까지 잠자리에 들지 않고 무언가를 할 때 자주 사용합니다.",
+        "example": "Many college students stay up late at night to finish their group projects.",
+        "my_line": "I had to stay up late last night to finish reading an important report."
+      }
+    ]
   }
 ]
