@@ -746,5 +746,27 @@
         "my_line": "I had to stay up late last night to finish reading an important report."
       }
     ]
+  },
+  {
+    "date": "2026-11-18",
+    "sent_at": "2026-11-18T09:40:18.705457+00:00",
+    "verbs": [
+      {
+        "verb": "step in",
+        "meaning_ko": "개입하다, 나서다",
+        "replaces": "help",
+        "nuance_ko": "문제가 생겼을 때 해결하기 위해 적극적으로 개입하거나 나설 때 원어민들이 자주 씁니다.",
+        "example": "My manager had to step in and save the project from total disaster.",
+        "my_line": "I had to step in when my colleague struggled with a difficult client yesterday."
+      },
+      {
+        "verb": "patch things up",
+        "meaning_ko": "관계나 문제를 수습하다, 봉합하다",
+        "replaces": "fix",
+        "nuance_ko": "갈등이나 실수 후에 관계나 상황을 다시 원상태로 부드럽게 고쳐놓을 때 주로 사용합니다.",
+        "example": "They argued yesterday, but they managed to patch things up this morning.",
+        "my_line": "I need to patch things up with my team member after our minor disagreement."
+      }
+    ]
   }
 ]
