@@ -5500,5 +5500,179 @@
       ]
     },
     "translated": "2026-11-18T08:15+09:00"
+  },
+  {
+    "url": "https://en.sedaily.com/business/2026/11/19/estsecurity-releases-scanner-for-java4shell-vulnerability",
+    "title": "ESTsecurity Releases Scanner for Java4Shell Vulnerability",
+    "source": "sedaily",
+    "published": "2026-11-19",
+    "level": null,
+    "sent_date": "2026-11-19",
+    "message_id": "1572748521348669532",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "ESTsecurity Releases Scanner for Java4Shell Vulnerability",
+      "summary_en": "Security firm ESTsecurity has urgently distributed a scanner to address the high-risk 'Java4Shell' vulnerability discovered in OpenJDK. Because this flaw allows attackers to remotely execute arbitrary commands, users must apply security updates immediately.",
+      "vocab": [
+        {
+          "word": "vulnerability",
+          "definition_en": "A weakness in a system that can be exploited by a cyberattacker.",
+          "example": "Companies must quickly patch any security vulnerability in their software."
+        },
+        {
+          "word": "affiliate",
+          "definition_en": "A company officially attached or connected to a larger organization.",
+          "example": "The security affiliate released a new tool to protect enterprise systems."
+        },
+        {
+          "word": "remote execution",
+          "definition_en": "Running commands on a computer from a distant location over a network.",
+          "example": "The flaw could allow remote execution of malicious code without authentication."
+        },
+        {
+          "word": "authentication",
+          "definition_en": "The process of verifying the identity of a user or system.",
+          "example": "Attackers can bypass authentication if the system contains this specific bug."
+        },
+        {
+          "word": "embedded",
+          "definition_en": "Fixed firmly in a surrounding mass or integrated into a system.",
+          "example": "Developers checked all embedded software for potential hidden risks."
+        },
+        {
+          "word": "unaddressed",
+          "definition_en": "Not dealt with or ignored despite needing attention.",
+          "example": "Leaving the bug unaddressed will increase the risk of severe data breaches."
+        },
+        {
+          "word": "advisory",
+          "definition_en": "An official announcement containing warnings and advice about a specific issue.",
+          "example": "Users should follow the vendor security advisory to stay safe online."
+        }
+      ],
+      "questions": [
+        "Have you ever experienced any computer security issues or malware infections on your devices?",
+        "How concerned are you about cybersecurity threats when using online banking or shopping apps?",
+        "Why do you think major software vulnerabilities like Java4Shell pose such a huge risk to companies?",
+        "What steps do you usually take to protect your personal information and devices from hackers?",
+        "In your opinion, who should be held more accountable when a major data breach happens: the company or the hacker?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/society/2026/11/19/cold-snap-greets-college-exam-day-with-snow-and-rain",
+    "title": "Cold Snap Greets College Exam Day, With Snow and Rain Nationwide",
+    "source": "sedaily",
+    "published": "2026-11-19",
+    "level": null,
+    "sent_date": "2026-11-19",
+    "message_id": "1572748526759444571",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Cold Snap Greets College Exam Day",
+      "summary_en": "A traditional exam-day cold snap hit South Korea with sub-zero wind chills, snow, and rain nationwide on the college entrance exam day. The meteorological administration urged test-takers and drivers to prepare for icy roads.",
+      "vocab": [
+        {
+          "word": "cold snap",
+          "definition_en": "A sudden brief period of cold weather.",
+          "example": "A severe cold snap surprised everyone right before the winter season."
+        },
+        {
+          "word": "wind-chill",
+          "definition_en": "The perceived decrease in air temperature felt by the body due to wind.",
+          "example": "Morning wind-chill temperatures dropped below freezing across the entire region."
+        },
+        {
+          "word": "meteorological",
+          "definition_en": "Relating to the branch of science concerned with the weather.",
+          "example": "The meteorological office issued heavy snow warnings for the mountainous areas."
+        },
+        {
+          "word": "accumulation",
+          "definition_en": "The gradual gathering or collection of something over time.",
+          "example": "Heavy snowfall led to a large accumulation of snow on the roads."
+        },
+        {
+          "word": "black ice",
+          "definition_en": "A transparent coating of ice on a road surface that is difficult to see.",
+          "example": "Drivers must slow down during winter mornings to avoid hidden black ice."
+        },
+        {
+          "word": "coastal",
+          "definition_en": "Positioned on or near the coast.",
+          "example": "High waves were observed along the eastern coastal waters."
+        },
+        {
+          "word": "inland",
+          "definition_en": "Situated in the interior of a country away from the coast.",
+          "example": "Heavy snow is expected to fall heavily in the inland southern areas."
+        }
+      ],
+      "questions": [
+        "How do you usually feel and prepare when the weather suddenly turns very cold?",
+        "Do you remember the weather on your own exam day or any important life event?",
+        "Why do you think the weather always seems to turn freezing cold on college entrance exam day in Korea?",
+        "What are your favorite ways to stay warm and cozy during a harsh winter cold snap?",
+        "How does heavy winter weather like snow and ice impact daily life and commuting in your city?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/society/2026/11/19/hotels-canceling-bookings-to-raise-prices-face-200-percent",
+    "title": "Hotels Canceling Bookings to Raise Prices Face 200% Payouts",
+    "source": "sedaily",
+    "published": "2026-11-19",
+    "level": null,
+    "sent_date": "2026-11-19",
+    "message_id": "1572748532073627769",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Hotels Canceling Bookings to Raise Prices Face Penalties",
+      "summary_en": "The Fair Trade Commission drafted amendments requiring lodging operators to pay double the room charge in compensation if they unilaterally cancel bookings to hike prices during festivals. This revision responds to consumer complaints over forced cancellations ahead of major concerts.",
+      "vocab": [
+        {
+          "word": "unilaterally",
+          "definition_en": "Used to indicate that something is done by only one person or party without agreement.",
+          "example": "The hotel decided to unilaterally cancel the reservations to charge higher rates."
+        },
+        {
+          "word": "redress",
+          "definition_en": "Remedy or compensation for a wrong or grievance.",
+          "example": "Consumers need better options for legal redress when businesses break contracts."
+        },
+        {
+          "word": "amendment",
+          "definition_en": "A minor change or addition designed to improve a text or law.",
+          "example": "The government proposed an amendment to protect consumers from unfair practices."
+        },
+        {
+          "word": "unjustifiable",
+          "definition_en": "Not able to be shown to be right or reasonable.",
+          "example": "Canceling confirmed reservations without a valid reason is completely unjustifiable."
+        },
+        {
+          "word": "compensation",
+          "definition_en": "Something, typically money, awarded to someone for loss, injury, or suffering.",
+          "example": "The affected guests received financial compensation for the ruined holiday trip."
+        },
+        {
+          "word": "overbooking",
+          "definition_en": "Selling more reservations than available rooms or seats.",
+          "example": "The airline apologized to passengers after causing problems due to overbooking."
+        },
+        {
+          "word": "terminate",
+          "definition_en": "Bring to an end.",
+          "example": "Either party has the right to terminate the rental contract with prior notice."
+        }
+      ],
+      "questions": [
+        "Have you ever had a hotel booking or travel plan canceled unexpectedly by a company?",
+        "How do you feel about businesses raising prices drastically during popular festivals or concerts?",
+        "Do you think a 200% penalty is strict enough to stop hotels from canceling customer bookings?",
+        "What rights do consumers deserve to have when businesses fail to honor a contract?",
+        "How can local governments and tourism boards better protect travelers from unfair business practices?"
+      ]
+    }
   }
 ]
