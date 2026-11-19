@@ -5674,5 +5674,179 @@
         "How can local governments and tourism boards better protect travelers from unfair business practices?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/japans-teachers-struggling-with-workloads/0-WqUNRCEfG-tntmqAkxOQ",
+    "title": "Japan's Teachers Struggling with Workloads",
+    "source": "engoo",
+    "published": "2026-11-15",
+    "level": 7,
+    "sent_date": "2026-11-20",
+    "message_id": "1573110870626541840",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Japan's Teachers Struggling with Workloads",
+      "summary_en": "This article discusses the heavy workloads, overtime, and emotional exhaustion that Japanese teachers are currently facing. It also examines how the gap between policy and reality creates difficulties for educators on the ground.",
+      "vocab": [
+        {
+          "word": "workload",
+          "definition_en": "The amount of work to be done by a person or organization.",
+          "example": "Teachers often feel overwhelmed by their heavy workload."
+        },
+        {
+          "word": "overtime",
+          "definition_en": "Time spent working in addition to regular working hours.",
+          "example": "Many educators work long hours of unpaid overtime."
+        },
+        {
+          "word": "exhaustion",
+          "definition_en": "A state of extreme physical or mental tiredness.",
+          "example": "Emotional exhaustion is a major reason teachers leave the profession."
+        },
+        {
+          "word": "gap",
+          "definition_en": "A difference or separation between two things.",
+          "example": "There is a wide gap between government policy and reality."
+        },
+        {
+          "word": "burnout",
+          "definition_en": "Physical or mental collapse caused by overwork or stress.",
+          "example": "School administrators are trying to prevent teacher burnout."
+        },
+        {
+          "word": "challenge",
+          "definition_en": "A difficult task or problem that tests someone's ability.",
+          "example": "Low pay and stress are major challenges in education."
+        },
+        {
+          "word": "policy",
+          "definition_en": "A course or principle of action adopted by an organization.",
+          "example": "New education policies aim to support school staff better."
+        }
+      ],
+      "questions": [
+        "Have you ever experienced severe burnout from studying or working too hard?",
+        "What do you think are the main causes of stress for modern teachers?",
+        "How does a heavy workload affect a teacher's personal life in your opinion?",
+        "What changes do you think governments should make to support school teachers?",
+        "If you were an educator, what aspect of the job would you find most difficult?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/democrats-win-us-house-and-senate/Dhv3WNh0EfG7cQMZkUER2w",
+    "title": "Democrats Win US House and Senate",
+    "source": "engoo",
+    "published": "2026-11-04",
+    "level": 8,
+    "sent_date": "2026-11-20",
+    "message_id": "1573110876137979956",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Democrats Win US House and Senate",
+      "summary_en": "This article explores how Democrats captured both chambers of the US Congress. It also examines voter frustrations, diverse historic election wins, and the impact on the president's term.",
+      "vocab": [
+        {
+          "word": "chamber",
+          "definition_en": "A legislative assembly or a room where they meet.",
+          "example": "The political party won a majority in both chambers."
+        },
+        {
+          "word": "frustration",
+          "definition_en": "The feeling of being upset or annoyed as a result of being unable to change something.",
+          "example": "Voter frustration often leads to unexpected election results."
+        },
+        {
+          "word": "historic",
+          "definition_en": "Famous or important in history, likely to be remembered.",
+          "example": "The election featured several historic wins for diverse candidates."
+        },
+        {
+          "word": "impact",
+          "definition_en": "A marked effect or influence that something has on someone.",
+          "example": "The new law will have a major impact on the economy."
+        },
+        {
+          "word": "capture",
+          "definition_en": "To take control of something successfully.",
+          "example": "The opposition party managed to capture the Senate seats."
+        },
+        {
+          "word": "voter",
+          "definition_en": "A person who votes in an election.",
+          "example": "Candidates must address the key concerns of everyday voters."
+        },
+        {
+          "word": "term",
+          "definition_en": "A period for which someone holds a public office.",
+          "example": "The president's current term is coming to an end soon."
+        }
+      ],
+      "questions": [
+        "How closely do you usually follow political news from other countries?",
+        "What issues usually cause the most frustration for voters in modern elections?",
+        "Why do you think mid-term or congressional election results are so important?",
+        "How can election results change the daily lives of ordinary citizens?",
+        "What qualities make a politician successful during a difficult political climate?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/world/2026/11/20/us-robot-maker-sends-welding-humanoids-to-korea-for-training",
+    "title": "U.S. Robot Maker Sends Welding Humanoids to Korea for Training",
+    "source": "sedaily",
+    "published": "2026-11-20",
+    "level": null,
+    "sent_date": "2026-11-20",
+    "message_id": "1573110881942769717",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "US Robot Maker Sends Welding Humanoids to Korea",
+      "summary_en": "A US robot maker has sent welding humanoid robots to Korea for training at actual industrial sites. Through joint development with HD Hyundai, these robots are expected to be commercialized by the end of the year.",
+      "vocab": [
+        {
+          "word": "commercialize",
+          "definition_en": "To manage something to make a profit or introduce it to the market.",
+          "example": "The company plans to commercialize the welding robot soon."
+        },
+        {
+          "word": "dexterity",
+          "definition_en": "Fine skill in performing tasks, typically with the hands.",
+          "example": "Humanoid robots need high dexterity to use human tools."
+        },
+        {
+          "word": "validation",
+          "definition_en": "The action of checking or proving the validity of something.",
+          "example": "The technology passed strict enterprise-grade quality validation."
+        },
+        {
+          "word": "integration",
+          "definition_en": "The action or process of combining two or more things effectively.",
+          "example": "System integration is essential for applying new robots at shipyards."
+        },
+        {
+          "word": "bipedal",
+          "definition_en": "Using two legs for walking or moving around.",
+          "example": "The bipedal platform allows the robot to walk stably."
+        },
+        {
+          "word": "infrastructure",
+          "definition_en": "The basic physical and organizational structures needed for operation.",
+          "example": "Humanoids must work within existing human infrastructure."
+        },
+        {
+          "word": "locomotion",
+          "definition_en": "The ability to move from one place to another.",
+          "example": "Good locomotion is required for robots working in shipyards."
+        }
+      ],
+      "questions": [
+        "What was your first reaction when you heard about humanoid robots doing factory work?",
+        "Would you feel comfortable working alongside a robot in a factory or shipyard?",
+        "Which industries do you think will be completely automated by robots next?",
+        "What are the biggest challenges of making robots work in real human environments?",
+        "How might the widespread use of humanoid robots change traditional job markets?"
+      ]
+    }
   }
 ]
