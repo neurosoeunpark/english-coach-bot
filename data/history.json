@@ -768,5 +768,27 @@
         "my_line": "I need to patch things up with my team member after our minor disagreement."
       }
     ]
+  },
+  {
+    "date": "2026-11-19",
+    "sent_at": "2026-11-19T09:40:21.890985+00:00",
+    "verbs": [
+      {
+        "verb": "wear out",
+        "meaning_ko": "지치게 하다, 닳게 하다",
+        "replaces": "exhaust",
+        "nuance_ko": "신체적으로나 정신적으로 완전히 기진맥진하게 만들 때 주로 수동태로 자주 씁니다.",
+        "example": "Running three miles every morning without a rest day will eventually wear you out.",
+        "my_line": "Today's intense workout at the gym completely wore me out, so I need to rest."
+      },
+      {
+        "verb": "lighten up",
+        "meaning_ko": "마음을 가볍게 가지다, 긴장을 풀다",
+        "replaces": "relax",
+        "nuance_ko": "상대방에게 너무 심각하게 굴지 말고 분위기를 좀 부드럽게 하라고 조언할 때 자주 씁니다.",
+        "example": "You should lighten up and stop worrying about small mistakes during the presentation.",
+        "my_line": "I'm trying to lighten up my stressful daily routine by drinking herbal tea every evening."
+      }
+    ]
   }
 ]
