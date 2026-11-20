@@ -790,5 +790,27 @@
         "my_line": "I'm trying to lighten up my stressful daily routine by drinking herbal tea every evening."
       }
     ]
+  },
+  {
+    "date": "2026-11-20",
+    "sent_at": "2026-11-20T09:40:24.026731+00:00",
+    "verbs": [
+      {
+        "verb": "freak out",
+        "meaning_ko": "겁을 먹다, 당황하다",
+        "replaces": "panic",
+        "nuance_ko": "감정이 갑자기 극도로 불안해지거나 과잉 반응할 때 원어민들이 일상적으로 가장 많이 쓰는 표현입니다.",
+        "example": "I always freak out when I have to present in front of people.",
+        "my_line": "I tend to freak out whenever my computer suddenly crashes before saving my work."
+      },
+      {
+        "verb": "cheer up",
+        "meaning_ko": "기운을 내다, 기쁘게 하다",
+        "replaces": "encourage",
+        "nuance_ko": "상대방을 위로하거나 자신의 기분을 전환하고 싶을 때 따뜻한 어조로 자주 사용하는 표현입니다.",
+        "example": "My friends tried to cheer me up with some delicious pizza and a movie.",
+        "my_line": "I usually listen to my favorite upbeat music to cheer myself up on a stressful day."
+      }
+    ]
   }
 ]
