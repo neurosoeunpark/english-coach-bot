@@ -6022,5 +6022,179 @@
         "Do you think seeking out artificial fear is a good way to relieve daily stress?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/uk-job-satisfaction-is-at-an-all-time-low/UT4IstekEfGyFUeijXi16w",
+    "title": "UK Job Satisfaction Is at an All-Time Low",
+    "source": "engoo",
+    "published": "2026-11-14",
+    "level": 5,
+    "sent_date": "2026-11-24",
+    "message_id": "1574560957173211267",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "UK Job Satisfaction Hits Record Low",
+      "summary_en": "Job satisfaction in the UK has dropped to its lowest level ever. The article examines why this is happening and how it affects both employees and employers.",
+      "vocab": [
+        {
+          "word": "decline",
+          "definition_en": "a gradual reduction in amount or quality",
+          "example": "There has been a steady decline in job satisfaction."
+        },
+        {
+          "word": "turnaround",
+          "definition_en": "a complete change from one direction to another",
+          "example": "Companies need a turnaround in workplace culture."
+        },
+        {
+          "word": "impact on",
+          "definition_en": "the effect that something has on someone or something",
+          "example": "The policy has a big impact on workers."
+        },
+        {
+          "word": "employee morale",
+          "definition_en": "the overall outlook, attitude, and satisfaction of staff",
+          "example": "Low morale can lower productivity."
+        },
+        {
+          "word": "retain talent",
+          "definition_en": "to keep skilled workers from leaving",
+          "example": "High satisfaction helps retain talent."
+        },
+        {
+          "word": "burnout",
+          "definition_en": "physical or mental exhaustion caused by overwork",
+          "example": "Many feel burnout after long hours."
+        },
+        {
+          "word": "work-life balance",
+          "definition_en": "the equilibrium between work duties and personal life",
+          "example": "A good balance reduces stress."
+        }
+      ],
+      "questions": [
+        "How would you describe your own job satisfaction?",
+        "What factors do you think cause low satisfaction among UK workers?",
+        "Do you think work‑life balance is more important than salary?",
+        "How could companies improve employee morale without spending much?",
+        "If you could change one workplace rule, what would it be?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/paper-straws-may-be-worse-for-environment-than-plastic/hVGPFNMAEfGcsONswtDrEQ",
+    "title": "Paper Straws May Be Worse for Environment than Plastic",
+    "source": "engoo",
+    "published": "2026-11-12",
+    "level": 8,
+    "sent_date": "2026-11-24",
+    "message_id": "1574560962617548852",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Paper Straws May Harm Environment More Than Plastic",
+      "summary_en": "A new study suggests paper straws could be worse for the environment than plastic ones. It compares the manufacturing and disposal impacts of each material.",
+      "vocab": [
+        {
+          "word": "environmental impact",
+          "definition_en": "the effect something has on the natural world",
+          "example": "The environmental impact of straws is under scrutiny."
+        },
+        {
+          "word": "biodegradable",
+          "definition_en": "capable of being broken down naturally by microorganisms",
+          "example": "Biodegradable materials decompose faster."
+        },
+        {
+          "word": "life cycle assessment",
+          "definition_en": "analysis of environmental effects from production to disposal",
+          "example": "A life cycle assessment shows hidden emissions."
+        },
+        {
+          "word": "single‑use",
+          "definition_en": "designed to be used once and then discarded",
+          "example": "Single‑use plastics are a major waste problem."
+        },
+        {
+          "word": "alternative",
+          "definition_en": "a different option or substitute",
+          "example": "Paper is an alternative to plastic."
+        },
+        {
+          "word": "carbon footprint",
+          "definition_en": "total greenhouse gases emitted directly or indirectly",
+          "example": "Paper straws may have a larger carbon footprint."
+        },
+        {
+          "word": "sustainability",
+          "definition_en": "the ability to maintain ecological balance over time",
+          "example": "Consumers seek sustainable packaging."
+        }
+      ],
+      "questions": [
+        "What kind of straws do you usually use?",
+        "Why do you think paper straws were thought to be greener?",
+        "Do you believe single‑use items can ever be truly sustainable?",
+        "How would you convince a café to switch to a better alternative?",
+        "What changes would you make to reduce your own waste?"
+      ]
+    }
+  },
+  {
+    "url": "https://en.sedaily.com/business/2026/11/24/worlds-first-in-body-crispr-therapy-faces-fda-decision-in",
+    "title": "World's First In-Body CRISPR Therapy Faces FDA Decision in March",
+    "source": "sedaily",
+    "published": "2026-11-24",
+    "level": null,
+    "sent_date": "2026-11-24",
+    "message_id": "1574560967990190120",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "In‑Body CRISPR Therapy Faces FDA Review",
+      "summary_en": "The CRISPR drug lonvo‑z, which works inside the body, is undergoing priority review by the FDA. If approved, it could transform treatment for genetic diseases.",
+      "vocab": [
+        {
+          "word": "gene‑editing",
+          "definition_en": "modifying DNA sequences to change traits",
+          "example": "CRISPR is a powerful gene‑editing tool."
+        },
+        {
+          "word": "scissors",
+          "definition_en": "colloquial term for the cutting action of CRISPR",
+          "example": "Scientists call CRISPR the genetic scissors."
+        },
+        {
+          "word": "off‑target effects",
+          "definition_en": "unintended changes to DNA at wrong locations",
+          "example": "Researchers must minimize off‑target effects."
+        },
+        {
+          "word": "priority review",
+          "definition_en": "expedited evaluation by a regulatory agency",
+          "example": "The drug received a priority review from the FDA."
+        },
+        {
+          "word": "hereditary angioedema",
+          "definition_en": "a rare genetic disorder causing swelling attacks",
+          "example": "Lonvo‑z targets hereditary angioedema."
+        },
+        {
+          "word": "single dose",
+          "definition_en": "one administration of a medication",
+          "example": "A single dose showed high efficacy."
+        },
+        {
+          "word": "market projection",
+          "definition_en": "forecast of future market size or growth",
+          "example": "The CRISPR market projection reaches billions."
+        }
+      ],
+      "questions": [
+        "What do you think about editing genes directly inside the body?",
+        "How might a single‑dose therapy change patient experience?",
+        "Are you concerned about off‑target effects in gene editing?",
+        "What diseases would you hope such therapies could treat?",
+        "Do you think the benefits outweigh the ethical concerns?"
+      ]
+    }
   }
 ]
