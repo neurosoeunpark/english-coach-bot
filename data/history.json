@@ -812,5 +812,27 @@
         "my_line": "I usually listen to my favorite upbeat music to cheer myself up on a stressful day."
       }
     ]
+  },
+  {
+    "date": "2026-11-23",
+    "sent_at": "2026-11-23T09:40:25.849578+00:00",
+    "verbs": [
+      {
+        "verb": "break the ice",
+        "meaning_ko": "어색함을 깨다, 분위기를 부드럽게 만들다",
+        "replaces": "start a conversation",
+        "nuance_ko": "처음 만난 사람들 사이의 긴장감을 풀고 대화를 시작할 때 원어민들이 즐겨 쓰는 표현입니다.",
+        "example": "Playing a quick fun game is always a great way to break the ice.",
+        "my_line": "I tried to break the ice by making a joke about the rainy weather today."
+      },
+      {
+        "verb": "catch on",
+        "meaning_ko": "유행하다, 인기를 끌다",
+        "replaces": "become popular",
+        "nuance_ko": "새로운 아이나 트렌드가 대중 사이에서 점차 퍼져 나갈 때 자연스럽게 쓸 수 있습니다.",
+        "example": "That new trendy cafe style seems to catch on very quickly among young people.",
+        "my_line": "I noticed that mobile payment apps really catch on fast in my office."
+      }
+    ]
   }
 ]
