@@ -834,5 +834,27 @@
         "my_line": "I noticed that mobile payment apps really catch on fast in my office."
       }
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "sent_at": "2026-11-24T09:40:23.352475+00:00",
+    "verbs": [
+      {
+        "verb": "head out",
+        "meaning_ko": "출발하다, 나서다",
+        "replaces": "leave",
+        "nuance_ko": "단순히 떠나는 것보다 집이나 사무실 등 현재 있는 장소를 나서서 이동할 때 훨씬 자연스럽게 쓰입니다.",
+        "example": "I usually head out for work a little earlier to avoid heavy traffic.",
+        "my_line": "I usually head out around seven thirty to beat the morning rush."
+      },
+      {
+        "verb": "hold up",
+        "meaning_ko": "(교통 등으로) 지연되다, 정체되다",
+        "replaces": "delay",
+        "nuance_ko": "수동태 형태로 출퇴근길에 길이 막히거나 예상치 못한 일로 늦어졌을 때 일상적으로 자주 씁니다.",
+        "example": "My morning train was held up for twenty minutes due to a signal problem.",
+        "my_line": "I got held up on the subway this morning because of a sudden delay."
+      }
+    ]
   }
 ]
