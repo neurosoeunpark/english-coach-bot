@@ -6196,5 +6196,179 @@
         "Do you think the benefits outweigh the ethical concerns?"
       ]
     }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/how-dogs-could-help-japan-save-1-billion-a-year/N80gutn4EfGWdCc_KiSSnA",
+    "title": "How Dogs Could Help Japan Save $1 Billion a Year",
+    "source": "engoo",
+    "published": "2026-11-14",
+    "level": 6,
+    "sent_date": "2026-11-25",
+    "message_id": "1574922890128658533",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Dogs Could Help Japan Save Money",
+      "summary_en": "This article explores how dog ownership among older adults in Japan can reduce dementia risk and save care costs. It covers the positive mental health impacts and the broader socio-economic benefits of pets.",
+      "vocab": [
+        {
+          "word": "dog ownership",
+          "definition_en": "The state or fact of having and caring for a dog.",
+          "example": "Dog ownership can greatly improve your physical health."
+        },
+        {
+          "word": "dementia risk",
+          "definition_en": "The probability of developing a brain disorder that affects memory.",
+          "example": "Staying active helps lower your dementia risk."
+        },
+        {
+          "word": "care costs",
+          "definition_en": "The financial expenses required to look after elderly or sick people.",
+          "example": "Rising care costs are a major concern for aging societies."
+        },
+        {
+          "word": "reduce",
+          "definition_en": "To make something smaller or less in amount, degree, or size.",
+          "example": "Regular exercise can reduce stress levels significantly."
+        },
+        {
+          "word": "older adult",
+          "definition_en": "An elderly person, typically aged 65 or older.",
+          "example": "Many older adults enjoy the companionship of pets."
+        },
+        {
+          "word": "mental health",
+          "definition_en": "A person's condition with regard to their psychological and emotional well-being.",
+          "example": "Mental health is just as important as physical health."
+        },
+        {
+          "word": "companionship",
+          "definition_en": "The feeling of friendship and being without loneliness.",
+          "example": "Pets provide wonderful companionship for people living alone."
+        }
+      ],
+      "questions": [
+        "Do you currently have any pets, or would you like to own one in the future?",
+        "Why do you think interacting with animals can improve our mental health?",
+        "How do you think older adults benefit most from taking care of a pet?",
+        "Do you believe governments should support pet ownership programs for senior citizens?",
+        "What are some challenges people might face when owning a dog as they get older?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/54-of-americans-use-ai-for-gift-ideas/WIEHRuISEfGcPKONrKLY8w",
+    "title": "54% of Americans Use AI for Gift Ideas",
+    "source": "engoo",
+    "published": "2026-11-23",
+    "level": 6,
+    "sent_date": "2026-11-25",
+    "message_id": "1574922895245844544",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Americans Use AI for Gifts",
+      "summary_en": "This article looks at the trend of over half of Americans using artificial intelligence for holiday gift ideas. It analyzes consumer comfort levels with AI shopping and changing gift preferences.",
+      "vocab": [
+        {
+          "word": "artificial intelligence",
+          "definition_en": "The simulation of human intelligence processes by machines.",
+          "example": "Artificial intelligence is changing how we shop online."
+        },
+        {
+          "word": "gift idea",
+          "definition_en": "A suggestion or concept for a present to give someone.",
+          "example": "I need some good gift idea for my friend's birthday."
+        },
+        {
+          "word": "comfort level",
+          "definition_en": "The degree of ease or confidence a person feels with something.",
+          "example": "Her comfort level with new technology has grown rapidly."
+        },
+        {
+          "word": "holiday season",
+          "definition_en": "A festive period of the year when people celebrate holidays.",
+          "example": "Retailers make most of their money during the holiday season."
+        },
+        {
+          "word": "preference",
+          "definition_en": "A greater liking for one alternative over another or others.",
+          "example": "My preference is to buy practical gifts rather than decorative ones."
+        },
+        {
+          "word": "recommendation",
+          "definition_en": "A suggestion or proposal as to the best course of action.",
+          "example": "The AI gave me a great restaurant recommendation."
+        },
+        {
+          "word": "consumer trend",
+          "definition_en": "A general direction in which people's buying habits are developing.",
+          "example": "Businesses must adapt quickly to every new consumer trend."
+        }
+      ],
+      "questions": [
+        "Have you ever used artificial intelligence to help you choose a gift?",
+        "What kind of things do you usually ask an AI chatbot to help you with?",
+        "Do you think asking AI for gift suggestions takes away the personal touch?",
+        "How comfortable are you with relying on technology for shopping decisions?",
+        "What is the most memorable gift you have ever received from someone?"
+      ]
+    }
+  },
+  {
+    "url": "https://engoo.com/app/daily-news/article/the-average-traveler-forgets-to-pack-3-things-survey/Si6OXt7XEfGcoc9bC3scsA",
+    "title": "The Average Traveler Forgets to Pack 3 Things — Survey",
+    "source": "engoo",
+    "published": "2026-11-19",
+    "level": 5,
+    "sent_date": "2026-11-25",
+    "message_id": "1574922900748763197",
+    "channel_id": "1554702336193208435",
+    "card": {
+      "topic_en": "Travelers Forget to Pack Items",
+      "summary_en": "This article explores a survey about the three most commonly forgotten travel items and general packing habits. It looks at the different ways people prepare for their upcoming trips.",
+      "vocab": [
+        {
+          "word": "traveler",
+          "definition_en": "A person who is traveling or who often travels.",
+          "example": "Every traveler should keep their passport in a safe place."
+        },
+        {
+          "word": "pack",
+          "definition_en": "To put clothes and other items into a bag for travel.",
+          "example": "I usually pack my suitcase the night before a trip."
+        },
+        {
+          "word": "survey",
+          "definition_en": "An investigation of the opinions or behavior of a group of people.",
+          "example": "A recent survey showed that most people love traveling."
+        },
+        {
+          "word": "forget",
+          "definition_en": "To fail to remember or bring something along.",
+          "example": "Don't forget to bring your charger with you."
+        },
+        {
+          "word": "habit",
+          "definition_en": "A settled or regular tendency or practice.",
+          "example": "Good packing habits make traveling much less stressful."
+        },
+        {
+          "word": "prepare",
+          "definition_en": "To make something ready for use or consideration.",
+          "example": "It is important to prepare well before going abroad."
+        },
+        {
+          "word": "essential item",
+          "definition_en": "A completely necessary thing that you must have.",
+          "example": "Sunscreen is an essential item for a beach vacation."
+        }
+      ],
+      "questions": [
+        "Are you the kind of person who packs early, or do you always pack at the last minute?",
+        "What is the most important item you always make sure to pack?",
+        "Have you ever forgotten something really important while traveling?",
+        "Do you usually use a packing list to make sure you do not forget anything?",
+        "What is your least favorite part about getting ready for a trip?"
+      ]
+    }
   }
 ]
