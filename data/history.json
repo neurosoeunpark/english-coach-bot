@@ -856,5 +856,27 @@
         "my_line": "I got held up on the subway this morning because of a sudden delay."
       }
     ]
+  },
+  {
+    "date": "2026-11-25",
+    "sent_at": "2026-11-25T09:40:28.061406+00:00",
+    "verbs": [
+      {
+        "verb": "brush up",
+        "meaning_ko": "다시 익히다, 실력을 되살리다",
+        "replaces": "practice",
+        "nuance_ko": "오랫동안 쓰지 않아 녹슬거나 잊어버린 언어, 기술 등을 다시 공부해서 끌어올릴 때 원어민들이 즐겨 씁니다.",
+        "example": "I need to brush up on my business English before the big meeting next week.",
+        "my_line": "I am trying to brush up on my presentation skills for my upcoming project."
+      },
+      {
+        "verb": "figure out",
+        "meaning_ko": "이해하다, 알아내다",
+        "replaces": "understand",
+        "nuance_ko": "복잡한 문제나 상황을 골똘히 생각해서 답을 찾아내거나 원인을 파악했을 때 쓰는 실생활 필수 표현입니다.",
+        "example": "It took me a few hours to figure out how to use this new software.",
+        "my_line": "I am still trying to figure out the best way to manage my daily study schedule."
+      }
+    ]
   }
 ]
