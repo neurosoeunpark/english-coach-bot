@@ -900,5 +900,27 @@
         "my_line": "I hope I can bounce back quickly after feeling exhausted yesterday."
       }
     ]
+  },
+  {
+    "date": "2026-11-27",
+    "sent_at": "2026-11-27T09:40:23.849453+00:00",
+    "verbs": [
+      {
+        "verb": "brush up on",
+        "meaning_ko": "다시 익히다, 복습하다",
+        "replaces": "review",
+        "nuance_ko": "오랫동안 쓰지 않아 녹슬거나 잊어버린 지식이나 기술을 다시 가다듬을 때 원어민들이 즐겨 씁니다.",
+        "example": "I need to brush up on my business English before the big meeting.",
+        "my_line": "I am planning to brush up on my presentation skills this weekend."
+      },
+      {
+        "verb": "fall behind",
+        "meaning_ko": "뒤처지다",
+        "replaces": "lag",
+        "nuance_ko": "일정이나 진도가 계획보다 느려질 때 쓰는 표현으로, 자기계발이나 업무 상황에서 자주 사용됩니다.",
+        "example": "If you don't keep studying consistently, it is very easy to fall behind.",
+        "my_line": "I fell behind on my reading goals this month because I was too busy."
+      }
+    ]
   }
 ]
